@@ -1,0 +1,42 @@
+language: cpp
+
+matrix: 
+  include:
+    - os: osx 
+      osx_image: xcode10.1
+      compiler: gcc
+
+cache:
+  ccache: true
+  apt: true
+  directories:
+  - "${TRAVIS_BUILD_DIR}/deps/doxygen"
+
+# Blacklist
+branches:
+  except:
+    - gh-pages
+
+# Environment variables
+env:
+  global:
+    - GH_REPO_NAME: DalitzModel
+    - DOXYFILE: $TRAVIS_BUILD_DIR/doc/doxyfile
+    - GH_REPO_REF: https://github.com/eddieshields/DalitzModel
+    - DEPS_DIR: "${TRAVIS_BUILD_DIR}/deps"
+
+before_install:
+  - eval "${MATRIX_EVAL}"
+
+# Build your code e.g. by calling make
+script:
+  - chmod +x .ci/travis_${TRAVIS_OS_NAME}.sh
+  - source .ci/travis_${TRAVIS_OS_NAME}.sh
+
+# Generate and deploy documentation
+after_success:
+  - chmod +x .ci/build_docs.sh
+  - source .ci/build_docs.sh
+
+# Building documentation needs fixing.
+#  - source .ci/build_docs.sh

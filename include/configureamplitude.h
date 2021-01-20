@@ -122,7 +122,7 @@ void ConfigureAmplitude::appendFlatte(std::string name)
   Parameter gam1  = m_config.get<Parameter>(gam1name);
   Parameter gam2  = m_config.get<Parameter>(gam2name);
   Parameter m02a  = m_config.get<Parameter>(m1name);
-  Parameter m02b  = m_config.get<Parameter>(m1name);
+  Parameter m02b  = m_config.get<Parameter>(m2name);
 
   Coefficient c( c1 , c2 );
 

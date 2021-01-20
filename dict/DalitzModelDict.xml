@@ -1,0 +1,12 @@
+<lcgdict>
+  <class name="Coefficient" />
+  <class name="ConfigFile" />
+  <class name="ConfigureAmplitude" />
+  <class name="Amplitude" />
+  <class name="Parameter" />
+  <class name="PhaseSpace" />
+  <class name="Random" />
+  <class name="Resonance" />
+  <class name="RelBreitWigner" />
+  <class name="Flatte" />
+</lcgdict>

@@ -10,4 +10,4 @@ echo "Building ..."
 make
 cd ..
 echo "Running test job ..."
-./build/ToyGenerator
+./build/build_model

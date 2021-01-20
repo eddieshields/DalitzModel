@@ -1,3 +1,5 @@
 build*/
 .vscode*/
 figs/*
+doc/html/*
+doc/xml/*

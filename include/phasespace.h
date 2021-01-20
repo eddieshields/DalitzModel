@@ -9,20 +9,21 @@ namespace DalitzModel {
 class PhaseSpace
 {
 private:
-  const double m_mMother;
-  const double m_m1;
-  const double m_m2;
-  const double m_m3;
+  double m_mMother = {0.};
+  double m_m1      = {0.};
+  double m_m2      = {0.};
+  double m_m3      = {0.};
 
-  const double m_mSqMother = std::pow( m_mMother , 2 );
-  const double m_mSq1 = std::pow( m_m1 , 2 );
-  const double m_mSq2 = std::pow( m_m2 , 2 );
-  const double m_mSq3 = std::pow( m_m3 , 2 );
+  double m_mSqMother = std::pow( m_mMother , 2 );
+  double m_mSq1 = std::pow( m_m1 , 2 );
+  double m_mSq2 = std::pow( m_m2 , 2 );
+  double m_mSq3 = std::pow( m_m3 , 2 );
 
-  const double m_mSqSum = std::pow( m_mMother , 2 ) + std::pow( m_m1 , 2 ) + std::pow( m_m2 , 2 ) + std::pow( m_m3 , 2);
+  double m_mSqSum = std::pow( m_mMother , 2 ) + std::pow( m_m1 , 2 ) + std::pow( m_m2 , 2 ) + std::pow( m_m3 , 2);
 
 public:
   // Constructor/Destructor.
+  PhaseSpace() = default;
   PhaseSpace(const double& mMother, const double& m1, const double& m2, const double& m3): 
     m_mMother( mMother ),
     m_m1( m1 ),

@@ -5,9 +5,14 @@
 #include <iostream>
 #include <complex>
 
+// DalitzModel.
+#include "parameter.h"
+
 namespace DalitzModel {
 
 using complex_t = std::complex<double>;
+
+class Parameter;
 
 class Coefficient
 {
@@ -15,13 +20,18 @@ friend class Parameter;
 private:
   double    m_c1 = {0.};
   double    m_c2 = {0.}; 
-  complex_t m_state = {complex_t(0.,0.)};
 
 public:
+  complex_t m_state = {complex_t(0.,0.)};
   Coefficient() = default;
   Coefficient(const double& c1, const double& c2) :
     m_c1( c1 ),
     m_c2( c2 ),
+    m_state( m_c1 , m_c2 )
+  {}
+  Coefficient(const Parameter& c1, const Parameter& c2) :
+    m_c1( c1.m_state ),
+    m_c2( c2.m_state ),
     m_state( m_c1 , m_c2 )
   {}
   virtual ~Coefficient() {}
@@ -53,6 +63,10 @@ public:
   friend const complex_t operator-(const Coefficient& left, const complex_t& right);
   friend const complex_t operator*(const Coefficient& left, const complex_t& right);
   friend const complex_t operator/(const Coefficient& left, const complex_t& right);
+  friend const complex_t operator+(const Coefficient& left, const Parameter& right);
+  friend const complex_t operator-(const Coefficient& left, const Parameter& right);
+  friend const complex_t operator*(const Coefficient& left, const Parameter& right);
+  friend const complex_t operator/(const Coefficient& left, const Parameter& right);
 
   // Coefficient as right hand argument.
   friend const complex_t operator+(const int&       left, const Coefficient& right);
@@ -71,6 +85,10 @@ public:
   friend const complex_t operator-(const complex_t& left, const Coefficient& right);
   friend const complex_t operator*(const complex_t& left, const Coefficient& right);
   friend const complex_t operator/(const complex_t& left, const Coefficient& right);
+  friend const complex_t operator+(const Parameter& left, const Coefficient& right);
+  friend const complex_t operator-(const Parameter& left, const Coefficient& right);
+  friend const complex_t operator*(const Parameter& left, const Coefficient& right);
+  friend const complex_t operator/(const Parameter& left, const Coefficient& right);
 };
 
 // I/O operators.
@@ -86,6 +104,7 @@ std::istream& operator>>(std::istream& is, Coefficient& coeff)
   std::string comma;
   is >> coeff.m_c1 >> comma >> coeff.m_c2;
   coeff.m_state = complex_t(coeff.m_c1,coeff.m_c2);
+  return is;
 }
 
 // Operators.
@@ -111,22 +130,22 @@ inline const complex_t operator/(const Coefficient& left, const Coefficient& rig
 
 inline const complex_t operator+(const Coefficient& left, const int& right)
 {
-  return left.m_state + right;
+  return left.m_state + (double)right;
 }
 
 inline const complex_t operator-(const Coefficient& left, const int& right)
 {
-  return left.m_state - right;
+  return left.m_state - (double)right;
 }
 
 inline const complex_t operator*(const Coefficient& left, const int& right)
 {
-  return left.m_state * right;
+  return left.m_state * (double)right;
 }
 
 inline const complex_t operator/(const Coefficient& left, const int& right)
 {
-  return left.m_state / right;
+  return left.m_state / (double)right;
 }
 
 inline const complex_t operator+(const Coefficient& left, const double& right)
@@ -151,22 +170,22 @@ inline const complex_t operator/(const Coefficient& left, const double& right)
 
 inline const complex_t operator+(const Coefficient& left, const float& right)
 {
-  return left.m_state + right;
+  return left.m_state + (double)right;
 }
 
 inline const complex_t operator-(const Coefficient& left, const float& right)
 {
-  return left.m_state - right;
+  return left.m_state - (double)right;
 }
 
 inline const complex_t operator*(const Coefficient& left, const float& right)
 {
-  return left.m_state * right;
+  return left.m_state * (double)right;
 }
 
 inline const complex_t operator/(const Coefficient& left, const float& right)
 {
-  return left.m_state / right;
+  return left.m_state / (double)right;
 }
 
 inline const complex_t operator+(const Coefficient& left, const complex_t& right)
@@ -189,24 +208,44 @@ inline const complex_t operator/(const Coefficient& left, const complex_t& right
   return left.m_state / right;
 }
 
+inline const complex_t operator+(const Coefficient& left, const Parameter& right)
+{
+  return left.m_state + right.m_state;
+}
+
+inline const complex_t operator-(const Coefficient& left, const Parameter& right)
+{
+  return left.m_state - right.m_state;
+}
+
+inline const complex_t operator*(const Coefficient& left, const Parameter& right)
+{
+  return left.m_state * right.m_state;
+}
+
+inline const complex_t operator/(const Coefficient& left, const Parameter& right)
+{
+  return left.m_state / right.m_state;
+}
+
 inline const complex_t operator+(const int& left, const Coefficient& right)
 {
-  return left + right.m_state;
+  return (double)left + right.m_state;
 }
 
 inline const complex_t operator-(const int& left, const Coefficient& right)
 {
-  return left - right.m_state;
+  return (double)left - right.m_state;
 }
 
 inline const complex_t operator*(const int& left, const Coefficient& right)
 {
-  return left * right.m_state;
+  return (double)left * right.m_state;
 }
 
 inline const complex_t operator/(const int& left, const Coefficient& right)
 {
-  return left / right.m_state;
+  return (double)left / right.m_state;
 }
 
 inline const complex_t operator+(const double& left, const Coefficient& right)
@@ -231,22 +270,22 @@ inline const complex_t operator/(const double& left, const Coefficient& right)
 
 inline const complex_t operator+(const float& left, const Coefficient& right)
 {
-  return left + right.m_state;
+  return (double)left + right.m_state;
 }
 
 inline const complex_t operator-(const float& left, const Coefficient& right)
 {
-  return left - right.m_state;
+  return (double)left - right.m_state;
 }
 
 inline const complex_t operator*(const float& left, const Coefficient& right)
 {
-  return left * right.m_state;
+  return (double)left * right.m_state;
 }
 
 inline const complex_t operator/(const float& left, const Coefficient& right)
 {
-  return left / right.m_state;
+  return (double)left / right.m_state;
 }
 
 inline const complex_t operator+(const complex_t& left, const Coefficient& right)
@@ -264,6 +303,26 @@ inline const complex_t operator*(const complex_t& left, const Coefficient& right
 inline const complex_t operator/(const complex_t& left, const Coefficient& right)
 {
   return left / right.m_state;
+}
+
+inline const complex_t operator+(const Parameter& left, const Coefficient& right)
+{
+  return left.m_state + right.m_state;
+}
+
+inline const complex_t operator-(const Parameter& left, const Coefficient& right)
+{
+  return left.m_state - right.m_state;
+}
+
+inline const complex_t operator*(const Parameter& left, const Coefficient& right)
+{
+  return left.m_state * right.m_state;
+}
+
+inline const complex_t operator/(const Parameter& left, const Coefficient& right)
+{
+  return left.m_state / right.m_state;
 }
 
 } // namespace DalitzModel

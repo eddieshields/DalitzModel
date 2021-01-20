@@ -108,28 +108,25 @@ void ConfigureAmplitude::appendFlatte(std::string name)
 
   int resoA, resoB, l;
   // Parameters.
-  std::string type, mass, width, radius, coeff1, coeff2, g1name, g2name, m11name, m12name, m21name, m22name;
+  std::string type, mass, width, radius, coeff1, coeff2, gam1name, gam2name, m1name, m2name;
   res >> type >> resoA >> resoB >> l
       >> mass >> width >> radius
       >> coeff1 >> coeff2
-      >> g1name >> g2name >> m11name >> m12name
-      >> m21name >> m22name;
+      >> gam1name >> gam2name >> m1name >> m2name;
 
   Parameter m     = m_config.get<Parameter>(mass);
   Parameter w     = m_config.get<Parameter>(width);
   Parameter r     = m_config.get<Parameter>(radius);
   Parameter c1    = m_config.get<Parameter>(coeff1);
   Parameter c2    = m_config.get<Parameter>(coeff2);
-  Parameter g1    = m_config.get<Parameter>(g1name);
-  Parameter g2    = m_config.get<Parameter>(g2name);
-  Parameter m11   = m_config.get<Parameter>(m11name);
-  Parameter m12   = m_config.get<Parameter>(m21name);
-  Parameter m21   = m_config.get<Parameter>(m21name);
-  Parameter m22   = m_config.get<Parameter>(m22name);
+  Parameter gam1  = m_config.get<Parameter>(gam1name);
+  Parameter gam2  = m_config.get<Parameter>(gam2name);
+  Parameter m02a  = m_config.get<Parameter>(m1name);
+  Parameter m02b  = m_config.get<Parameter>(m1name);
 
   Coefficient c( c1 , c2 );
 
-  LineShape::Flatte* comp = new LineShape::Flatte(name,c,resoA,resoB,m,w,l,r,g1,g2,m11,m12,m21,m22);
+  LineShape::Flatte* comp = new LineShape::Flatte(name,c,resoA,resoB,m,w,l,r,gam1,gam2,m02a,m02b);
   m_amp.addResonance(comp);
 }
 

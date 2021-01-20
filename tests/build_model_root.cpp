@@ -32,6 +32,12 @@ int main()
 
   TCanvas* canv = dp.plot( hist );
   canv->Print("figs/dalitzplot.png");
+
+  canv = dp.plotProjection( hist , "x" );
+  canv->Print("figs/dalitzplot_x.png");
+
+  canv = dp.plotProjection( hist , "y" );
+  canv->Print("figs/dalitzplot_y.png");
   
   return 0;
 }

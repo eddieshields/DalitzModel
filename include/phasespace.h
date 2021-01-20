@@ -14,12 +14,12 @@ private:
   double m_m2      = {0.};
   double m_m3      = {0.};
 
-  double m_mSqMother = std::pow( m_mMother , 2 );
-  double m_mSq1 = std::pow( m_m1 , 2 );
-  double m_mSq2 = std::pow( m_m2 , 2 );
-  double m_mSq3 = std::pow( m_m3 , 2 );
+  double m_mSqMother = {0.};
+  double m_mSq1 = {0.};
+  double m_mSq2 = {0.};
+  double m_mSq3 = {0.};
 
-  double m_mSqSum = std::pow( m_mMother , 2 ) + std::pow( m_m1 , 2 ) + std::pow( m_m2 , 2 ) + std::pow( m_m3 , 2);
+  double m_mSqSum = {0.};
 
 public:
   // Constructor/Destructor.
@@ -29,7 +29,27 @@ public:
     m_m1( m1 ),
     m_m2( m2 ),
     m_m3( m3 )
-  {};
+  {
+    m_mSqMother = std::pow( m_mMother , 2 );
+    m_mSq1 = std::pow( m_m1 , 2 );
+    m_mSq2 = std::pow( m_m2 , 2 );
+    m_mSq3 = std::pow( m_m3 , 2 );
+
+    m_mSqSum = std::pow( m_mMother , 2 ) + std::pow( m_m1 , 2 ) + std::pow( m_m2 , 2 ) + std::pow( m_m3 , 2);
+  }
+  PhaseSpace(const PhaseSpace& other) :
+    m_mMother( other.m_mMother ),
+    m_m1( other.m_m1 ),
+    m_m2( other.m_m2 ),
+    m_m3( other.m_m3 )
+  {
+    m_mSqMother = std::pow( m_mMother , 2 );
+    m_mSq1 = std::pow( m_m1 , 2 );
+    m_mSq2 = std::pow( m_m2 , 2 );
+    m_mSq3 = std::pow( m_m3 , 2 );
+
+    m_mSqSum = std::pow( m_mMother , 2 ) + std::pow( m_m1 , 2 ) + std::pow( m_m2 , 2 ) + std::pow( m_m3 , 2);
+  }
   virtual ~PhaseSpace() {};
 
   // Getters.
@@ -64,6 +84,9 @@ public:
   const bool contains(const double& mSq12, const double& mSq13, const double& mSq23) const;
 
   const double kallen(const double& x, const double& y, const double& z) const;
+
+  // Operators.
+  friend std::ostream& operator<<(std::ostream& os, const PhaseSpace& ps);
 };
 
 const double PhaseSpace::m(const int& i) const
@@ -126,7 +149,7 @@ const bool PhaseSpace::contains( const double& mSq12, const double& mSq13 ) cons
   const double& mSq23 = m_mSqSum - mSq12 - mSq13;
 
   return ( ( mSq13 > mSq13min( mSq12 ) ) && ( mSq13 < mSq13max( mSq12 ) ) &&
-         ( mSq23 > mSq23min( mSq12 ) ) && ( mSq23 < mSq23max( mSq12 ) ) );
+           ( mSq23 > mSq23min( mSq12 ) ) && ( mSq23 < mSq23max( mSq12 ) ) );
 }
 
 const bool PhaseSpace::contains(const double& mSq12, const double& mSq13, const double& mSq23) const
@@ -148,6 +171,16 @@ const double PhaseSpace::kallen( const double& x, const double& y, const double&
   result -= 2. * y * z;
 
   return result;
+}
+
+// I/O operators.
+std::ostream& operator<<(std::ostream& os, const PhaseSpace& ps)
+{
+  os << "mMother " << ps.m_mMother << "\n";
+  os << "m1 " << ps.m_m1 << "\n";
+  os << "m2 " << ps.m_m2 << "\n";
+  os << "m3 " << ps.m_m3;
+  return os;
 }
 
 } // DalitzModel

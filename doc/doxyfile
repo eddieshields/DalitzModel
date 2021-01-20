@@ -38,7 +38,7 @@ PROJECT_BRIEF          =
 #PROJECT_LOGO           = "figs/logo_small.png" 
 LAYOUT_FILE            = "DoxygenLayout.xml"
 HTML_EXTRA_STYLESHEET  = "customdoxygen.css"
-INPUT                  = "../include" "../include/lineshapes "../README.md"
+INPUT                  = "../include" "../include/lineshapes" "../README.md"
 USE_MDFILE_AS_MAINPAGE = "../README.md"
 #IMAGE_PATH             = "figs/"
 

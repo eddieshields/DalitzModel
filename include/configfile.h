@@ -80,6 +80,7 @@ T ConfigFile::get(std::string key)
 
 void ConfigFile::decodeConfigFile(const std::string cfgfile)
 {
+  INFO("Will configure model from " << cfgfile);
   std::ifstream ifs(cfgfile);
   
   std::string line;

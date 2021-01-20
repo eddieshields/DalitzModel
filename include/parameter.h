@@ -27,6 +27,11 @@ public:
   {
     m_state = m_value + m_error;
   }
+  Parameter(const Parameter& other) :
+    m_value( other.m_value ),
+    m_error( other.m_error),
+    m_state( other.m_state )
+  {}
   virtual ~Parameter() {}
 
   double value() const { return m_value; }
@@ -98,6 +103,7 @@ std::istream& operator>>(std::istream& is, Parameter& param)
   double err_val;
   is >> param.m_value >> pm >> err_val;
   param.m_error = Random::normal( 0 , err_val );
+  param.m_state = param.m_value + param.m_error;
   return is;
 }
 

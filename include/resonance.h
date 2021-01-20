@@ -153,6 +153,7 @@ std::istream& operator>>(std::istream& is, Resonance& reso)
      >> reso.m_l
      >> reso.m_r;
   reso.m_coeff = Coefficient(c1,c2);
+  return is;
 }
 
 const complex_t Resonance::evaluate(const PhaseSpace& ps, const double& mSq12, const double& mSq13, const double& mSq23)

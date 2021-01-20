@@ -38,7 +38,7 @@ public:
 const complex_t RelBreitWigner::propagator(const PhaseSpace& ps, const double& mSqAB) const
 {
   complex_t I( 0., 1. );
-  return 1. / mSq() - mSqAB - I * m() * gamma();
+  return 1. / mSq() - mSqAB - I * m() * runningWidth(ps,mSqAB);
 }
 
 const double RelBreitWigner::runningWidth(const PhaseSpace& ps, const double& mSqAB) const

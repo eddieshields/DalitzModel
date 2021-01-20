@@ -17,8 +17,8 @@ using complex_t = std::complex<double>;
 class Amplitude
 {
 private:
-  std::vector<std::unique_ptr<Resonance>> m_resonances;
-  std::vector<std::unique_ptr<Resonance>> m_cnjresonances;
+  std::vector<Resonance*> m_resonances;
+  std::vector<Resonance*> m_cnjresonances;
 
   PhaseSpace m_ps;
 public:
@@ -28,8 +28,8 @@ public:
   {}
   virtual ~Amplitude() {}
 
+  void setPhaseSpace(PhaseSpace& ps);
   void addResonance(Resonance* reso);
-  void addResonance(std::unique_ptr<Resonance>& reso);
 
   const int size() const { return m_resonances.size(); }
 
@@ -57,19 +57,18 @@ public:
   const double    A2Sq  (const double& mSq12, const double& mSq13, const double& mSq23) const;
 };
 
-void Amplitude::addResonance(std::unique_ptr<Resonance>& reso)
+void Amplitude::setPhaseSpace(PhaseSpace& ps)
 {
-  m_resonances.push_back( std::move( reso ) );
-
-  // Make conjugate copy of the resonance.
-  std::unique_ptr<Resonance> resoCnj = std::unique_ptr<Resonance>(m_resonances[m_resonances.size()-1]->cnj_copy());
-  m_cnjresonances.push_back( std::move( resoCnj ) );
+  m_ps = ps;
 }
 
 void Amplitude::addResonance(Resonance* reso)
 {
-  std::unique_ptr<Resonance> unique_reso = std::unique_ptr<Resonance>(reso);
-  addResonance( unique_reso );
+  m_resonances.push_back( std::move( reso ) );
+
+  // Make conjugate copy of the resonance.
+  Resonance* resoCnj = m_resonances[m_resonances.size()-1]->cnj_copy();
+  m_cnjresonances.push_back( std::move( resoCnj ) );
 }
 
 std::ostream& operator<<(std::ostream& os, const Amplitude& amp)
@@ -80,6 +79,7 @@ std::ostream& operator<<(std::ostream& os, const Amplitude& amp)
   }
   out.replace(out.size()-2,2,"");
   os << out;
+  return os;
 }
 
 const complex_t Amplitude::Adir(const double& mSq12, const double& mSq13) const

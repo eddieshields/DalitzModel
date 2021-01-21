@@ -12,6 +12,13 @@ using complex_t = std::complex<double>;
 
 class Flatte : public Resonance
 {
+// Define different types of parameterisations that could be used.
+enum Parameterisation {
+  None,
+  BaBar2005,
+  BaBar2008,
+  BaBar2010,
+};
 private:
   Parameter m_gamma1;
   Parameter m_gamma2;
@@ -22,6 +29,8 @@ private:
   double m_gamma2Sq;
   double m_m02aSq;
   double m_m02bSq;
+
+  static Parameterisation m_parameterisation; 
 public:
   Flatte() = default;
   Flatte(std::string& name, const Coefficient& coeff,
@@ -62,6 +71,10 @@ public:
 
   const complex_t propagator(const PhaseSpace& ps, const double& mSqAB) const;
 
+  const complex_t babar2005_propagator(const PhaseSpace& ps, const double& mSqAB) const;
+  const complex_t babar2008_propagator(const PhaseSpace& ps, const double& mSqAB) const;
+  const complex_t babar2010_propagator(const PhaseSpace& ps, const double& mSqAB) const;
+
   Flatte* copy() const;
 
   Parameter gamma1() const { return m_gamma1; }
@@ -73,10 +86,24 @@ public:
   double gamma2Sq()  const { return m_gamma2Sq; }
   double m02aSq()    const { return m_m02aSq; }
   double m02bSq()    const { return m_m02bSq; }
+
+  static void SetParameterisation(std::string parameterisation);
 };
 
 const complex_t Flatte::propagator(const PhaseSpace& ps, const double& mSqAB) const
 {
+  // If specific parameterisation is called.
+  switch (m_parameterisation)
+  {
+  case Parameterisation::BaBar2005:
+    return babar2005_propagator( ps , mSqAB );
+  case Parameterisation::BaBar2008:
+    return babar2008_propagator( ps , mSqAB );
+  case Parameterisation::BaBar2010:
+    return babar2010_propagator( ps , mSqAB);
+  default:
+    break;
+  }
   const std::complex< double > I( 0., 1. );
 
   const double mGamma0 = mass() * width();
@@ -93,6 +120,47 @@ const complex_t Flatte::propagator(const PhaseSpace& ps, const double& mSqAB) co
 
   return out;
 }
+
+const complex_t Flatte::babar2005_propagator(const PhaseSpace& ps, const double& mSqAB) const
+{
+  const std::complex< double > I( 0., 1. );
+  const double rho1  = rho( ps, mSqAB );
+  const double rho2  = std::sqrt( kallen( mSqAB, m02aSq(), m02bSq() ) ) / mSqAB;
+
+  return 1. / mSq() - mSqAB - I * ( rho1 * gamma1Sq() + rho2 * gamma2Sq() );
+}
+
+const complex_t Flatte::babar2008_propagator(const PhaseSpace& ps, const double& mSqAB) const
+{
+  const std::complex< double > I( 0., 1. );
+  const double rho1  = rho( ps, mSqAB );
+  const double rho2  = std::sqrt( kallen( mSqAB, m02aSq(), m02bSq() ) ) / mSqAB;
+
+  return 1. / mSq() - mSqAB - I * ( rho1 * gamma1Sq() + rho2 * gamma2Sq() ) * std::pow( blattWeisskopf( ps, mSqAB ), 2 );
+}
+
+const complex_t Flatte::babar2010_propagator(const PhaseSpace& ps, const double& mSqAB) const
+{
+  const std::complex< double > I( 0., 1. );
+  const double rho1  = rho( ps, mSqAB );
+  const double rho2  = std::sqrt( kallen( mSqAB, m02aSq(), m02bSq() ) ) / mSqAB;
+
+  return gamma1() / mSq() - mSqAB - I * ( rho1 * gamma1Sq() + rho2 * gamma2Sq() );
+}
+
+void Flatte::SetParameterisation(std::string parameterisation)
+{
+  if ( parameterisation == "BaBar2005" || parameterisation == "babar2005" ) {
+    m_parameterisation = Parameterisation::BaBar2005;
+  } else if ( parameterisation == "BaBar2008" || parameterisation == "babar2008" ) {
+    m_parameterisation = Parameterisation::BaBar2008;
+  } else if ( parameterisation == "BaBar2010" || parameterisation == "babar2010" ) {
+    m_parameterisation = Parameterisation::BaBar2010;
+  }
+  return;
+}
+
+Flatte::Parameterisation Flatte::m_parameterisation = Flatte::Parameterisation::None;
 
 Flatte* Flatte::copy() const
 {

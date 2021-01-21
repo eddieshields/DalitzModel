@@ -100,6 +100,7 @@ void ConfigureAmplitude::appendRBW(std::string name)
 
   LineShape::RelBreitWigner* comp = new LineShape::RelBreitWigner(name,c,resoA,resoB,m,w,l,r);
   m_amp.addResonance( comp );
+  DEBUG(*comp);
 }
 
 void ConfigureAmplitude::appendFlatte(std::string name)
@@ -128,6 +129,7 @@ void ConfigureAmplitude::appendFlatte(std::string name)
 
   LineShape::Flatte* comp = new LineShape::Flatte(name,c,resoA,resoB,m,w,l,r,gam1,gam2,m02a,m02b);
   m_amp.addResonance(comp);
+  DEBUG(*comp)
 }
 
 // I/O operators.

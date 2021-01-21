@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="d9/dd6/_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">[![Build<sp/>Status][travis-badge]][travis-link]</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>DalitzModel</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Header<sp/>only<sp/>library<sp/>to<sp/>generate<sp/>a<sp/>Dalitz<sp/>Model.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">[travis-badge]:<sp/><sp/><sp/><sp/><sp/><sp/>https://travis-ci.com/eddieshields/DalitzModel.svg?token=kSjk97VeMvMyZGvyxnp2&amp;branch=main</highlight></codeline>
+<codeline><highlight class="normal">[travis-link]:<sp/><sp/><sp/><sp/><sp/><sp/><sp/>https://travis-ci.com/github/eddieshields/DalitzModel</highlight></codeline>
+    </programlisting>
+    <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/README.md"/>
+  </compounddef>
+</doxygen>

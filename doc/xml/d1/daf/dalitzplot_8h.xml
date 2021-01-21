@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="d1/daf/dalitzplot_8h" kind="file" language="C++">
+    <compoundname>dalitzplot.h</compoundname>
+    <includes refid="d3/d07/phasespace_8h" local="yes">phasespace.h</includes>
+    <includes refid="d5/db6/amplitude_8h" local="yes">amplitude.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="yes">TCanvas.h</includes>
+    <includes local="yes">TH2.h</includes>
+    <includes local="yes">TGraph.h</includes>
+    <includes local="yes">TStyle.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h</label>
+        <link refid="d1/daf/dalitzplot_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>iomanip</label>
+      </node>
+      <node id="5">
+        <label>amplitude.h</label>
+        <link refid="d5/db6/amplitude_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>msgservice.h</label>
+        <link refid="d6/d63/msgservice_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>cmath</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="11">
+        <label>parameter.h</label>
+        <link refid="d2/d2a/parameter_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>random.h</label>
+        <link refid="d1/d79/random_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>TStyle.h</label>
+      </node>
+      <node id="13">
+        <label>random</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+      <node id="17">
+        <label>TCanvas.h</label>
+      </node>
+      <node id="2">
+        <label>phasespace.h</label>
+        <link refid="d3/d07/phasespace_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>coefficient.h</label>
+        <link refid="d1/db9/coefficient_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>TH2.h</label>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+      <node id="8">
+        <label>resonance.h</label>
+        <link refid="d5/ddb/resonance_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>complex</label>
+      </node>
+      <node id="19">
+        <label>TGraph.h</label>
+      </node>
+      <node id="7">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot" prot="public">DalitzModel::DalitzPlot</innerclass>
+    <innernamespace refid="dd/d06/namespace_dalitz_model">DalitzModel</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>D02KSKK_DALITZPLOT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>D02KSKK_DALITZPLOT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Package.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d3/d07/phasespace_8h" kindref="compound">phasespace.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d5/db6/amplitude_8h" kindref="compound">amplitude.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SL.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ROOT.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TCanvas.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TH2.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TGraph.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TStyle.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="dd/d06/namespace_dalitz_model" kindref="compound">DalitzModel</ref><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot" kindref="compound">DalitzPlot</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34" refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a8a1d495751a73bee8eacd217304a6806" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a8a1d495751a73bee8eacd217304a6806" kindref="member">DalitzPlot</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35" refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a337000f4b1ca34cb28fd8036002f37f8" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a337000f4b1ca34cb28fd8036002f37f8" kindref="member">DalitzPlot</ref>(<ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref>&amp;<sp/>ps)<sp/>:</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>m_ps(<sp/>ps<sp/>)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="39" refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a8324a1b029fdcef671463a0d46f388e6" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a8324a1b029fdcef671463a0d46f388e6" kindref="member">DalitzPlot</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>mMother,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>m1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>m2,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>m3)<sp/>:</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>m_ps(<sp/>mMother,<sp/>m1,<sp/>m2,<sp/>m3<sp/>)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="43" refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a9e3195ac4465e3a8b04d4733f5a90cfc" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a9e3195ac4465e3a8b04d4733f5a90cfc" kindref="member">~DalitzPlot</ref>()<sp/>{};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>TCanvas*<sp/><ref refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a7dd654907fee5283e817360931af95f9" kindref="member">plot</ref>(TH2*<sp/>his);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>TCanvas*<sp/><ref refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a8043a8720fefda1830f33d7cda246049" kindref="member">plotProjection</ref>(TH2*<sp/>his,<sp/>std::string<sp/>var<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;x&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>TCanvas*<sp/><ref refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a8043a8720fefda1830f33d7cda246049" kindref="member">plotProjection</ref>(std::vector&lt;TH2*&gt;<sp/>hiss,<sp/>std::string<sp/>var<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;x&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a8c5623b68b39f2012cde07af5cff2637" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a8c5623b68b39f2012cde07af5cff2637" kindref="member">setUnit</ref>(std::string<sp/>unit)<sp/>{<sp/>m_unit<sp/>=<sp/>unit;<sp/>}</highlight></codeline>
+<codeline lineno="55" refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1aaccd4c501f1bec5415d85447bcee4257" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1aaccd4c501f1bec5415d85447bcee4257" kindref="member">setXtitle</ref>(std::string<sp/>xaxis)<sp/>{<sp/>m_xaxis<sp/>=<sp/>xaxis;<sp/>}</highlight></codeline>
+<codeline lineno="57" refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a49bf6b523d2ce8b9253345540c7cccf8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a49bf6b523d2ce8b9253345540c7cccf8" kindref="member">setYtitle</ref>(std::string<sp/>yaxis)<sp/>{<sp/>m_yaxis<sp/>=<sp/>yaxis;<sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>decorate(TH2*<sp/>his);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setBoundaryOptions(TGraph*<sp/>boundary);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/>TGraph*<sp/>setBoundary(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>boundary_points<sp/>=<sp/>1000);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/>std::string<sp/>m_unit<sp/>=<sp/>{std::string(</highlight><highlight class="stringliteral">&quot;MeV/#it{c}^{2}&quot;</highlight><highlight class="normal">)};</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/>std::string<sp/>m_xaxis<sp/>=<sp/>{std::string(</highlight><highlight class="stringliteral">&quot;m^{2}(K_{S}^{0}K^{+})&quot;</highlight><highlight class="normal">)};</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/>std::string<sp/>m_yaxis<sp/>=<sp/>{std::string(</highlight><highlight class="stringliteral">&quot;m^{2}(K_{S}^{0}K^{-})&quot;</highlight><highlight class="normal">)};</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>PhaseSpace<sp/>m_ps;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a7dd654907fee5283e817360931af95f9" refkind="member"><highlight class="normal">TCanvas*<sp/><ref refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a7dd654907fee5283e817360931af95f9" kindref="member">DalitzPlot::plot</ref>(TH2*<sp/>his)</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/>TGraph*<sp/>boundary<sp/>=<sp/>setBoundary();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/>decorate(his);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/>gStyle-&gt;SetPalette(<sp/>kBird<sp/>);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/>gStyle-&gt;SetPadRightMargin(0.14);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/>TCanvas*<sp/>canv<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>TCanvas(</highlight><highlight class="stringliteral">&quot;canv&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;canv&quot;</highlight><highlight class="normal">,650,600);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/>canv-&gt;cd();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/>gPad-&gt;SetFixedAspectRatio();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/>his-&gt;Draw(</highlight><highlight class="stringliteral">&quot;COLZ&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/>boundary-&gt;Draw(</highlight><highlight class="stringliteral">&quot;SAME<sp/>L&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/>canv-&gt;Update();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>canv;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a8043a8720fefda1830f33d7cda246049" refkind="member"><highlight class="normal">TCanvas*<sp/><ref refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a8043a8720fefda1830f33d7cda246049" kindref="member">DalitzPlot::plotProjection</ref>(TH2*<sp/>his,<sp/>std::string<sp/>var)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/>decorate(his);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>gStyle-&gt;SetPadRightMargin(0.05);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/>TCanvas*<sp/>canv<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>TCanvas(</highlight><highlight class="stringliteral">&quot;canv&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;canv&quot;</highlight><highlight class="normal">,650,600);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/>canv-&gt;cd();</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/>TH1*<sp/>proj;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>var<sp/>==<sp/>std::string(</highlight><highlight class="stringliteral">&quot;x&quot;</highlight><highlight class="normal">)<sp/>)<sp/>proj<sp/>=<sp/>his-&gt;ProjectionX();</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>var<sp/>==<sp/>std::string(</highlight><highlight class="stringliteral">&quot;y&quot;</highlight><highlight class="normal">)<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>proj<sp/>=<sp/>his-&gt;ProjectionY();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>proj-&gt;GetXaxis()-&gt;ImportAttributes(his-&gt;ProjectionX()-&gt;GetXaxis());</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/>proj-&gt;GetYaxis()-&gt;SetTitle(</highlight><highlight class="stringliteral">&quot;|A|^{2}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/>proj-&gt;Draw(</highlight><highlight class="stringliteral">&quot;HIST&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>canv-&gt;Update();</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>canv;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a63744f93a7a56ea50444f824e28d4614" refkind="member"><highlight class="normal">TCanvas*<sp/><ref refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a8043a8720fefda1830f33d7cda246049" kindref="member">DalitzPlot::plotProjection</ref>(std::vector&lt;TH2*&gt;<sp/>hiss,<sp/>std::string<sp/>var)</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/>decorate(<sp/>hiss[0]<sp/>);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>gStyle-&gt;SetPadRightMargin(0.05);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>TCanvas*<sp/>canv<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>TCanvas(</highlight><highlight class="stringliteral">&quot;canv&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;canv&quot;</highlight><highlight class="normal">,650,600);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/>canv-&gt;cd();</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/>TH1*<sp/>proj;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>var<sp/>==<sp/>std::string(</highlight><highlight class="stringliteral">&quot;x&quot;</highlight><highlight class="normal">)<sp/>)<sp/>proj<sp/>=<sp/>hiss[0]-&gt;ProjectionX();</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>var<sp/>==<sp/>std::string(</highlight><highlight class="stringliteral">&quot;y&quot;</highlight><highlight class="normal">)<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>proj<sp/>=<sp/>hiss[0]-&gt;ProjectionY();</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>proj-&gt;GetXaxis()-&gt;ImportAttributes(hiss[0]-&gt;ProjectionX()-&gt;GetXaxis());</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>proj-&gt;GetYaxis()-&gt;SetTitle(</highlight><highlight class="stringliteral">&quot;|A|^{2}&quot;</highlight><highlight class="normal">);<sp/><sp/></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/>proj-&gt;Draw(</highlight><highlight class="stringliteral">&quot;HIST&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>1;<sp/>i<sp/>&lt;<sp/>hiss.size();<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>var<sp/>==<sp/>std::string(</highlight><highlight class="stringliteral">&quot;x&quot;</highlight><highlight class="normal">)<sp/>)<sp/>hiss[i]-&gt;ProjectionX()-&gt;Draw(</highlight><highlight class="stringliteral">&quot;SAME<sp/>HIST&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>var<sp/>==<sp/>std::string(</highlight><highlight class="stringliteral">&quot;y&quot;</highlight><highlight class="normal">)<sp/>)<sp/>hiss[i]-&gt;ProjectionY()-&gt;Draw(</highlight><highlight class="stringliteral">&quot;SAME<sp/>HIST&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/>canv-&gt;Update();</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>canv;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DalitzPlot::decorate(TH2*<sp/>his)</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/>his-&gt;GetXaxis()-&gt;SetTitle(<sp/>(m_xaxis+std::string(</highlight><highlight class="stringliteral">&quot;<sp/>[&quot;</highlight><highlight class="normal">)+m_unit+std::string(</highlight><highlight class="stringliteral">&quot;]&quot;</highlight><highlight class="normal">)).c_str()<sp/>);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/>his-&gt;GetYaxis()-&gt;SetTitle(<sp/>(m_yaxis+std::string(</highlight><highlight class="stringliteral">&quot;<sp/>[&quot;</highlight><highlight class="normal">)+m_unit+std::string(</highlight><highlight class="stringliteral">&quot;]&quot;</highlight><highlight class="normal">)).c_str()<sp/>);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DalitzPlot::setBoundaryOptions(TGraph*<sp/>boundary)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/>boundary-&gt;SetLineWidth(2);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/>boundary-&gt;SetLineColor(kRed);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/>boundary-&gt;SetMarkerColor(kRed);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/>boundary-&gt;SetMarkerStyle(8);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/>boundary-&gt;SetMarkerSize(0.4);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal">TGraph*<sp/>DalitzPlot::setBoundary(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>boundary_points)</highlight></codeline>
+<codeline lineno="159"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Fill<sp/>vectors<sp/>with<sp/>boundary<sp/>points.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/>std::vector&lt;<sp/>double<sp/>&gt;<sp/>_mSqABbound,<sp/>_mSqBCbound;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>step<sp/>=<sp/>(<sp/>m_ps.<ref refid="d1/d8d/class_dalitz_model_1_1_phase_space_1aeee049c322dbec4a75e539abc835ee6d" kindref="member">mSq12max</ref>()<sp/>-<sp/>m_ps.<ref refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a1f215288bb0c70b565b455b887aa7f3e" kindref="member">mSq12min</ref>()<sp/>)<sp/>/<sp/>boundary_points;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>mSqAB<sp/>=<sp/>m_ps.<ref refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a1f215288bb0c70b565b455b887aa7f3e" kindref="member">mSq12min</ref>();</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<sp/>mSqAB<sp/>&lt;<sp/>m_ps.<ref refid="d1/d8d/class_dalitz_model_1_1_phase_space_1aeee049c322dbec4a75e539abc835ee6d" kindref="member">mSq12max</ref>()<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>_mSqABbound.push_back(<sp/>mSqAB<sp/>);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>_mSqBCbound.push_back(<sp/>m_ps.<ref refid="d1/d8d/class_dalitz_model_1_1_phase_space_1ac3176db232bf594b5bb9f5726f7aeed1" kindref="member">mSq13max</ref>(<sp/>mSqAB<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>mSqAB<sp/>+=<sp/>step;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/>mSqAB<sp/>-=<sp/>step;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<sp/>mSqAB<sp/>&gt;<sp/>m_ps.<ref refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a1f215288bb0c70b565b455b887aa7f3e" kindref="member">mSq12min</ref>()<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>_mSqABbound.push_back(<sp/>mSqAB<sp/>);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>_mSqBCbound.push_back(<sp/>m_ps.<ref refid="d1/d8d/class_dalitz_model_1_1_phase_space_1af355aa09bb3e7c6c3210bdf50ce8f81f" kindref="member">mSq13min</ref>(<sp/>mSqAB<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>mSqAB<sp/>-=<sp/>step;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/>mSqAB<sp/>+=<sp/>step;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/>_mSqABbound.push_back(<sp/>mSqAB<sp/>);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/>_mSqBCbound.push_back(<sp/>m_ps.<ref refid="d1/d8d/class_dalitz_model_1_1_phase_space_1ac3176db232bf594b5bb9f5726f7aeed1" kindref="member">mSq13max</ref>(<sp/>mSqAB<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>boundary<sp/>graph.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/>TGraph*<sp/>boundary<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>TGraph(<sp/>_mSqABbound.size(),<sp/>_mSqABbound.data(),<sp/>_mSqBCbound.data()<sp/>);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>options.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/>setBoundaryOptions(<sp/>boundary<sp/>);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>boundary;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>DalitzModel</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h"/>
+  </compounddef>
+</doxygen>

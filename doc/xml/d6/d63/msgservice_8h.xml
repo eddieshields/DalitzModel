@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="d6/d63/msgservice_8h" kind="file" language="C++">
+    <compoundname>msgservice.h</compoundname>
+    <includes local="no">iomanip</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">string</includes>
+    <includedby refid="da/da5/configfile_8h" local="yes">/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h</includedby>
+    <includedby refid="dc/de4/configureamplitude_8h" local="yes">/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h</includedby>
+    <includedby refid="d8/d72/relbreitwigner_8h" local="yes">/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/lineshapes/relbreitwigner.h</includedby>
+    <includedby refid="d5/ddb/resonance_8h" local="yes">/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>iomanip</label>
+      </node>
+      <node id="1">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h</label>
+        <link refid="d6/d63/msgservice_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="7">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h</label>
+        <link refid="d1/daf/dalitzplot_8h"/>
+      </node>
+      <node id="6">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/amplitude.h</label>
+        <link refid="d5/db6/amplitude_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h</label>
+        <link refid="d6/d63/msgservice_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/lineshapes/flatte.h</label>
+        <link refid="d8/d8c/flatte_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/lineshapes/relbreitwigner.h</label>
+        <link refid="d8/d72/relbreitwigner_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h</label>
+        <link refid="da/da5/configfile_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h</label>
+        <link refid="d5/ddb/resonance_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h</label>
+        <link refid="dc/de4/configureamplitude_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="d6/d63/msgservice_8h_1ab35d1a139b40d8e10dc7b5844d60263f" prot="public" static="no">
+        <name>WARNINGLEVEL</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" line="18" column="9" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d6/d63/msgservice_8h_1ad4156ce4b39601c9120a655c2ee6442f" prot="public" static="no">
+        <name>FCNNAMELENGTH</name>
+        <initializer>45</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" line="21" column="9" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dd/d89/group__msg_service_1gaef41e8aaf4c60819b30faf396cdf4978" prot="public" static="no">
+        <name>DEBUG</name>
+        <param><defname>X</defname></param>
+        <briefdescription>
+<para>Used for printing verbose debugging messages, only if DEBUGLEVEL is defined. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" line="53" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dd/d89/group__msg_service_1gac0e7ce4f5ccb0f16d1103330cce71abc" prot="public" static="no">
+        <name>INFO</name>
+        <param><defname>X</defname></param>
+        <initializer>  std::cout &lt;&lt; &quot;\033[2;34m&quot; &lt;&lt; std::left &lt;&lt; std::setw( <ref refid="d6/d63/msgservice_8h_1ad4156ce4b39601c9120a655c2ee6442f" kindref="member">FCNNAMELENGTH</ref> ) &lt;&lt; <ref refid="d6/d63/msgservice_8h_1a6dcb94fde52e886851b2ac2ffd0af506" kindref="member">trimmedString</ref>( __PRETTY_FUNCTION__ )         \
+&lt;&lt; &quot;  INFO         &quot;                                                                                       \
+&lt;&lt; &quot;\033[0m&quot; &lt;&lt; X &lt;&lt; std::endl</initializer>
+        <briefdescription>
+<para>Used for printing information messages, and will always be printed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" line="58" column="9" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dd/d89/group__msg_service_1ga2fb9b812f716aa806c40ada3d178d6ed" prot="public" static="no">
+        <name>ERROR</name>
+        <param><defname>X</defname></param>
+        <initializer>  std::cout &lt;&lt; &quot;\033[1;31m&quot; &lt;&lt; std::left &lt;&lt; std::setw( <ref refid="d6/d63/msgservice_8h_1ad4156ce4b39601c9120a655c2ee6442f" kindref="member">FCNNAMELENGTH</ref> ) &lt;&lt; <ref refid="d6/d63/msgservice_8h_1a6dcb94fde52e886851b2ac2ffd0af506" kindref="member">trimmedString</ref>( __PRETTY_FUNCTION__ )         \
+&lt;&lt; &quot;  ERROR        &quot;                                                                                                   \
+&lt;&lt; &quot;\033[0m&quot; &lt;&lt; X &lt;&lt; std::endl</initializer>
+        <briefdescription>
+<para>Used for printing errors messages, and will always be printed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" line="65" column="9" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dd/d89/group__msg_service_1gafb8ee813e91f3c54e4251b7d88bae710" prot="public" static="no">
+        <name>FATAL</name>
+        <param><defname>X</defname></param>
+        <initializer>  { std::cout &lt;&lt; &quot;\033[1;31m&quot; &lt;&lt; std::left &lt;&lt; std::setw( <ref refid="d6/d63/msgservice_8h_1ad4156ce4b39601c9120a655c2ee6442f" kindref="member">FCNNAMELENGTH</ref> ) &lt;&lt; <ref refid="d6/d63/msgservice_8h_1a6dcb94fde52e886851b2ac2ffd0af506" kindref="member">trimmedString</ref>( __PRETTY_FUNCTION__ )         \
+&lt;&lt; &quot;  FATAL        &quot;                                                                                                   \
+&lt;&lt; &quot;\033[0m&quot; &lt;&lt; X &lt;&lt; std::endl;                                                                                         \
+throw std::runtime_error( <ref refid="d6/d63/msgservice_8h_1a6dcb94fde52e886851b2ac2ffd0af506" kindref="member">trimmedString</ref>( __PRETTY_FUNCTION__)+ &quot; FATAL&quot; ) ;}</initializer>
+        <briefdescription>
+<para>Used for printing fatal errors messages, and will always be printed and will terminate the process afterwards. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" line="72" column="9" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dd/d89/group__msg_service_1gaee615a0738ce19e7f1c33624f63489de" prot="public" static="no">
+        <name>WARNING</name>
+        <param><defname>X</defname></param>
+        <initializer>  std::cout &lt;&lt; &quot;\033[1;35m&quot; &lt;&lt; std::left &lt;&lt; std::setw( <ref refid="d6/d63/msgservice_8h_1ad4156ce4b39601c9120a655c2ee6442f" kindref="member">FCNNAMELENGTH</ref> ) &lt;&lt; <ref refid="d6/d63/msgservice_8h_1a6dcb94fde52e886851b2ac2ffd0af506" kindref="member">trimmedString</ref>( __PRETTY_FUNCTION__ )         \
+&lt;&lt; &quot;  WARNING      &quot;                                                                                       \
+&lt;&lt; &quot;\033[0m&quot; &lt;&lt; X &lt;&lt; std::endl</initializer>
+        <briefdescription>
+<para>Used for printing warning messages, can be switched off using WARNINGLEVEL. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>These messages are often harmless, but sometimes not! </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" line="82" column="9" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d6/d63/msgservice_8h_1a638b671f4fa00cd5267c8df6c19c4477" prot="public" static="no">
+        <name>TRACE</name>
+        <param><defname>X</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" line="96" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="d6/d63/msgservice_8h_1a6dcb94fde52e886851b2ac2ffd0af506" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string trimmedString</definition>
+        <argsstring>(std::string thing, const unsigned int &amp;length=45)</argsstring>
+        <name>trimmedString</name>
+        <param>
+          <type>std::string</type>
+          <declname>thing</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>length</declname>
+          <defval>45</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" line="23" column="20" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" bodystart="23" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>DALITZMODEL_MSGSERVICE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DALITZMODEL_MSGSERVICE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="preprocessor">#include<sp/>&lt;iomanip&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="d6/d63/msgservice_8h_1ab35d1a139b40d8e10dc7b5844d60263f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WARNINGLEVEL<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>DEBUGLEVEL<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>TRACELEVEL<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="d6/d63/msgservice_8h_1ad4156ce4b39601c9120a655c2ee6442f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FCNNAMELENGTH<sp/>45</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="d6/d63/msgservice_8h_1a6dcb94fde52e886851b2ac2ffd0af506" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="d6/d63/msgservice_8h_1a6dcb94fde52e886851b2ac2ffd0af506" kindref="member">trimmedString</ref>(<sp/>std::string<sp/>thing,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>length<sp/>=<sp/><ref refid="d6/d63/msgservice_8h_1ad4156ce4b39601c9120a655c2ee6442f" kindref="member">FCNNAMELENGTH</ref><sp/>)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>pos2=0;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/>pos2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>thing.find(<sp/></highlight><highlight class="stringliteral">&quot;DalitzModel::&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>pos2<sp/>!=<sp/>std::string::npos<sp/>)<sp/>thing<sp/>=<sp/>thing.replace(<sp/>pos2,<sp/>13,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(<sp/>pos2<sp/>!=<sp/>std::string::npos<sp/>);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>pos2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>thing.find(<sp/></highlight><highlight class="stringliteral">&quot;std::&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>pos2<sp/>!=<sp/>std::string::npos<sp/>)<sp/>thing.replace(<sp/>pos2,<sp/>5,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>pos2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>thing.find(<sp/></highlight><highlight class="stringliteral">&quot;virtual<sp/>&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>pos2<sp/>!=<sp/>std::string::npos<sp/>)<sp/>thing<sp/>=<sp/>thing.replace(<sp/>pos2,<sp/>8,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>pos<sp/>=<sp/>thing.find(<sp/></highlight><highlight class="stringliteral">&quot;(&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>pos<sp/>!=<sp/>std::string::npos<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pos<sp/>&lt;<sp/>length<sp/>?<sp/>thing.substr(<sp/>0,<sp/>pos<sp/>)<sp/>:<sp/>thing.substr(<sp/>0,<sp/>length<sp/>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>thing.size()<sp/>&lt;<sp/>length<sp/>?<sp/>thing<sp/>:<sp/>thing.substr(<sp/>0,<sp/>length<sp/>)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;...&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="preprocessor">#ifdef<sp/>DEBUGLEVEL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEBUG(<sp/>X<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="49"><highlight class="preprocessor"><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;\033[2;32m&quot;<sp/>&lt;&lt;<sp/>std::left<sp/>&lt;&lt;<sp/>std::setw(<sp/>FCNNAMELENGTH<sp/>)<sp/>&lt;&lt;<sp/>trimmedString(<sp/>__PRETTY_FUNCTION__<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="50"><highlight class="preprocessor">&lt;&lt;<sp/>&quot;<sp/><sp/>DEBUG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="51"><highlight class="preprocessor">&lt;&lt;<sp/>&quot;\033[0m&quot;<sp/>&lt;&lt;<sp/>X<sp/>&lt;&lt;<sp/>std::endl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="dd/d89/group__msg_service_1gaef41e8aaf4c60819b30faf396cdf4978" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEBUG(<sp/>X<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="dd/d89/group__msg_service_1gac0e7ce4f5ccb0f16d1103330cce71abc" refkind="member"><highlight class="preprocessor">#define<sp/>INFO(<sp/>X<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="59"><highlight class="preprocessor"><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;\033[2;34m&quot;<sp/>&lt;&lt;<sp/>std::left<sp/>&lt;&lt;<sp/>std::setw(<sp/>FCNNAMELENGTH<sp/>)<sp/>&lt;&lt;<sp/>trimmedString(<sp/>__PRETTY_FUNCTION__<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="60"><highlight class="preprocessor">&lt;&lt;<sp/>&quot;<sp/><sp/>INFO<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="61"><highlight class="preprocessor">&lt;&lt;<sp/>&quot;\033[0m&quot;<sp/>&lt;&lt;<sp/>X<sp/>&lt;&lt;<sp/>std::endl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="dd/d89/group__msg_service_1ga2fb9b812f716aa806c40ada3d178d6ed" refkind="member"><highlight class="preprocessor">#define<sp/>ERROR(<sp/>X<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="66"><highlight class="preprocessor"><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;\033[1;31m&quot;<sp/>&lt;&lt;<sp/>std::left<sp/>&lt;&lt;<sp/>std::setw(<sp/>FCNNAMELENGTH<sp/>)<sp/>&lt;&lt;<sp/>trimmedString(<sp/>__PRETTY_FUNCTION__<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="67"><highlight class="preprocessor">&lt;&lt;<sp/>&quot;<sp/><sp/>ERROR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="68"><highlight class="preprocessor">&lt;&lt;<sp/>&quot;\033[0m&quot;<sp/>&lt;&lt;<sp/>X<sp/>&lt;&lt;<sp/>std::endl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="dd/d89/group__msg_service_1gafb8ee813e91f3c54e4251b7d88bae710" refkind="member"><highlight class="preprocessor">#define<sp/>FATAL(<sp/>X<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="73"><highlight class="preprocessor"><sp/><sp/>{<sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;\033[1;31m&quot;<sp/>&lt;&lt;<sp/>std::left<sp/>&lt;&lt;<sp/>std::setw(<sp/>FCNNAMELENGTH<sp/>)<sp/>&lt;&lt;<sp/>trimmedString(<sp/>__PRETTY_FUNCTION__<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="74"><highlight class="preprocessor">&lt;&lt;<sp/>&quot;<sp/><sp/>FATAL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="75"><highlight class="preprocessor">&lt;&lt;<sp/>&quot;\033[0m&quot;<sp/>&lt;&lt;<sp/>X<sp/>&lt;&lt;<sp/>std::endl;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="76"><highlight class="preprocessor">throw<sp/>std::runtime_error(<sp/>trimmedString(<sp/>__PRETTY_FUNCTION__)+<sp/>&quot;<sp/>FATAL&quot;<sp/>)<sp/>;}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="preprocessor">#ifdef<sp/>WARNINGLEVEL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="dd/d89/group__msg_service_1gaee615a0738ce19e7f1c33624f63489de" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WARNING(<sp/>X<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="83"><highlight class="preprocessor"><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;\033[1;35m&quot;<sp/>&lt;&lt;<sp/>std::left<sp/>&lt;&lt;<sp/>std::setw(<sp/>FCNNAMELENGTH<sp/>)<sp/>&lt;&lt;<sp/>trimmedString(<sp/>__PRETTY_FUNCTION__<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="84"><highlight class="preprocessor">&lt;&lt;<sp/>&quot;<sp/><sp/>WARNING<sp/><sp/><sp/><sp/><sp/><sp/>&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="85"><highlight class="preprocessor">&lt;&lt;<sp/>&quot;\033[0m&quot;<sp/>&lt;&lt;<sp/>X<sp/>&lt;&lt;<sp/>std::endl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WARNING(<sp/>X<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>TRACELEVEL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TRACE(<sp/>X<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="92"><highlight class="preprocessor"><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;\033[1;36m&quot;<sp/>&lt;&lt;<sp/>std::left<sp/>&lt;&lt;<sp/>std::setw(<sp/>FCNNAMELENGTH<sp/>)<sp/>&lt;&lt;<sp/>trimmedString(<sp/>__PRETTY_FUNCTION__<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="93"><highlight class="preprocessor">&lt;&lt;<sp/>&quot;<sp/><sp/>TRACE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="94"><highlight class="preprocessor">&lt;&lt;<sp/>&quot;\033[0m&quot;<sp/>&lt;&lt;<sp/>X<sp/>&lt;&lt;<sp/>std::endl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="d6/d63/msgservice_8h_1a638b671f4fa00cd5267c8df6c19c4477" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TRACE(<sp/>X<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h"/>
+  </compounddef>
+</doxygen>

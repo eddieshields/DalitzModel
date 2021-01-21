@@ -1,0 +1,1970 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dd/d06/namespace_dalitz_model" kind="namespace" language="C++">
+    <compoundname>DalitzModel</compoundname>
+    <innerclass refid="de/d55/class_dalitz_model_1_1_amplitude" prot="public">DalitzModel::Amplitude</innerclass>
+    <innerclass refid="d6/d9a/class_dalitz_model_1_1_coefficient" prot="public">DalitzModel::Coefficient</innerclass>
+    <innerclass refid="d3/db2/class_dalitz_model_1_1_config_file" prot="public">DalitzModel::ConfigFile</innerclass>
+    <innerclass refid="d0/dee/class_dalitz_model_1_1_configure_amplitude" prot="public">DalitzModel::ConfigureAmplitude</innerclass>
+    <innerclass refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot" prot="public">DalitzModel::DalitzPlot</innerclass>
+    <innerclass refid="d7/d43/class_dalitz_model_1_1_parameter" prot="public">DalitzModel::Parameter</innerclass>
+    <innerclass refid="d1/d8d/class_dalitz_model_1_1_phase_space" prot="public">DalitzModel::PhaseSpace</innerclass>
+    <innerclass refid="db/d54/class_dalitz_model_1_1_random" prot="public">DalitzModel::Random</innerclass>
+    <innerclass refid="d3/d39/class_dalitz_model_1_1_resonance" prot="public">DalitzModel::Resonance</innerclass>
+    <innernamespace refid="d4/d44/namespace_dalitz_model_1_1_line_shape">DalitzModel::LineShape</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" prot="public" static="no">
+        <type>std::complex&lt; double &gt;</type>
+        <definition>typedef std::complex&lt; double &gt; DalitzModel::complex_t</definition>
+        <argsstring></argsstring>
+        <name>complex_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/amplitude.h" line="15" column="1" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/amplitude.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a70d829ee01855e911a46fc8048feaa8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; DalitzModel::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, const Amplitude &amp;amp)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="de/d55/class_dalitz_model_1_1_amplitude" kindref="compound">Amplitude</ref> &amp;</type>
+          <declname>amp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/amplitude.h" line="97" column="1" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/amplitude.h" bodystart="97" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a3a4f2da3c87bc0a28d181eaa9f398a5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; DalitzModel::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, const Coefficient &amp;coeff)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>coeff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="95" column="1" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="95" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1ac4f0875a4ce01eeb87f6098e4fffaf65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::istream &amp;</type>
+        <definition>std::istream&amp; DalitzModel::operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;is, Coefficient &amp;coeff)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type><ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>coeff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="101" column="14" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="101" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a03b29d55166f7e2499db5b14d3dec52a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator+</definition>
+        <argsstring>(const Coefficient &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="111" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="111" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a0dd2023e0e67141af8901787b9660a9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator-</definition>
+        <argsstring>(const Coefficient &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="116" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="116" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1ad7e31bc47a8ea5600f29e08b1ebe1872" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator*</definition>
+        <argsstring>(const Coefficient &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="121" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="121" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a3dcc5b92687ed72450adf21fd10ee7c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator/</definition>
+        <argsstring>(const Coefficient &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="126" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="126" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1af6240a575cb8bd63a58e704beab265a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator+</definition>
+        <argsstring>(const Coefficient &amp;left, const int &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="131" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="131" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1ac82a82a660e34e50b6c564b9e927e315" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator-</definition>
+        <argsstring>(const Coefficient &amp;left, const int &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="136" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="136" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1aa6a4db34086c4166a3ac69f52fc46203" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator*</definition>
+        <argsstring>(const Coefficient &amp;left, const int &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="141" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="141" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a9ddc5ae45f6ad1759d7caa582ed6dba9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator/</definition>
+        <argsstring>(const Coefficient &amp;left, const int &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="146" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="146" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1aeed8d5fcae970827a5b7c3c6fbd0db14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator+</definition>
+        <argsstring>(const Coefficient &amp;left, const double &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="151" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="151" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a440defdf4c8000059886cd21f5492cae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator-</definition>
+        <argsstring>(const Coefficient &amp;left, const double &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="156" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="156" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a61396fc0b9650e6f17a1de47cf0780b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator*</definition>
+        <argsstring>(const Coefficient &amp;left, const double &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="161" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="161" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1aef2cecddf3a5c77d6a607fc130d794d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator/</definition>
+        <argsstring>(const Coefficient &amp;left, const double &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="166" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="166" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a9ceddea665bd9fe6be59b1ecb7b7cbec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator+</definition>
+        <argsstring>(const Coefficient &amp;left, const float &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="171" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="171" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a16de44a9a119c64eb13f074f8f06b25b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator-</definition>
+        <argsstring>(const Coefficient &amp;left, const float &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="176" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="176" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a3e8512e2d981950294f8be9402cf3ffc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator*</definition>
+        <argsstring>(const Coefficient &amp;left, const float &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="181" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="181" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a10bcb74fe109e77193be14ee28512c45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator/</definition>
+        <argsstring>(const Coefficient &amp;left, const float &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="186" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="186" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1ab5a41e4701498c4f5f6321687ea3e11a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator+</definition>
+        <argsstring>(const Coefficient &amp;left, const complex_t &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="191" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="191" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a3f02d7ecbb7079849108b52c242351c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator-</definition>
+        <argsstring>(const Coefficient &amp;left, const complex_t &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="196" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="196" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1af215559512230b7b45d172c4455fbd44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator*</definition>
+        <argsstring>(const Coefficient &amp;left, const complex_t &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="201" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="201" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a12c8ddf1a3d837f0e605ed4df358f3da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator/</definition>
+        <argsstring>(const Coefficient &amp;left, const complex_t &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="206" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="206" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a3ad058cb050008ed41b8bbdffccc3347" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator+</definition>
+        <argsstring>(const Coefficient &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="211" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="211" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a7b24abc36e073e506751d9e06c943896" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator-</definition>
+        <argsstring>(const Coefficient &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="216" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="216" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a9a5239367a98d3283478a657988ae931" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator*</definition>
+        <argsstring>(const Coefficient &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="221" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="221" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a97fdd5202195a427c39440a748357a3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator/</definition>
+        <argsstring>(const Coefficient &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="226" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="226" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a6230f43b617c13e53b79d41d112b8881" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator+</definition>
+        <argsstring>(const int &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="231" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="231" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a2801dece441e6500b69e9fda5e82f953" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator-</definition>
+        <argsstring>(const int &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="236" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="236" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1aacaf9b22b877e208961846d70741c147" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator*</definition>
+        <argsstring>(const int &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="241" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="241" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1ad477f2edae06bd35b43dcc651690cfd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator/</definition>
+        <argsstring>(const int &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="246" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="246" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a74db3fc6994d261a9afd083775b3331c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator+</definition>
+        <argsstring>(const double &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="251" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="251" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1ad7d1bf1f601041dc1c62a20daa7af68e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator-</definition>
+        <argsstring>(const double &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="256" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="256" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1af1e662363f526d5fe45f47cdb2f409be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator*</definition>
+        <argsstring>(const double &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="261" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="261" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a8cf124d58db043053a399da01ef8fc6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator/</definition>
+        <argsstring>(const double &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="266" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="266" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1afb3f5aaa41dbe2f945e88a974be63247" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator+</definition>
+        <argsstring>(const float &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="271" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="271" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a1b3e5de4e41d84efdce2a8c32ac8348d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator-</definition>
+        <argsstring>(const float &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="276" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="276" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1ace4279ada5c5ca6914debd3c27034eff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator*</definition>
+        <argsstring>(const float &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="281" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="281" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1ad1f2598f9dd9d83681fb09f125e5c982" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator/</definition>
+        <argsstring>(const float &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="286" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="286" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a221f4e35334a7618683953224faf4556" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator+</definition>
+        <argsstring>(const complex_t &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="291" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="291" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a12d823016ee8c29262afa239fc843923" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator-</definition>
+        <argsstring>(const complex_t &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="295" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="295" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a93da9016f4b62835bf611e79717dadb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator*</definition>
+        <argsstring>(const complex_t &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="299" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="299" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1aeb0518cc6042a1667daf1fe042487f9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator/</definition>
+        <argsstring>(const complex_t &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="303" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="303" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1aa0b437f6943d095aede83b3604b2fbe2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator+</definition>
+        <argsstring>(const Parameter &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="308" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="308" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a0c825aa7cf01892056ca9aa02f9238f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator-</definition>
+        <argsstring>(const Parameter &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="313" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="313" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a501a6283ccb346bd213ce5aa2ad220ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator*</definition>
+        <argsstring>(const Parameter &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="318" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="318" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a5c0afc2c0762cf420532e13c39966b41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator/</definition>
+        <argsstring>(const Parameter &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="323" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="323" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a2ad8275f297afa2eb33df48459130246" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; DalitzModel::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, const ConfigFile &amp;config)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d3/db2/class_dalitz_model_1_1_config_file" kindref="compound">ConfigFile</ref> &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" line="180" column="1" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" bodystart="180" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1ad3291c98e0a3dfee7ca109cbc2ee93ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::istream &amp;</type>
+        <definition>std::istream&amp; DalitzModel::operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;is, ConfigFile &amp;config)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/db2/class_dalitz_model_1_1_config_file" kindref="compound">ConfigFile</ref> &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" line="191" column="14" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" bodystart="191" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a015759bbdd02c4a02150fc9dece60fb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; DalitzModel::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, const ConfigureAmplitude &amp;cfgamp)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude" kindref="compound">ConfigureAmplitude</ref> &amp;</type>
+          <declname>cfgamp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" line="137" column="1" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" bodystart="137" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a2f7418166b2bca5906da6fba8d493b54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::istream &amp;</type>
+        <definition>std::istream&amp; DalitzModel::operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;is, ConfigureAmplitude &amp;cfgamp)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude" kindref="compound">ConfigureAmplitude</ref> &amp;</type>
+          <declname>cfgamp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" line="142" column="14" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" bodystart="142" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1aa20f8d905a86a8083f6d8991e4deabcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; DalitzModel::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, const Parameter &amp;param)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="88" column="1" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="88" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1ad130194f49ba22f5068a1ff46107a275" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::istream &amp;</type>
+        <definition>std::istream&amp; DalitzModel::operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;is, Parameter &amp;param)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="94" column="14" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="94" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a545b6ed2eb25738a72617f683513d417" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator+</definition>
+        <argsstring>(const Parameter &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="105" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1acc25d13481776b228618718d5b1dc802" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator-</definition>
+        <argsstring>(const Parameter &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="110" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a04db6b5564041df09643e3498bc370bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator*</definition>
+        <argsstring>(const Parameter &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="115" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a76af1943db6400e4b2686fbe44c5c463" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator/</definition>
+        <argsstring>(const Parameter &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="120" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="120" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a5c9f537c0e83da2c3847407cba628b91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator+</definition>
+        <argsstring>(const Parameter &amp;left, const int &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="125" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1af137e0eee63b2e0e7cc8fb6d5b1f19de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator-</definition>
+        <argsstring>(const Parameter &amp;left, const int &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="130" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="130" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a8ff496315594ccf304f88258ed185377" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator*</definition>
+        <argsstring>(const Parameter &amp;left, const int &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="135" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="135" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a77bc32a09d84f52b7a6a42356e1c10fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator/</definition>
+        <argsstring>(const Parameter &amp;left, const int &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="140" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="140" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a99e7a28cc4261ad50c006cefa1fa9662" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator+</definition>
+        <argsstring>(const Parameter &amp;left, const double &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="145" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="145" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a42a0ffa0a21c64cbc7a4e42b3e2f1e03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator-</definition>
+        <argsstring>(const Parameter &amp;left, const double &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="150" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="150" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a79ac911d9b20cfe3a46f8cf41312232a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator*</definition>
+        <argsstring>(const Parameter &amp;left, const double &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="155" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="155" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a7b779f065980e58958babb7074cbfa7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator/</definition>
+        <argsstring>(const Parameter &amp;left, const double &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="160" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="160" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1afd3badd06ae584a5a7ba6faacbede2e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator+</definition>
+        <argsstring>(const Parameter &amp;left, const float &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="165" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="165" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a9103a7290f75411788e922048d38da45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator-</definition>
+        <argsstring>(const Parameter &amp;left, const float &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="170" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="170" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a0d0e95d8fc35f627482dfcea811f2b34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator*</definition>
+        <argsstring>(const Parameter &amp;left, const float &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="175" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="175" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a60eb24c6ca94b8d35b60381d229bbd65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator/</definition>
+        <argsstring>(const Parameter &amp;left, const float &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="180" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="180" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1ab4407a78397b0e72f529c734276804e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator+</definition>
+        <argsstring>(const Parameter &amp;left, const complex_t &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="185" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="185" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1aa5571e121a25adb7df279c0025f84234" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator-</definition>
+        <argsstring>(const Parameter &amp;left, const complex_t &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="190" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="190" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1ab6bd2a5e3fe72be2f38a68d2c0956674" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator*</definition>
+        <argsstring>(const Parameter &amp;left, const complex_t &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="195" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="195" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a4a3a0ddde167b8c09d7ebbce8bea2ca9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator/</definition>
+        <argsstring>(const Parameter &amp;left, const complex_t &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="200" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="200" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a128270a99ef6a0d86332b3823feae2e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator+</definition>
+        <argsstring>(const int &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="205" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="205" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1af95c74e551e40cae172de55289ee2394" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator-</definition>
+        <argsstring>(const int &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="210" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="210" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a13b8d54a257c6c07598407eb28948591" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator*</definition>
+        <argsstring>(const int &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="215" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="215" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a38aae1f73ce2afb06fc94af48808acf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator/</definition>
+        <argsstring>(const int &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="220" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="220" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1aa6d02b89f89fd31fca4dfe9658ebfafd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator+</definition>
+        <argsstring>(const double &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="225" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="225" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a97fb02dd40c414640719343d74265c18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator-</definition>
+        <argsstring>(const double &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="230" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="230" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a4de14ec5685926e62104111a6ee8f994" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator*</definition>
+        <argsstring>(const double &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="235" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="235" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a8b3eeed0ece57b30fb8a8ea25130140f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator/</definition>
+        <argsstring>(const double &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="240" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="240" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1aaef0343950cc997978f883372a268b27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator+</definition>
+        <argsstring>(const float &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="245" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="245" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a6e590f73e3f8203fc9640d4b48474d53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator-</definition>
+        <argsstring>(const float &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="250" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="250" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a87be55be7128c8de33cb1cf1d2513138" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator*</definition>
+        <argsstring>(const float &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="255" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="255" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1ad6338b26b30616b29e4b34ad9e48aeb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::operator/</definition>
+        <argsstring>(const float &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="260" column="21" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="260" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a97ddce1239dce033038c6f6c745fcf74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator+</definition>
+        <argsstring>(const complex_t &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="265" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="265" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a37d5b4751b3396d600428d2336f946c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator-</definition>
+        <argsstring>(const complex_t &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="269" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="269" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1ada6da54f83e2e3e118da448b71e4a243" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator*</definition>
+        <argsstring>(const complex_t &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="273" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="273" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1adfced981d71f37b996e77990a8c4ab83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::operator/</definition>
+        <argsstring>(const complex_t &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="277" column="24" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="277" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a60068eab88b5044feaa0a6fb9def6c6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; DalitzModel::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, const PhaseSpace &amp;ps)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref> &amp;</type>
+          <declname>ps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="177" column="1" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="177" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1a8b58417ccec4235311b178d5c2d5ae56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; DalitzModel::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, const Resonance &amp;reso)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d3/d39/class_dalitz_model_1_1_resonance" kindref="compound">Resonance</ref> &amp;</type>
+          <declname>reso</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="131" column="1" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="131" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/namespace_dalitz_model_1ade11bca68fda50a1dcaa0170fecfd809" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::istream &amp;</type>
+        <definition>std::istream&amp; DalitzModel::operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;is, Resonance &amp;reso)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d39/class_dalitz_model_1_1_resonance" kindref="compound">Resonance</ref> &amp;</type>
+          <declname>reso</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="145" column="14" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="145" bodyend="158"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/amplitude.h" line="13" column="1"/>
+  </compounddef>
+</doxygen>

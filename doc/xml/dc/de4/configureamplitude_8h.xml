@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dc/de4/configureamplitude_8h" kind="file" language="C++">
+    <compoundname>configureamplitude.h</compoundname>
+    <includes refid="d8/d72/relbreitwigner_8h" local="yes">relbreitwigner.h</includes>
+    <includes refid="d8/d8c/flatte_8h" local="yes">flatte.h</includes>
+    <includes refid="d1/db9/coefficient_8h" local="yes">coefficient.h</includes>
+    <includes refid="d2/d2a/parameter_8h" local="yes">parameter.h</includes>
+    <includes refid="d5/db6/amplitude_8h" local="yes">amplitude.h</includes>
+    <includes refid="da/da5/configfile_8h" local="yes">configfile.h</includes>
+    <includes refid="d6/d63/msgservice_8h" local="yes">msgservice.h</includes>
+    <incdepgraph>
+      <node id="14">
+        <label>iomanip</label>
+      </node>
+      <node id="16">
+        <label>amplitude.h</label>
+        <link refid="d5/db6/amplitude_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>msgservice.h</label>
+        <link refid="d6/d63/msgservice_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>cmath</label>
+      </node>
+      <node id="15">
+        <label>flatte.h</label>
+        <link refid="d8/d8c/flatte_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>string</label>
+      </node>
+      <node id="20">
+        <label>map</label>
+      </node>
+      <node id="21">
+        <label>regex</label>
+      </node>
+      <node id="7">
+        <label>parameter.h</label>
+        <link refid="d2/d2a/parameter_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>fstream</label>
+      </node>
+      <node id="8">
+        <label>random.h</label>
+        <link refid="d1/d79/random_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>random</label>
+      </node>
+      <node id="2">
+        <label>relbreitwigner.h</label>
+        <link refid="d8/d72/relbreitwigner_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>vector</label>
+      </node>
+      <node id="22">
+        <label>sstream</label>
+      </node>
+      <node id="11">
+        <label>phasespace.h</label>
+        <link refid="d3/d07/phasespace_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>coefficient.h</label>
+        <link refid="d1/db9/coefficient_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>iostream</label>
+      </node>
+      <node id="19">
+        <label>configfile.h</label>
+        <link refid="da/da5/configfile_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>resonance.h</label>
+        <link refid="d5/ddb/resonance_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>complex</label>
+      </node>
+      <node id="18">
+        <label>memory</label>
+      </node>
+      <node id="1">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h</label>
+        <link refid="dc/de4/configureamplitude_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="d0/dee/class_dalitz_model_1_1_configure_amplitude" prot="public">DalitzModel::ConfigureAmplitude</innerclass>
+    <innernamespace refid="dd/d06/namespace_dalitz_model">DalitzModel</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>DALITZMODEL_CONFIGUREAMPLITUDE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DALITZMODEL_CONFIGUREAMPLITUDE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>DalitzModel.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d8/d72/relbreitwigner_8h" kindref="compound">relbreitwigner.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d8/d8c/flatte_8h" kindref="compound">flatte.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d1/db9/coefficient_8h" kindref="compound">coefficient.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d2/d2a/parameter_8h" kindref="compound">parameter.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d5/db6/amplitude_8h" kindref="compound">amplitude.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="da/da5/configfile_8h" kindref="compound">configfile.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d6/d63/msgservice_8h" kindref="compound">msgservice.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="dd/d06/namespace_dalitz_model" kindref="compound">DalitzModel</ref><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="d0/dee/class_dalitz_model_1_1_configure_amplitude" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude" kindref="compound">ConfigureAmplitude</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><ref refid="d3/db2/class_dalitz_model_1_1_config_file" kindref="compound">ConfigFile</ref><sp/>m_config;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><ref refid="de/d55/class_dalitz_model_1_1_amplitude" kindref="compound">Amplitude</ref><sp/><sp/>m_amp;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>build_model_from_file();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>build_phasespace_from_file();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>build_resonance_from_file(std::string<sp/>name);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25" refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a8e9a39122b2cff6d1b08b05bdcf5c384" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a8e9a39122b2cff6d1b08b05bdcf5c384" kindref="member">ConfigureAmplitude</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26" refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1ab45aacabfb8a5e74bc706c2fc1f458a1" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1ab45aacabfb8a5e74bc706c2fc1f458a1" kindref="member">ConfigureAmplitude</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>cfgfile)<sp/>:</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>m_config(<sp/>cfgfile<sp/>)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="29" refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1ac0b82a56b3f1dd96294a956a60ddcf99" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1ac0b82a56b3f1dd96294a956a60ddcf99" kindref="member">~ConfigureAmplitude</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Operators.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>std::ostream&amp;<sp/><ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a6a4019c5ce1f754b3260bd8cd97bca9c" kindref="member">operator&lt;&lt;</ref>(std::ostream&amp;<sp/>os,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude" kindref="compound">ConfigureAmplitude</ref>&amp;<sp/>cfgamp);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>std::istream&amp;<sp/><ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a518222b3d69a4da8c814b7af9bfa4eda" kindref="member">operator&gt;&gt;</ref>(std::istream&amp;<sp/>is,<sp/><ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude" kindref="compound">ConfigureAmplitude</ref>&amp;<sp/>cfgamp);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1afc095a0c185275cc7bec4ebbbf9187ee" kindref="member">appendRBW</ref>(std::string<sp/>name);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a40399bd5cbe5c90edabcbcc9c24e3ecd" kindref="member">appendFlatte</ref>(std::string<sp/>name);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a566fb669f2159a6711dc8d6ce589c835" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="de/d55/class_dalitz_model_1_1_amplitude" kindref="compound">Amplitude</ref><sp/><ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a566fb669f2159a6711dc8d6ce589c835" kindref="member">operator()</ref>()<sp/>{<sp/>build_model_from_file();<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_amp;<sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ConfigureAmplitude::build_model_from_file()</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><ref refid="dd/d89/group__msg_service_1gaef41e8aaf4c60819b30faf396cdf4978" kindref="member">DEBUG</ref>(</highlight><highlight class="stringliteral">&quot;Building<sp/>model&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>build_phasespace_from_file();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/>std::stringstream<sp/>resos(<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>(</highlight><highlight class="stringliteral">&quot;resos&quot;</highlight><highlight class="normal">)<sp/>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>std::string<sp/>res;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<sp/>resos<sp/>&gt;&gt;<sp/>res<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>build_resonance_from_file(<sp/>res<sp/>);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ConfigureAmplitude::build_phasespace_from_file()</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><ref refid="dd/d89/group__msg_service_1gaef41e8aaf4c60819b30faf396cdf4978" kindref="member">DEBUG</ref>(</highlight><highlight class="stringliteral">&quot;Building<sp/>PhaseSpace&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>mM<sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;mMoth&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m1<sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;m1&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m2<sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;m2&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m3<sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;m3&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>PhaseSpace<sp/>ps(mM,m1,m2,m3);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/>m_amp.<ref refid="de/d55/class_dalitz_model_1_1_amplitude_1a693319e00688377c8568148467df4cb6" kindref="member">setPhaseSpace</ref>(<sp/>ps<sp/>);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ConfigureAmplitude::build_resonance_from_file(std::string<sp/>name)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><ref refid="dd/d89/group__msg_service_1gaef41e8aaf4c60819b30faf396cdf4978" kindref="member">DEBUG</ref>(</highlight><highlight class="stringliteral">&quot;Building<sp/>Resonances&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/>std::stringstream<sp/>res(<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>(name)<sp/>);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>std::string<sp/>type;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/>res<sp/>&gt;&gt;<sp/>type;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;RBW&quot;</highlight><highlight class="normal"><sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1afc095a0c185275cc7bec4ebbbf9187ee" kindref="member">appendRBW</ref>(<sp/>name<sp/>);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;CC&quot;</highlight><highlight class="normal"><sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a40399bd5cbe5c90edabcbcc9c24e3ecd" kindref="member">appendFlatte</ref>(<sp/>name<sp/>);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d89/group__msg_service_1gaee615a0738ce19e7f1c33624f63489de" kindref="member">WARNING</ref>(</highlight><highlight class="stringliteral">&quot;Unrecognised<sp/>type<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>type);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1afc095a0c185275cc7bec4ebbbf9187ee" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1afc095a0c185275cc7bec4ebbbf9187ee" kindref="member">ConfigureAmplitude::appendRBW</ref>(std::string<sp/>name)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><ref refid="dd/d89/group__msg_service_1gaef41e8aaf4c60819b30faf396cdf4978" kindref="member">DEBUG</ref>(m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>(name));</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/>std::stringstream<sp/>res(<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>(name)<sp/>);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>resoA,<sp/>resoB,<sp/>l;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Parameters.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/>std::string<sp/>type,<sp/>mass,<sp/>width,<sp/>radius,<sp/>coeff1,<sp/>coeff2;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>res<sp/>&gt;&gt;<sp/>type<sp/>&gt;&gt;<sp/>resoA<sp/>&gt;&gt;<sp/>resoB<sp/>&gt;&gt;<sp/>l</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&gt;&gt;<sp/>mass<sp/>&gt;&gt;<sp/>width<sp/>&gt;&gt;<sp/>radius</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&gt;&gt;<sp/>coeff1<sp/>&gt;&gt;<sp/>coeff2;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>m<sp/><sp/><sp/><sp/><sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;<ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&gt;(mass);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>w<sp/><sp/><sp/><sp/><sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;<ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&gt;(width);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>r<sp/><sp/><sp/><sp/><sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;<ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&gt;(radius);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>c1<sp/><sp/><sp/><sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;<ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&gt;(coeff1);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>c2<sp/><sp/><sp/><sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;<ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&gt;(coeff2);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref><sp/>c(<sp/>c1<sp/>,<sp/>c2<sp/>);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><ref refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner" kindref="compound">LineShape::RelBreitWigner</ref>*<sp/>comp<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner" kindref="compound">LineShape::RelBreitWigner</ref>(name,c,resoA,resoB,m,w,l,r);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/>m_amp.<ref refid="de/d55/class_dalitz_model_1_1_amplitude_1a5362fd57410b57ba1a2b7e81219d6035" kindref="member">addResonance</ref>(<sp/>comp<sp/>);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a40399bd5cbe5c90edabcbcc9c24e3ecd" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a40399bd5cbe5c90edabcbcc9c24e3ecd" kindref="member">ConfigureAmplitude::appendFlatte</ref>(std::string<sp/>name)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/>std::stringstream<sp/>res(<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>(name)<sp/>);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>resoA,<sp/>resoB,<sp/>l;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Parameters.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/>std::string<sp/>type,<sp/>mass,<sp/>width,<sp/>radius,<sp/>coeff1,<sp/>coeff2,<sp/>g1name,<sp/>g2name,<sp/>m11name,<sp/>m12name,<sp/>m21name,<sp/>m22name;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/>res<sp/>&gt;&gt;<sp/>type<sp/>&gt;&gt;<sp/>resoA<sp/>&gt;&gt;<sp/>resoB<sp/>&gt;&gt;<sp/>l</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&gt;&gt;<sp/>mass<sp/>&gt;&gt;<sp/>width<sp/>&gt;&gt;<sp/>radius</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&gt;&gt;<sp/>coeff1<sp/>&gt;&gt;<sp/>coeff2</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&gt;&gt;<sp/>g1name<sp/>&gt;&gt;<sp/>g2name<sp/>&gt;&gt;<sp/>m11name<sp/>&gt;&gt;<sp/>m12name</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&gt;&gt;<sp/>m21name<sp/>&gt;&gt;<sp/>m22name;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>m<sp/><sp/><sp/><sp/><sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;<ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&gt;(mass);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>w<sp/><sp/><sp/><sp/><sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;<ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&gt;(width);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>r<sp/><sp/><sp/><sp/><sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;<ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&gt;(radius);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>c1<sp/><sp/><sp/><sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;<ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&gt;(coeff1);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>c2<sp/><sp/><sp/><sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;<ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&gt;(coeff2);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>g1<sp/><sp/><sp/><sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;<ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&gt;(g1name);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>g2<sp/><sp/><sp/><sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;<ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&gt;(g2name);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>m11<sp/><sp/><sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;<ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&gt;(m11name);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>m12<sp/><sp/><sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;<ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&gt;(m21name);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>m21<sp/><sp/><sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;<ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&gt;(m21name);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>m22<sp/><sp/><sp/>=<sp/>m_config.<ref refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" kindref="member">get</ref>&lt;<ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&gt;(m22name);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref><sp/>c(<sp/>c1<sp/>,<sp/>c2<sp/>);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte" kindref="compound">LineShape::Flatte</ref>*<sp/>comp<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte" kindref="compound">LineShape::Flatte</ref>(name,c,resoA,resoB,m,w,l,r,g1,g2,m11,m12,m21,m22);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/>m_amp.<ref refid="de/d55/class_dalitz_model_1_1_amplitude_1a5362fd57410b57ba1a2b7e81219d6035" kindref="member">addResonance</ref>(comp);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="comment">//<sp/>I/O<sp/>operators.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="dd/d06/namespace_dalitz_model_1a015759bbdd02c4a02150fc9dece60fb8" refkind="member"><highlight class="normal">std::ostream&amp;<sp/><ref refid="dd/d06/namespace_dalitz_model_1a70d829ee01855e911a46fc8048feaa8c" kindref="member">operator&lt;&lt;</ref>(std::ostream&amp;<sp/>os,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude" kindref="compound">ConfigureAmplitude</ref>&amp;<sp/>cfgamp)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>os;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="dd/d06/namespace_dalitz_model_1a2f7418166b2bca5906da6fba8d493b54" refkind="member"><highlight class="normal">std::istream&amp;<sp/><ref refid="dd/d06/namespace_dalitz_model_1ac4f0875a4ce01eeb87f6098e4fffaf65" kindref="member">operator&gt;&gt;</ref>(std::istream&amp;<sp/>is,<sp/><ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude" kindref="compound">ConfigureAmplitude</ref>&amp;<sp/>cfgamp)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/>is<sp/>&gt;&gt;<sp/>cfgamp.m_config;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>is;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h"/>
+  </compounddef>
+</doxygen>

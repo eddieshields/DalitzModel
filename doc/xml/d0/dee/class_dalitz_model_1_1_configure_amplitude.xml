@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="d0/dee/class_dalitz_model_1_1_configure_amplitude" kind="class" language="C++" prot="public">
+    <compoundname>DalitzModel::ConfigureAmplitude</compoundname>
+    <includes refid="dc/de4/configureamplitude_8h" local="no">configureamplitude.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a30faddc19cc8159a0b51f10b9abbce94" prot="private" static="no" mutable="no">
+        <type><ref refid="d3/db2/class_dalitz_model_1_1_config_file" kindref="compound">ConfigFile</ref></type>
+        <definition>ConfigFile DalitzModel::ConfigureAmplitude::m_config</definition>
+        <argsstring></argsstring>
+        <name>m_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" line="18" column="14" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dee/class_dalitz_model_1_1_configure_amplitude_1ad5126b3bba40197c23c66cba41492c5b" prot="private" static="no" mutable="no">
+        <type><ref refid="de/d55/class_dalitz_model_1_1_amplitude" kindref="compound">Amplitude</ref></type>
+        <definition>Amplitude DalitzModel::ConfigureAmplitude::m_amp</definition>
+        <argsstring></argsstring>
+        <name>m_amp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" line="19" column="14" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a39610ceb7db84981b7c41a196eaf7922" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DalitzModel::ConfigureAmplitude::build_model_from_file</definition>
+        <argsstring>()</argsstring>
+        <name>build_model_from_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" line="21" column="8" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" bodystart="41" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a8617519801eb310150d6e102e4274d4f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DalitzModel::ConfigureAmplitude::build_phasespace_from_file</definition>
+        <argsstring>()</argsstring>
+        <name>build_phasespace_from_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" line="22" column="8" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" bodystart="53" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a717bcd082990f538d7afe59692fc20a7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DalitzModel::ConfigureAmplitude::build_resonance_from_file</definition>
+        <argsstring>(std::string name)</argsstring>
+        <name>build_resonance_from_file</name>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" line="23" column="8" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" bodystart="64" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a8e9a39122b2cff6d1b08b05bdcf5c384" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DalitzModel::ConfigureAmplitude::ConfigureAmplitude</definition>
+        <argsstring>()=default</argsstring>
+        <name>ConfigureAmplitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" line="25" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/dee/class_dalitz_model_1_1_configure_amplitude_1ab45aacabfb8a5e74bc706c2fc1f458a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DalitzModel::ConfigureAmplitude::ConfigureAmplitude</definition>
+        <argsstring>(const std::string cfgfile)</argsstring>
+        <name>ConfigureAmplitude</name>
+        <param>
+          <type>const std::string</type>
+          <declname>cfgfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" line="26" column="3" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/dee/class_dalitz_model_1_1_configure_amplitude_1ac0b82a56b3f1dd96294a956a60ddcf99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual DalitzModel::ConfigureAmplitude::~ConfigureAmplitude</definition>
+        <argsstring>()</argsstring>
+        <name>~ConfigureAmplitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" line="29" column="11" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/dee/class_dalitz_model_1_1_configure_amplitude_1afc095a0c185275cc7bec4ebbbf9187ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DalitzModel::ConfigureAmplitude::appendRBW</definition>
+        <argsstring>(std::string name)</argsstring>
+        <name>appendRBW</name>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" line="35" column="8" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" bodystart="81" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a40399bd5cbe5c90edabcbcc9c24e3ecd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DalitzModel::ConfigureAmplitude::appendFlatte</definition>
+        <argsstring>(std::string name)</argsstring>
+        <name>appendFlatte</name>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" line="36" column="8" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" bodystart="105" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a566fb669f2159a6711dc8d6ce589c835" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="de/d55/class_dalitz_model_1_1_amplitude" kindref="compound">Amplitude</ref></type>
+        <definition>Amplitude DalitzModel::ConfigureAmplitude::operator()</definition>
+        <argsstring>()</argsstring>
+        <name>operator()</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" line="38" column="13" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a6a4019c5ce1f754b3260bd8cd97bca9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, const ConfigureAmplitude &amp;cfgamp)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude" kindref="compound">ConfigureAmplitude</ref> &amp;</type>
+          <declname>cfgamp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" line="32" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" bodystart="137" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="friend" id="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a518222b3d69a4da8c814b7af9bfa4eda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::istream &amp;</type>
+        <definition>std::istream&amp; operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;is, ConfigureAmplitude &amp;cfgamp)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/dee/class_dalitz_model_1_1_configure_amplitude" kindref="compound">ConfigureAmplitude</ref> &amp;</type>
+          <declname>cfgamp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" line="33" column="23" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" bodystart="142" bodyend="146"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" line="15" column="1" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h" bodystart="16" bodyend="39"/>
+    <listofallmembers>
+      <member refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a40399bd5cbe5c90edabcbcc9c24e3ecd" prot="public" virt="non-virtual"><scope>DalitzModel::ConfigureAmplitude</scope><name>appendFlatte</name></member>
+      <member refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1afc095a0c185275cc7bec4ebbbf9187ee" prot="public" virt="non-virtual"><scope>DalitzModel::ConfigureAmplitude</scope><name>appendRBW</name></member>
+      <member refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a39610ceb7db84981b7c41a196eaf7922" prot="private" virt="non-virtual"><scope>DalitzModel::ConfigureAmplitude</scope><name>build_model_from_file</name></member>
+      <member refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a8617519801eb310150d6e102e4274d4f" prot="private" virt="non-virtual"><scope>DalitzModel::ConfigureAmplitude</scope><name>build_phasespace_from_file</name></member>
+      <member refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a717bcd082990f538d7afe59692fc20a7" prot="private" virt="non-virtual"><scope>DalitzModel::ConfigureAmplitude</scope><name>build_resonance_from_file</name></member>
+      <member refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a8e9a39122b2cff6d1b08b05bdcf5c384" prot="public" virt="non-virtual"><scope>DalitzModel::ConfigureAmplitude</scope><name>ConfigureAmplitude</name></member>
+      <member refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1ab45aacabfb8a5e74bc706c2fc1f458a1" prot="public" virt="non-virtual"><scope>DalitzModel::ConfigureAmplitude</scope><name>ConfigureAmplitude</name></member>
+      <member refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1ad5126b3bba40197c23c66cba41492c5b" prot="private" virt="non-virtual"><scope>DalitzModel::ConfigureAmplitude</scope><name>m_amp</name></member>
+      <member refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a30faddc19cc8159a0b51f10b9abbce94" prot="private" virt="non-virtual"><scope>DalitzModel::ConfigureAmplitude</scope><name>m_config</name></member>
+      <member refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a566fb669f2159a6711dc8d6ce589c835" prot="public" virt="non-virtual"><scope>DalitzModel::ConfigureAmplitude</scope><name>operator()</name></member>
+      <member refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a6a4019c5ce1f754b3260bd8cd97bca9c" prot="public" virt="non-virtual"><scope>DalitzModel::ConfigureAmplitude</scope><name>operator&lt;&lt;</name></member>
+      <member refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1a518222b3d69a4da8c814b7af9bfa4eda" prot="public" virt="non-virtual"><scope>DalitzModel::ConfigureAmplitude</scope><name>operator&gt;&gt;</name></member>
+      <member refid="d0/dee/class_dalitz_model_1_1_configure_amplitude_1ac0b82a56b3f1dd96294a956a60ddcf99" prot="public" virt="virtual"><scope>DalitzModel::ConfigureAmplitude</scope><name>~ConfigureAmplitude</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

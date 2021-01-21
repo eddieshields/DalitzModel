@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="d4/d44/namespace_dalitz_model_1_1_line_shape" kind="namespace" language="C++">
+    <compoundname>DalitzModel::LineShape</compoundname>
+    <innerclass refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte" prot="public">DalitzModel::LineShape::Flatte</innerclass>
+    <innerclass refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner" prot="public">DalitzModel::LineShape::RelBreitWigner</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="d4/d44/namespace_dalitz_model_1_1_line_shape_1a8f80ff2551e06bdb6463d7bdc725a7c4" prot="public" static="no">
+        <type>std::complex&lt; double &gt;</type>
+        <definition>typedef std::complex&lt; double &gt; DalitzModel::LineShape::complex_t</definition>
+        <argsstring></argsstring>
+        <name>complex_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/lineshapes/flatte.h" line="10" column="1" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/lineshapes/flatte.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/lineshapes/flatte.h" line="8" column="3"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="d7/dc4/class_dalitz_model_1_1_dalitz_plot" kind="class" language="C++" prot="public">
+    <compoundname>DalitzModel::DalitzPlot</compoundname>
+    <includes refid="d1/daf/dalitzplot_8h" local="no">dalitzplot.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1ab69be967b3138e1d5708b843f78d8918" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string DalitzModel::DalitzPlot::m_unit</definition>
+        <argsstring></argsstring>
+        <name>m_unit</name>
+        <initializer>= {std::string(&quot;MeV/#it{c}^{2}&quot;)}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" line="64" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1ab963f45d74c0422d07743b91f09168a2" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string DalitzModel::DalitzPlot::m_xaxis</definition>
+        <argsstring></argsstring>
+        <name>m_xaxis</name>
+        <initializer>= {std::string(&quot;m^{2}(K_{S}^{0}K^{+})&quot;)}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" line="65" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a0351ea35f3fa272da96aed05291a88b1" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string DalitzModel::DalitzPlot::m_yaxis</definition>
+        <argsstring></argsstring>
+        <name>m_yaxis</name>
+        <initializer>= {std::string(&quot;m^{2}(K_{S}^{0}K^{-})&quot;)}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" line="66" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a486d5b5072cbaa10c4d62247b5342974" prot="private" static="no" mutable="no">
+        <type><ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref></type>
+        <definition>PhaseSpace DalitzModel::DalitzPlot::m_ps</definition>
+        <argsstring></argsstring>
+        <name>m_ps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" line="68" column="14" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a8a1d495751a73bee8eacd217304a6806" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DalitzModel::DalitzPlot::DalitzPlot</definition>
+        <argsstring>()=default</argsstring>
+        <name>DalitzPlot</name>
+        <briefdescription>
+<para>Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" line="34" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a337000f4b1ca34cb28fd8036002f37f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DalitzModel::DalitzPlot::DalitzPlot</definition>
+        <argsstring>(PhaseSpace &amp;ps)</argsstring>
+        <name>DalitzPlot</name>
+        <param>
+          <type><ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref> &amp;</type>
+          <declname>ps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" line="35" column="3" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a8324a1b029fdcef671463a0d46f388e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DalitzModel::DalitzPlot::DalitzPlot</definition>
+        <argsstring>(const double &amp;mMother, const double &amp;m1, const double &amp;m2, const double &amp;m3)</argsstring>
+        <name>DalitzPlot</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mMother</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>m2</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>m3</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" line="39" column="3" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a9e3195ac4465e3a8b04d4733f5a90cfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual DalitzModel::DalitzPlot::~DalitzPlot</definition>
+        <argsstring>()</argsstring>
+        <name>~DalitzPlot</name>
+        <briefdescription>
+<para>Destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" line="43" column="11" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a7dd654907fee5283e817360931af95f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TCanvas *</type>
+        <definition>TCanvas * DalitzModel::DalitzPlot::plot</definition>
+        <argsstring>(TH2 *his)</argsstring>
+        <name>plot</name>
+        <param>
+          <type>TH2 *</type>
+          <declname>his</declname>
+        </param>
+        <briefdescription>
+<para>Returns canvas with Dalitz plot. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" line="46" column="11" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" bodystart="71" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a8043a8720fefda1830f33d7cda246049" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TCanvas *</type>
+        <definition>TCanvas * DalitzModel::DalitzPlot::plotProjection</definition>
+        <argsstring>(TH2 *his, std::string var=&quot;x&quot;)</argsstring>
+        <name>plotProjection</name>
+        <param>
+          <type>TH2 *</type>
+          <declname>his</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>var</declname>
+          <defval>&quot;x&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Returns projection of Dalitz plot. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" line="48" column="11" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" bodystart="91" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a63744f93a7a56ea50444f824e28d4614" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TCanvas *</type>
+        <definition>TCanvas * DalitzModel::DalitzPlot::plotProjection</definition>
+        <argsstring>(std::vector&lt; TH2 * &gt; hiss, std::string var=&quot;x&quot;)</argsstring>
+        <name>plotProjection</name>
+        <param>
+          <type>std::vector&lt; TH2 * &gt;</type>
+          <declname>hiss</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>var</declname>
+          <defval>&quot;x&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Returns projections of multiple dalitz plots. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Takes vector of histograms as input. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" line="50" column="11" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" bodystart="115" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a8c5623b68b39f2012cde07af5cff2637" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DalitzModel::DalitzPlot::setUnit</definition>
+        <argsstring>(std::string unit)</argsstring>
+        <name>setUnit</name>
+        <param>
+          <type>std::string</type>
+          <declname>unit</declname>
+        </param>
+        <briefdescription>
+<para>Set unit of variables. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" line="53" column="8" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1aaccd4c501f1bec5415d85447bcee4257" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DalitzModel::DalitzPlot::setXtitle</definition>
+        <argsstring>(std::string xaxis)</argsstring>
+        <name>setXtitle</name>
+        <param>
+          <type>std::string</type>
+          <declname>xaxis</declname>
+        </param>
+        <briefdescription>
+<para>Set X-axis title. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" line="55" column="8" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a49bf6b523d2ce8b9253345540c7cccf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DalitzModel::DalitzPlot::setYtitle</definition>
+        <argsstring>(std::string yaxis)</argsstring>
+        <name>setYtitle</name>
+        <param>
+          <type>std::string</type>
+          <declname>yaxis</declname>
+        </param>
+        <briefdescription>
+<para>Set Y-axis title. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" line="57" column="8" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a37e910c1f8563af25a5eb346f13b6e53" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DalitzModel::DalitzPlot::decorate</definition>
+        <argsstring>(TH2 *his)</argsstring>
+        <name>decorate</name>
+        <param>
+          <type>TH2 *</type>
+          <declname>his</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" line="60" column="8" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" bodystart="143" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1ac8241afc342377b5f341ad470b824c8c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DalitzModel::DalitzPlot::setBoundaryOptions</definition>
+        <argsstring>(TGraph *boundary)</argsstring>
+        <name>setBoundaryOptions</name>
+        <param>
+          <type>TGraph *</type>
+          <declname>boundary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" line="61" column="8" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" bodystart="149" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1afa9e97509a73abcb4b038f45ac5da391" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TGraph *</type>
+        <definition>TGraph * DalitzModel::DalitzPlot::setBoundary</definition>
+        <argsstring>(const int &amp;boundary_points=1000)</argsstring>
+        <name>setBoundary</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>boundary_points</declname>
+          <defval>1000</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" line="62" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" bodystart="158" bodyend="186"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot" kindref="compound">DalitzPlot</ref> class used to plots and projections of a Dalitz Plot. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Given the masses of the of the particles invloved in the decay, this class provides methods for plotting an amplitude models dalitz plot and projections of it. Further methods can be used to configure the plots.</para>
+<para><simplesect kind="author"><para>Edward Shields </para>
+</simplesect>
+<simplesect kind="date"><para>05/11/2020 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" line="30" column="1" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h" bodystart="31" bodyend="69"/>
+    <listofallmembers>
+      <member refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a8a1d495751a73bee8eacd217304a6806" prot="public" virt="non-virtual"><scope>DalitzModel::DalitzPlot</scope><name>DalitzPlot</name></member>
+      <member refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a337000f4b1ca34cb28fd8036002f37f8" prot="public" virt="non-virtual"><scope>DalitzModel::DalitzPlot</scope><name>DalitzPlot</name></member>
+      <member refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a8324a1b029fdcef671463a0d46f388e6" prot="public" virt="non-virtual"><scope>DalitzModel::DalitzPlot</scope><name>DalitzPlot</name></member>
+      <member refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a37e910c1f8563af25a5eb346f13b6e53" prot="private" virt="non-virtual"><scope>DalitzModel::DalitzPlot</scope><name>decorate</name></member>
+      <member refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a486d5b5072cbaa10c4d62247b5342974" prot="private" virt="non-virtual"><scope>DalitzModel::DalitzPlot</scope><name>m_ps</name></member>
+      <member refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1ab69be967b3138e1d5708b843f78d8918" prot="private" virt="non-virtual"><scope>DalitzModel::DalitzPlot</scope><name>m_unit</name></member>
+      <member refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1ab963f45d74c0422d07743b91f09168a2" prot="private" virt="non-virtual"><scope>DalitzModel::DalitzPlot</scope><name>m_xaxis</name></member>
+      <member refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a0351ea35f3fa272da96aed05291a88b1" prot="private" virt="non-virtual"><scope>DalitzModel::DalitzPlot</scope><name>m_yaxis</name></member>
+      <member refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a7dd654907fee5283e817360931af95f9" prot="public" virt="non-virtual"><scope>DalitzModel::DalitzPlot</scope><name>plot</name></member>
+      <member refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a8043a8720fefda1830f33d7cda246049" prot="public" virt="non-virtual"><scope>DalitzModel::DalitzPlot</scope><name>plotProjection</name></member>
+      <member refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a63744f93a7a56ea50444f824e28d4614" prot="public" virt="non-virtual"><scope>DalitzModel::DalitzPlot</scope><name>plotProjection</name></member>
+      <member refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1afa9e97509a73abcb4b038f45ac5da391" prot="private" virt="non-virtual"><scope>DalitzModel::DalitzPlot</scope><name>setBoundary</name></member>
+      <member refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1ac8241afc342377b5f341ad470b824c8c" prot="private" virt="non-virtual"><scope>DalitzModel::DalitzPlot</scope><name>setBoundaryOptions</name></member>
+      <member refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a8c5623b68b39f2012cde07af5cff2637" prot="public" virt="non-virtual"><scope>DalitzModel::DalitzPlot</scope><name>setUnit</name></member>
+      <member refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1aaccd4c501f1bec5415d85447bcee4257" prot="public" virt="non-virtual"><scope>DalitzModel::DalitzPlot</scope><name>setXtitle</name></member>
+      <member refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a49bf6b523d2ce8b9253345540c7cccf8" prot="public" virt="non-virtual"><scope>DalitzModel::DalitzPlot</scope><name>setYtitle</name></member>
+      <member refid="d7/dc4/class_dalitz_model_1_1_dalitz_plot_1a9e3195ac4465e3a8b04d4733f5a90cfc" prot="public" virt="virtual"><scope>DalitzModel::DalitzPlot</scope><name>~DalitzPlot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

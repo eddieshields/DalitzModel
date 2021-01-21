@@ -1,0 +1,1018 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="d7/d43/class_dalitz_model_1_1_parameter" kind="class" language="C++" prot="public">
+    <compoundname>DalitzModel::Parameter</compoundname>
+    <includes refid="d2/d2a/parameter_8h" local="no">parameter.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d7/d43/class_dalitz_model_1_1_parameter_1abeac9805faf8ce40592399f6acb741e8" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DalitzModel::Parameter::m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <initializer>= {0.}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="18" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d43/class_dalitz_model_1_1_parameter_1a657a79ef78ed12989e7897057cb33a91" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DalitzModel::Parameter::m_error</definition>
+        <argsstring></argsstring>
+        <name>m_error</name>
+        <initializer>= {0.}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="19" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d7/d43/class_dalitz_model_1_1_parameter_1a4bbc6ac96e42a2d01c107adde673cfe9" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DalitzModel::Parameter::m_state</definition>
+        <argsstring></argsstring>
+        <name>m_state</name>
+        <initializer>= {0.}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="22" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d43/class_dalitz_model_1_1_parameter_1ab5e3a96d9cf3f1309341a1c48e540adc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DalitzModel::Parameter::Parameter</definition>
+        <argsstring>()=default</argsstring>
+        <name>Parameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="23" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d43/class_dalitz_model_1_1_parameter_1a145c17d9f2e868c6dba5d1cf323478d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DalitzModel::Parameter::Parameter</definition>
+        <argsstring>(const double &amp;val, const double &amp;err=0)</argsstring>
+        <name>Parameter</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>err</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="24" column="3" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="24" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d43/class_dalitz_model_1_1_parameter_1a1bfb0137a98aa711fd2824eeafd38137" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual DalitzModel::Parameter::~Parameter</definition>
+        <argsstring>()</argsstring>
+        <name>~Parameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="30" column="11" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d43/class_dalitz_model_1_1_parameter_1a85b0cf507ffc152b164ec2514378f9f5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double DalitzModel::Parameter::value</definition>
+        <argsstring>() const</argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="32" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d43/class_dalitz_model_1_1_parameter_1a373c03c383c31d28b2cb141a395be5f9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double DalitzModel::Parameter::error</definition>
+        <argsstring>() const</argsstring>
+        <name>error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="33" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d43/class_dalitz_model_1_1_parameter_1aa6f4079b128b43b132c42a393d07f066" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DalitzModel::Parameter::SetValue</definition>
+        <argsstring>(const double &amp;value)</argsstring>
+        <name>SetValue</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="35" column="8" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d43/class_dalitz_model_1_1_parameter_1a960c9cba40e212be23278a4fe86f3c10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DalitzModel::Parameter::SetError</definition>
+        <argsstring>(const double &amp;error)</argsstring>
+        <name>SetError</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="36" column="8" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a6d17d15e63085fa7888fed5c7853963f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, const Parameter &amp;param)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="39" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="88" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a2d7d43c7819c775efdeaf274803f2ab8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::istream &amp;</type>
+        <definition>std::istream&amp; operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;is, Parameter &amp;param)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="40" column="23" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="94" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1ac092cedd0ebdcec20dd9afe18fd8d747" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator+</definition>
+        <argsstring>(const Parameter &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="44" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a39ce268b7d3366df46ffc674d94821db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator-</definition>
+        <argsstring>(const Parameter &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="45" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a3fa610c79509a457ff35d3dfa16f7eb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator*</definition>
+        <argsstring>(const Parameter &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="46" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1abccdd23e973543f8c48825dd9c6bf3c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator/</definition>
+        <argsstring>(const Parameter &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="47" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="120" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a75528577013359c7aa4cba206711d572" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator+</definition>
+        <argsstring>(const Parameter &amp;left, const int &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="50" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a6022c8428c03b2c236a8e94b07908990" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator-</definition>
+        <argsstring>(const Parameter &amp;left, const int &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="51" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="130" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a4bf50b8fbe440f5079736d208ea83b5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator*</definition>
+        <argsstring>(const Parameter &amp;left, const int &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="52" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="135" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1ab1489eecf378c4ab7e321d63133c37a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator/</definition>
+        <argsstring>(const Parameter &amp;left, const int &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="53" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="140" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a9e60be61a48ad89bc5c728fd714acf61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator+</definition>
+        <argsstring>(const Parameter &amp;left, const double &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="54" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="145" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a8e1f8434068f4f02bb15ad0892267c33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator-</definition>
+        <argsstring>(const Parameter &amp;left, const double &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="55" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="150" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1ac8410ebe35efdee88145ee266f127917" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator*</definition>
+        <argsstring>(const Parameter &amp;left, const double &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="56" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="155" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a8b08fc5bb6766a44f31e89ce2b0adca0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator/</definition>
+        <argsstring>(const Parameter &amp;left, const double &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="57" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="160" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1ac3434afb94157b145da4ae97bd91bfff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator+</definition>
+        <argsstring>(const Parameter &amp;left, const float &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="58" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="165" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a7ce5c8bcc4eb40abf37b25b307208c3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator-</definition>
+        <argsstring>(const Parameter &amp;left, const float &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="59" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="170" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1ae596c1560a36eee9d4851c4e9b76de28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator*</definition>
+        <argsstring>(const Parameter &amp;left, const float &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="60" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="175" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a752b2f3762ef49473ff84435828d6c4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator/</definition>
+        <argsstring>(const Parameter &amp;left, const float &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="61" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="180" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a00dc4acd45d2a7e540bbc16cb67b7ddc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator+</definition>
+        <argsstring>(const Parameter &amp;left, const complex_t &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="62" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="185" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a9ca288406cc0d06edfb9a117ba91f487" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator-</definition>
+        <argsstring>(const Parameter &amp;left, const complex_t &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="63" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="190" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a41e9149dfc70f249ed3e0797eb8d2678" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator*</definition>
+        <argsstring>(const Parameter &amp;left, const complex_t &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="64" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="195" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a3d23de07448ffc7f110a45688ec497ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator/</definition>
+        <argsstring>(const Parameter &amp;left, const complex_t &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="65" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="200" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a245488f3130d8cd0e365d5373bb38676" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator+</definition>
+        <argsstring>(const int &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="68" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="205" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a525cd7129d680423afeb71f729c89df0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator-</definition>
+        <argsstring>(const int &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="69" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="210" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a85b6ce663d9a13277940346708229b1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator*</definition>
+        <argsstring>(const int &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="70" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="215" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a244aa1fb9ca23196a0ee89564117e7d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator/</definition>
+        <argsstring>(const int &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="71" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="220" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a6799e40f797895d438062ce231cb83d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator+</definition>
+        <argsstring>(const double &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="72" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="225" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a933b48bf40f50e13780ab4e8644e2524" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator-</definition>
+        <argsstring>(const double &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="73" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="230" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a83875061078eff320a69234507949afc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator*</definition>
+        <argsstring>(const double &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="74" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="235" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1ac2cf4e88c623231026e5a775e0a20cdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator/</definition>
+        <argsstring>(const double &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="75" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="240" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a03cf130a92c919184e9492aa3901772d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator+</definition>
+        <argsstring>(const float &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="76" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="245" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1acdc9cbb80e888b13e3317a5a789d347e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator-</definition>
+        <argsstring>(const float &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="77" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="250" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a24c11d8e0115ab107b882bd3a8dbcba2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator*</definition>
+        <argsstring>(const float &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="78" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="255" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a3ccf584b30e0bd6a33082e0a7740d8bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const double</type>
+        <definition>const double operator/</definition>
+        <argsstring>(const float &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="79" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="260" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a97f066e8aa8861e6fae2bb5ab8d361d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator+</definition>
+        <argsstring>(const complex_t &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="80" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="265" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1aaecb5e8134728dc0d351b6c7cbeb65d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator-</definition>
+        <argsstring>(const complex_t &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="81" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="269" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1a58956e3bf75ca676408f583b657ff3d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator*</definition>
+        <argsstring>(const complex_t &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="82" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="273" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="friend" id="d7/d43/class_dalitz_model_1_1_parameter_1abe1a8c5fe7bd9d703ea5c61b3f17b721" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator/</definition>
+        <argsstring>(const complex_t &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="83" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="277" bodyend="280"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" line="15" column="1" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h" bodystart="16" bodyend="84"/>
+    <listofallmembers>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a373c03c383c31d28b2cb141a395be5f9" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>error</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a657a79ef78ed12989e7897057cb33a91" prot="private" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>m_error</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a4bbc6ac96e42a2d01c107adde673cfe9" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>m_state</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1abeac9805faf8ce40592399f6acb741e8" prot="private" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>m_value</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a3fa610c79509a457ff35d3dfa16f7eb0" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator*</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a4bf50b8fbe440f5079736d208ea83b5c" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator*</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1ac8410ebe35efdee88145ee266f127917" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator*</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1ae596c1560a36eee9d4851c4e9b76de28" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator*</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a41e9149dfc70f249ed3e0797eb8d2678" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator*</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a85b6ce663d9a13277940346708229b1d" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator*</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a83875061078eff320a69234507949afc" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator*</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a24c11d8e0115ab107b882bd3a8dbcba2" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator*</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a58956e3bf75ca676408f583b657ff3d8" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator*</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1ac092cedd0ebdcec20dd9afe18fd8d747" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator+</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a75528577013359c7aa4cba206711d572" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator+</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a9e60be61a48ad89bc5c728fd714acf61" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator+</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1ac3434afb94157b145da4ae97bd91bfff" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator+</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a00dc4acd45d2a7e540bbc16cb67b7ddc" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator+</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a245488f3130d8cd0e365d5373bb38676" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator+</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a6799e40f797895d438062ce231cb83d8" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator+</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a03cf130a92c919184e9492aa3901772d" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator+</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a97f066e8aa8861e6fae2bb5ab8d361d3" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator+</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a39ce268b7d3366df46ffc674d94821db" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator-</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a6022c8428c03b2c236a8e94b07908990" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator-</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a8e1f8434068f4f02bb15ad0892267c33" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator-</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a7ce5c8bcc4eb40abf37b25b307208c3e" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator-</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a9ca288406cc0d06edfb9a117ba91f487" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator-</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a525cd7129d680423afeb71f729c89df0" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator-</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a933b48bf40f50e13780ab4e8644e2524" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator-</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1acdc9cbb80e888b13e3317a5a789d347e" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator-</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1aaecb5e8134728dc0d351b6c7cbeb65d6" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator-</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1abccdd23e973543f8c48825dd9c6bf3c4" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator/</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1ab1489eecf378c4ab7e321d63133c37a0" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator/</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a8b08fc5bb6766a44f31e89ce2b0adca0" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator/</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a752b2f3762ef49473ff84435828d6c4d" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator/</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a3d23de07448ffc7f110a45688ec497ba" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator/</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a244aa1fb9ca23196a0ee89564117e7d0" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator/</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1ac2cf4e88c623231026e5a775e0a20cdd" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator/</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a3ccf584b30e0bd6a33082e0a7740d8bc" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator/</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1abe1a8c5fe7bd9d703ea5c61b3f17b721" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator/</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a6d17d15e63085fa7888fed5c7853963f" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator&lt;&lt;</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a2d7d43c7819c775efdeaf274803f2ab8" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>operator&gt;&gt;</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1ab5e3a96d9cf3f1309341a1c48e540adc" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>Parameter</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a145c17d9f2e868c6dba5d1cf323478d7" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>Parameter</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a960c9cba40e212be23278a4fe86f3c10" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>SetError</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1aa6f4079b128b43b132c42a393d07f066" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>SetValue</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a85b0cf507ffc152b164ec2514378f9f5" prot="public" virt="non-virtual"><scope>DalitzModel::Parameter</scope><name>value</name></member>
+      <member refid="d7/d43/class_dalitz_model_1_1_parameter_1a1bfb0137a98aa711fd2824eeafd38137" prot="public" virt="virtual"><scope>DalitzModel::Parameter</scope><name>~Parameter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

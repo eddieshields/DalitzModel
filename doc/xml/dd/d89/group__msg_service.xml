@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dd/d89/group__msg_service" kind="group">
+    <compoundname>msgService</compoundname>
+    <title>Messaging and logging</title>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="dd/d89/group__msg_service_1gaef41e8aaf4c60819b30faf396cdf4978" prot="public" static="no">
+        <name>DEBUG</name>
+        <param><defname>X</defname></param>
+        <briefdescription>
+<para>Used for printing verbose debugging messages, only if DEBUGLEVEL is defined. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" line="53" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dd/d89/group__msg_service_1gac0e7ce4f5ccb0f16d1103330cce71abc" prot="public" static="no">
+        <name>INFO</name>
+        <param><defname>X</defname></param>
+        <initializer>  std::cout &lt;&lt; &quot;\033[2;34m&quot; &lt;&lt; std::left &lt;&lt; std::setw( <ref refid="d6/d63/msgservice_8h_1ad4156ce4b39601c9120a655c2ee6442f" kindref="member">FCNNAMELENGTH</ref> ) &lt;&lt; <ref refid="d6/d63/msgservice_8h_1a6dcb94fde52e886851b2ac2ffd0af506" kindref="member">trimmedString</ref>( __PRETTY_FUNCTION__ )         \
+&lt;&lt; &quot;  INFO         &quot;                                                                                       \
+&lt;&lt; &quot;\033[0m&quot; &lt;&lt; X &lt;&lt; std::endl</initializer>
+        <briefdescription>
+<para>Used for printing information messages, and will always be printed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" line="58" column="9" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dd/d89/group__msg_service_1ga2fb9b812f716aa806c40ada3d178d6ed" prot="public" static="no">
+        <name>ERROR</name>
+        <param><defname>X</defname></param>
+        <initializer>  std::cout &lt;&lt; &quot;\033[1;31m&quot; &lt;&lt; std::left &lt;&lt; std::setw( <ref refid="d6/d63/msgservice_8h_1ad4156ce4b39601c9120a655c2ee6442f" kindref="member">FCNNAMELENGTH</ref> ) &lt;&lt; <ref refid="d6/d63/msgservice_8h_1a6dcb94fde52e886851b2ac2ffd0af506" kindref="member">trimmedString</ref>( __PRETTY_FUNCTION__ )         \
+&lt;&lt; &quot;  ERROR        &quot;                                                                                                   \
+&lt;&lt; &quot;\033[0m&quot; &lt;&lt; X &lt;&lt; std::endl</initializer>
+        <briefdescription>
+<para>Used for printing errors messages, and will always be printed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" line="65" column="9" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dd/d89/group__msg_service_1gafb8ee813e91f3c54e4251b7d88bae710" prot="public" static="no">
+        <name>FATAL</name>
+        <param><defname>X</defname></param>
+        <initializer>  { std::cout &lt;&lt; &quot;\033[1;31m&quot; &lt;&lt; std::left &lt;&lt; std::setw( <ref refid="d6/d63/msgservice_8h_1ad4156ce4b39601c9120a655c2ee6442f" kindref="member">FCNNAMELENGTH</ref> ) &lt;&lt; <ref refid="d6/d63/msgservice_8h_1a6dcb94fde52e886851b2ac2ffd0af506" kindref="member">trimmedString</ref>( __PRETTY_FUNCTION__ )         \
+&lt;&lt; &quot;  FATAL        &quot;                                                                                                   \
+&lt;&lt; &quot;\033[0m&quot; &lt;&lt; X &lt;&lt; std::endl;                                                                                         \
+throw std::runtime_error( <ref refid="d6/d63/msgservice_8h_1a6dcb94fde52e886851b2ac2ffd0af506" kindref="member">trimmedString</ref>( __PRETTY_FUNCTION__)+ &quot; FATAL&quot; ) ;}</initializer>
+        <briefdescription>
+<para>Used for printing fatal errors messages, and will always be printed and will terminate the process afterwards. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" line="72" column="9" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dd/d89/group__msg_service_1gaee615a0738ce19e7f1c33624f63489de" prot="public" static="no">
+        <name>WARNING</name>
+        <param><defname>X</defname></param>
+        <initializer>  std::cout &lt;&lt; &quot;\033[1;35m&quot; &lt;&lt; std::left &lt;&lt; std::setw( <ref refid="d6/d63/msgservice_8h_1ad4156ce4b39601c9120a655c2ee6442f" kindref="member">FCNNAMELENGTH</ref> ) &lt;&lt; <ref refid="d6/d63/msgservice_8h_1a6dcb94fde52e886851b2ac2ffd0af506" kindref="member">trimmedString</ref>( __PRETTY_FUNCTION__ )         \
+&lt;&lt; &quot;  WARNING      &quot;                                                                                       \
+&lt;&lt; &quot;\033[0m&quot; &lt;&lt; X &lt;&lt; std::endl</initializer>
+        <briefdescription>
+<para>Used for printing warning messages, can be switched off using WARNINGLEVEL. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>These messages are often harmless, but sometimes not! </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" line="82" column="9" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/msgservice.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>MsgService Header Defines coloured and organised output macro streams using <bold>PRETTY_FUNCTION</bold> <ref refid="dd/d89/group__msg_service_1gac0e7ce4f5ccb0f16d1103330cce71abc" kindref="member">INFO()</ref> - info level messages, always displayed <ref refid="dd/d89/group__msg_service_1ga2fb9b812f716aa806c40ada3d178d6ed" kindref="member">ERROR()</ref> - error level messages, always displayed <ref refid="dd/d89/group__msg_service_1gafb8ee813e91f3c54e4251b7d88bae710" kindref="member">FATAL()</ref> - error message that throws the process, always displayed <ref refid="dd/d89/group__msg_service_1gaee615a0738ce19e7f1c33624f63489de" kindref="member">WARNING()</ref> - warning level messages, can be switched with the WARNINGLEVEL flag <ref refid="dd/d89/group__msg_service_1gaef41e8aaf4c60819b30faf396cdf4978" kindref="member">DEBUG()</ref> - debug level messages, can be switched with the DEBUGLEVEL flag. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

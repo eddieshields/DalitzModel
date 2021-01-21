@@ -1,0 +1,1177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="d6/d9a/class_dalitz_model_1_1_coefficient" kind="class" language="C++" prot="public">
+    <compoundname>DalitzModel::Coefficient</compoundname>
+    <includes refid="d1/db9/coefficient_8h" local="no">coefficient.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1ac1c4326186d13e3c1f20eb8f39a7b5a2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class Parameter</definition>
+        <argsstring></argsstring>
+        <name>Parameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="19" column="1" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a8373c026aab1cd7e3fcbca5edf27bd58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, const Coefficient &amp;coeff)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>coeff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="40" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="95" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a63f0d20df3ba1b2fd263534d1de3c382" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::istream &amp;</type>
+        <definition>std::istream&amp; operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;is, Coefficient &amp;coeff)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type><ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>coeff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="41" column="23" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="101" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a80409e241be4d45ec6fba041a1933b8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator+</definition>
+        <argsstring>(const Coefficient &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="44" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="111" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a93c76e190e202d8d899e415e1aa47872" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator-</definition>
+        <argsstring>(const Coefficient &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="45" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="116" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a15ae1217518d53d43076073e4d2d838b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator*</definition>
+        <argsstring>(const Coefficient &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="46" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="121" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a30ce882683bcb9b4b6e6fd74347142aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator/</definition>
+        <argsstring>(const Coefficient &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="47" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="126" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1ab166fc84859a9a8b68b31a28782c87e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator+</definition>
+        <argsstring>(const Coefficient &amp;left, const int &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="50" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="131" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a1d1772480c913ad336497d7875dc6f6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator-</definition>
+        <argsstring>(const Coefficient &amp;left, const int &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="51" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="136" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a8b856a9594f1ebedb50449064e39078f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator*</definition>
+        <argsstring>(const Coefficient &amp;left, const int &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="52" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="141" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a260795c06f3ae0a3d69b04427883b5e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator/</definition>
+        <argsstring>(const Coefficient &amp;left, const int &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="53" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="146" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a004c5d0ac783ef5152ec0f97e79a5fc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator+</definition>
+        <argsstring>(const Coefficient &amp;left, const double &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="54" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="151" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a021fe69ea7fc0e6a5ea03f5ac4f648f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator-</definition>
+        <argsstring>(const Coefficient &amp;left, const double &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="55" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="156" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a828ab7b06106b513fd3e4646cd907722" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator*</definition>
+        <argsstring>(const Coefficient &amp;left, const double &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="56" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="161" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a15c8a5ab06442ec22faaafe28464e53f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator/</definition>
+        <argsstring>(const Coefficient &amp;left, const double &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="57" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="166" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1aed798ff90f979d5e80b479c38b5a882c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator+</definition>
+        <argsstring>(const Coefficient &amp;left, const float &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="58" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="171" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1af973f06173af7298c7a71b4c081d2ead" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator-</definition>
+        <argsstring>(const Coefficient &amp;left, const float &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="59" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="176" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a5fe3ab12608a1d3dae21b4b26bbfcdf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator*</definition>
+        <argsstring>(const Coefficient &amp;left, const float &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="60" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="181" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a7fb7dd024d4244f3448eed0239b0ab28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator/</definition>
+        <argsstring>(const Coefficient &amp;left, const float &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="61" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="186" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a5f3dca3e09222e0212577f06d102cbc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator+</definition>
+        <argsstring>(const Coefficient &amp;left, const complex_t &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="62" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="191" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a4014cbd8aa19d61618a8f8ded0c8b11e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator-</definition>
+        <argsstring>(const Coefficient &amp;left, const complex_t &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="63" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="196" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1af849b5fae8d5e5fbcdc7b29ddaafefe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator*</definition>
+        <argsstring>(const Coefficient &amp;left, const complex_t &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="64" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="201" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a8e6b8851f6f609cfaa8eaa501ea98d72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator/</definition>
+        <argsstring>(const Coefficient &amp;left, const complex_t &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="65" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="206" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a6808065b8717235d23b61b2bed4b9a49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator+</definition>
+        <argsstring>(const Coefficient &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="66" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="211" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a4b1fc1c81112c5ea1e5124193fba8a4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator-</definition>
+        <argsstring>(const Coefficient &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="67" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="216" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1aac0b6c4f0643b9b1624bb22655cb45d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator*</definition>
+        <argsstring>(const Coefficient &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="68" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="221" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a4e19cf9e6b80d2055ff3d6fca1c83aff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator/</definition>
+        <argsstring>(const Coefficient &amp;left, const Parameter &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="69" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="226" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a62ddcc42f112647c64de6d0eb4836e87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator+</definition>
+        <argsstring>(const int &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="72" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="231" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1aeaeeda3a115d112bd41ffeeb54e01131" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator-</definition>
+        <argsstring>(const int &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="73" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="236" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1ae5782fcf13368166b4ac9817a798b23f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator*</definition>
+        <argsstring>(const int &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="74" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="241" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a533b4f2a2ff678ef694ffa09734e3973" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator/</definition>
+        <argsstring>(const int &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="75" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="246" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1ac6682d3aa45a2b9c1426ac138f312a11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator+</definition>
+        <argsstring>(const double &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="76" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="251" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a850a1d3a4a45b1f7b062eb02d6f4ee8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator-</definition>
+        <argsstring>(const double &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="77" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="256" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a5ffe7d7020c578f8fddab5138d5716c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator*</definition>
+        <argsstring>(const double &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="78" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="261" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a6d7702ae606e94de21d3b4b6b779d1b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator/</definition>
+        <argsstring>(const double &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="79" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="266" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1abab465638472dfdf601da4dd62efb54b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator+</definition>
+        <argsstring>(const float &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="80" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="271" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a0d7966c14da96869064f1f4534f0720c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator-</definition>
+        <argsstring>(const float &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="81" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="276" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a742cc3bd3b93a086c883340bb7e64e0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator*</definition>
+        <argsstring>(const float &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="82" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="281" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a8603706b577e52b50a51f00103a0418a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator/</definition>
+        <argsstring>(const float &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="83" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="286" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1aed49e5f6fbff3a7d8697fee7d8da59b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator+</definition>
+        <argsstring>(const complex_t &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="84" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="291" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1af74b900a508710ccd3284ebb5f8c06b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator-</definition>
+        <argsstring>(const complex_t &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="85" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="295" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a35675f76c5544561f6b6b5a8c47971d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator*</definition>
+        <argsstring>(const complex_t &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="86" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="299" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1af9d23946a4f387111901f06213038b90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator/</definition>
+        <argsstring>(const complex_t &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="87" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="303" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a857b331b0f421c7cff4b8671dbd40c7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator+</definition>
+        <argsstring>(const Parameter &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="88" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="308" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1ac44604b16a675760b66450a0ff88888f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator-</definition>
+        <argsstring>(const Parameter &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="89" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="313" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1ae44ac39067b8a987216d286a4779eab8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator*</definition>
+        <argsstring>(const Parameter &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="90" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="318" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="friend" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a1aa8a6c7d912c2baa04ef85be9e2d00e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t operator/</definition>
+        <argsstring>(const Parameter &amp;left, const Coefficient &amp;right)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="91" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="323" bodyend="326"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d6/d9a/class_dalitz_model_1_1_coefficient_1abab8abc558acebdf011206d3b727440b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DalitzModel::Coefficient::m_c1</definition>
+        <argsstring></argsstring>
+        <name>m_c1</name>
+        <initializer>= {0.}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="21" column="13" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a4d868671778e57dfe1d2491acb42766d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DalitzModel::Coefficient::m_c2</definition>
+        <argsstring></argsstring>
+        <name>m_c2</name>
+        <initializer>= {0.}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="22" column="13" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d6/d9a/class_dalitz_model_1_1_coefficient_1af2d54fcf268290f43daec4f4fa1326e9" prot="public" static="no" mutable="no">
+        <type><ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>complex_t DalitzModel::Coefficient::m_state</definition>
+        <argsstring></argsstring>
+        <name>m_state</name>
+        <initializer>= {<ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref>(0.,0.)}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="25" column="13" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d9a/class_dalitz_model_1_1_coefficient_1abefac57d3d0ae3f36c931d9f68009d48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DalitzModel::Coefficient::Coefficient</definition>
+        <argsstring>()=default</argsstring>
+        <name>Coefficient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="26" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a8b94975392045ddac0136536833a86eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DalitzModel::Coefficient::Coefficient</definition>
+        <argsstring>(const double &amp;c1, const double &amp;c2)</argsstring>
+        <name>Coefficient</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>c2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="27" column="3" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a7f3f28f2b50400a2759cf7172fc3782c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DalitzModel::Coefficient::Coefficient</definition>
+        <argsstring>(const Parameter &amp;c1, const Parameter &amp;c2)</argsstring>
+        <name>Coefficient</name>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>c2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="32" column="3" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d9a/class_dalitz_model_1_1_coefficient_1a46916708c931ac81c8ab986711a11aac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual DalitzModel::Coefficient::~Coefficient</definition>
+        <argsstring>()</argsstring>
+        <name>~Coefficient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="37" column="11" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>std::complex&lt; double &gt;</label>
+      </node>
+      <node id="1">
+        <label>DalitzModel::Coefficient</label>
+        <link refid="d6/d9a/class_dalitz_model_1_1_coefficient"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_state</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" line="17" column="1" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h" bodystart="18" bodyend="92"/>
+    <listofallmembers>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1abefac57d3d0ae3f36c931d9f68009d48" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>Coefficient</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a8b94975392045ddac0136536833a86eb" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>Coefficient</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a7f3f28f2b50400a2759cf7172fc3782c" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>Coefficient</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1abab8abc558acebdf011206d3b727440b" prot="private" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>m_c1</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a4d868671778e57dfe1d2491acb42766d" prot="private" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>m_c2</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1af2d54fcf268290f43daec4f4fa1326e9" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>m_state</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a15ae1217518d53d43076073e4d2d838b" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator*</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a8b856a9594f1ebedb50449064e39078f" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator*</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a828ab7b06106b513fd3e4646cd907722" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator*</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a5fe3ab12608a1d3dae21b4b26bbfcdf4" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator*</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1af849b5fae8d5e5fbcdc7b29ddaafefe4" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator*</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1aac0b6c4f0643b9b1624bb22655cb45d6" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator*</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1ae5782fcf13368166b4ac9817a798b23f" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator*</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a5ffe7d7020c578f8fddab5138d5716c3" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator*</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a742cc3bd3b93a086c883340bb7e64e0b" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator*</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a35675f76c5544561f6b6b5a8c47971d5" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator*</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1ae44ac39067b8a987216d286a4779eab8" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator*</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a80409e241be4d45ec6fba041a1933b8a" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator+</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1ab166fc84859a9a8b68b31a28782c87e0" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator+</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a004c5d0ac783ef5152ec0f97e79a5fc1" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator+</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1aed798ff90f979d5e80b479c38b5a882c" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator+</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a5f3dca3e09222e0212577f06d102cbc2" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator+</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a6808065b8717235d23b61b2bed4b9a49" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator+</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a62ddcc42f112647c64de6d0eb4836e87" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator+</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1ac6682d3aa45a2b9c1426ac138f312a11" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator+</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1abab465638472dfdf601da4dd62efb54b" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator+</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1aed49e5f6fbff3a7d8697fee7d8da59b7" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator+</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a857b331b0f421c7cff4b8671dbd40c7e" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator+</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a93c76e190e202d8d899e415e1aa47872" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator-</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a1d1772480c913ad336497d7875dc6f6d" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator-</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a021fe69ea7fc0e6a5ea03f5ac4f648f1" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator-</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1af973f06173af7298c7a71b4c081d2ead" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator-</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a4014cbd8aa19d61618a8f8ded0c8b11e" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator-</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a4b1fc1c81112c5ea1e5124193fba8a4d" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator-</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1aeaeeda3a115d112bd41ffeeb54e01131" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator-</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a850a1d3a4a45b1f7b062eb02d6f4ee8e" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator-</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a0d7966c14da96869064f1f4534f0720c" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator-</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1af74b900a508710ccd3284ebb5f8c06b9" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator-</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1ac44604b16a675760b66450a0ff88888f" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator-</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a30ce882683bcb9b4b6e6fd74347142aa" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator/</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a260795c06f3ae0a3d69b04427883b5e6" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator/</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a15c8a5ab06442ec22faaafe28464e53f" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator/</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a7fb7dd024d4244f3448eed0239b0ab28" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator/</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a8e6b8851f6f609cfaa8eaa501ea98d72" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator/</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a4e19cf9e6b80d2055ff3d6fca1c83aff" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator/</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a533b4f2a2ff678ef694ffa09734e3973" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator/</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a6d7702ae606e94de21d3b4b6b779d1b5" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator/</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a8603706b577e52b50a51f00103a0418a" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator/</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1af9d23946a4f387111901f06213038b90" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator/</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a1aa8a6c7d912c2baa04ef85be9e2d00e" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator/</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a8373c026aab1cd7e3fcbca5edf27bd58" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator&lt;&lt;</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a63f0d20df3ba1b2fd263534d1de3c382" prot="public" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>operator&gt;&gt;</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1ac1c4326186d13e3c1f20eb8f39a7b5a2" prot="private" virt="non-virtual"><scope>DalitzModel::Coefficient</scope><name>Parameter</name></member>
+      <member refid="d6/d9a/class_dalitz_model_1_1_coefficient_1a46916708c931ac81c8ab986711a11aac" prot="public" virt="virtual"><scope>DalitzModel::Coefficient</scope><name>~Coefficient</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

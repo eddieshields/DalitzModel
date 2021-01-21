@@ -1,0 +1,645 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="d1/d8d/class_dalitz_model_1_1_phase_space" kind="class" language="C++" prot="public">
+    <compoundname>DalitzModel::PhaseSpace</compoundname>
+    <includes refid="d3/d07/phasespace_8h" local="no">phasespace.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a324ac6469284971bf06ed2694e17390b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DalitzModel::PhaseSpace::m_mMother</definition>
+        <argsstring></argsstring>
+        <name>m_mMother</name>
+        <initializer>= {0.}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="12" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d8d/class_dalitz_model_1_1_phase_space_1ae9f9e4906ca7b3d1860ac90955657dbc" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DalitzModel::PhaseSpace::m_m1</definition>
+        <argsstring></argsstring>
+        <name>m_m1</name>
+        <initializer>= {0.}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="13" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a4f4776fb23dbdd50387209e4822c7bf8" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DalitzModel::PhaseSpace::m_m2</definition>
+        <argsstring></argsstring>
+        <name>m_m2</name>
+        <initializer>= {0.}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="14" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a961b61b5287cb6130ca2aad9801331a7" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DalitzModel::PhaseSpace::m_m3</definition>
+        <argsstring></argsstring>
+        <name>m_m3</name>
+        <initializer>= {0.}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="15" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a7de24c1906779b772f4b90cf7b5787d1" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DalitzModel::PhaseSpace::m_mSqMother</definition>
+        <argsstring></argsstring>
+        <name>m_mSqMother</name>
+        <initializer>= {0.}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="17" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a5fc008e3f9be7c87311e95e348f56eee" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DalitzModel::PhaseSpace::m_mSq1</definition>
+        <argsstring></argsstring>
+        <name>m_mSq1</name>
+        <initializer>= {0.}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="18" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a84cf9b5aab79bd78a2954bc2e5102923" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DalitzModel::PhaseSpace::m_mSq2</definition>
+        <argsstring></argsstring>
+        <name>m_mSq2</name>
+        <initializer>= {0.}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="19" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d8d/class_dalitz_model_1_1_phase_space_1af1c6171980260f373fd7d36648e8b770" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DalitzModel::PhaseSpace::m_mSq3</definition>
+        <argsstring></argsstring>
+        <name>m_mSq3</name>
+        <initializer>= {0.}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="20" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d8d/class_dalitz_model_1_1_phase_space_1ab1eb756b5e323b5dd50a70d54d4b5db2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DalitzModel::PhaseSpace::m_mSqSum</definition>
+        <argsstring></argsstring>
+        <name>m_mSqSum</name>
+        <initializer>= {0.}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="22" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a8e7b17661cad96304174f501285579de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DalitzModel::PhaseSpace::PhaseSpace</definition>
+        <argsstring>()=default</argsstring>
+        <name>PhaseSpace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="26" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a6a2d0223a0d03d945b970d924a9b99ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DalitzModel::PhaseSpace::PhaseSpace</definition>
+        <argsstring>(const double &amp;mMother, const double &amp;m1, const double &amp;m2, const double &amp;m3)</argsstring>
+        <name>PhaseSpace</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mMother</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>m2</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>m3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="27" column="3" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="27" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a010fad4f4b612dedc2d48e3d580cc527" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DalitzModel::PhaseSpace::PhaseSpace</definition>
+        <argsstring>(const PhaseSpace &amp;other)</argsstring>
+        <name>PhaseSpace</name>
+        <param>
+          <type>const <ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="40" column="3" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="40" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1af659159d788d8158dab3805a5f6b566d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual DalitzModel::PhaseSpace::~PhaseSpace</definition>
+        <argsstring>()</argsstring>
+        <name>~PhaseSpace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="53" column="11" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a47c799901e7afc1e83926d178849cabe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::m</definition>
+        <argsstring>(const int &amp;i) const</argsstring>
+        <name>m</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="56" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="92" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1adbbd91faa0d77d798d0a099cd925e41e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::mSq</definition>
+        <argsstring>(const int &amp;i) const</argsstring>
+        <name>mSq</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="57" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="101" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1acdf42c10df1b710ab18a19616d96ed7d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::mMother</definition>
+        <argsstring>() const</argsstring>
+        <name>mMother</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="59" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a8d987eb01f12885d9ba2408e1e87dfb9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::m1</definition>
+        <argsstring>() const</argsstring>
+        <name>m1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="60" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a88020ed3bf1c01a553be5af625ac2174" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::m2</definition>
+        <argsstring>() const</argsstring>
+        <name>m2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="61" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a6e174d691cd913d88158ad50e81d8553" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::m3</definition>
+        <argsstring>() const</argsstring>
+        <name>m3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="62" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a4a9ab31f12e1c3a1090cd4299dfc0d2a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::mSqMother</definition>
+        <argsstring>() const</argsstring>
+        <name>mSqMother</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="64" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1ae8d47d551a3fe19e7b214a40deef2c70" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::mSq1</definition>
+        <argsstring>() const</argsstring>
+        <name>mSq1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="65" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1aab07793d3c30708e9f328f8d63b39fa4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::mSq2</definition>
+        <argsstring>() const</argsstring>
+        <name>mSq2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="66" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1ae315848ea28eab0074c51518729df55c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::mSq3</definition>
+        <argsstring>() const</argsstring>
+        <name>mSq3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="67" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1ac82134be0d9af8f4b96300e0929dd1c9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::mSqSum</definition>
+        <argsstring>() const</argsstring>
+        <name>mSqSum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="69" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a1f215288bb0c70b565b455b887aa7f3e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::mSq12min</definition>
+        <argsstring>() const</argsstring>
+        <name>mSq12min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="71" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1aeee049c322dbec4a75e539abc835ee6d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::mSq12max</definition>
+        <argsstring>() const</argsstring>
+        <name>mSq12max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="72" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1af355aa09bb3e7c6c3210bdf50ce8f81f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::mSq13min</definition>
+        <argsstring>() const</argsstring>
+        <name>mSq13min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="73" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1ac3176db232bf594b5bb9f5726f7aeed1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::mSq13max</definition>
+        <argsstring>() const</argsstring>
+        <name>mSq13max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="74" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1abeece83a7eb80d43cbc74d1232b6af8e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::mSq23min</definition>
+        <argsstring>() const</argsstring>
+        <name>mSq23min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="75" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a1abc5665486d777916c34b9937147c8c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::mSq23max</definition>
+        <argsstring>() const</argsstring>
+        <name>mSq23max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="76" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a38f3ec9b520736013aa75bea4e22727e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::mSq13min</definition>
+        <argsstring>(const double &amp;mSq12) const</argsstring>
+        <name>mSq13min</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq12</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="78" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="110" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a0cee68c584456ac55087b2798ea24cd5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::mSq13max</definition>
+        <argsstring>(const double &amp;mSq12) const</argsstring>
+        <name>mSq13max</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq12</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="79" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="120" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a7130adf407bd04c9737e90ba484e5487" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::mSq23min</definition>
+        <argsstring>(const double &amp;mSq12) const</argsstring>
+        <name>mSq23min</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq12</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="80" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="129" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a2824f0ca754fdcbd05ffff1f9423392d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::mSq23max</definition>
+        <argsstring>(const double &amp;mSq12) const</argsstring>
+        <name>mSq23max</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq12</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="81" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="138" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1af6079df2432d06ff388211f7f6d8f4a1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool DalitzModel::PhaseSpace::contains</definition>
+        <argsstring>(const double &amp;mSq12, const double &amp;mSq13) const</argsstring>
+        <name>contains</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq12</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq13</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="83" column="14" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="147" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a3ec0357626c594e0e0746749fe8243b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool DalitzModel::PhaseSpace::contains</definition>
+        <argsstring>(const double &amp;mSq12, const double &amp;mSq13, const double &amp;mSq23) const</argsstring>
+        <name>contains</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq12</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq13</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq23</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="84" column="14" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="155" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8d/class_dalitz_model_1_1_phase_space_1acb312884c720561f9fc5837a6474dc06" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::PhaseSpace::kallen</definition>
+        <argsstring>(const double &amp;x, const double &amp;y, const double &amp;z) const</argsstring>
+        <name>kallen</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="86" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="163" bodyend="174"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="d1/d8d/class_dalitz_model_1_1_phase_space_1a0d8712c999286c8b2547ee096e4ef215" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, const PhaseSpace &amp;ps)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref> &amp;</type>
+          <declname>ps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="89" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="177" bodyend="184"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" line="9" column="1" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/phasespace.h" bodystart="10" bodyend="90"/>
+    <listofallmembers>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1af6079df2432d06ff388211f7f6d8f4a1" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>contains</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a3ec0357626c594e0e0746749fe8243b9" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>contains</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1acb312884c720561f9fc5837a6474dc06" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>kallen</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a47c799901e7afc1e83926d178849cabe" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>m</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a8d987eb01f12885d9ba2408e1e87dfb9" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>m1</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a88020ed3bf1c01a553be5af625ac2174" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>m2</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a6e174d691cd913d88158ad50e81d8553" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>m3</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1ae9f9e4906ca7b3d1860ac90955657dbc" prot="private" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>m_m1</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a4f4776fb23dbdd50387209e4822c7bf8" prot="private" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>m_m2</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a961b61b5287cb6130ca2aad9801331a7" prot="private" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>m_m3</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a324ac6469284971bf06ed2694e17390b" prot="private" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>m_mMother</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a5fc008e3f9be7c87311e95e348f56eee" prot="private" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>m_mSq1</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a84cf9b5aab79bd78a2954bc2e5102923" prot="private" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>m_mSq2</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1af1c6171980260f373fd7d36648e8b770" prot="private" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>m_mSq3</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a7de24c1906779b772f4b90cf7b5787d1" prot="private" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>m_mSqMother</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1ab1eb756b5e323b5dd50a70d54d4b5db2" prot="private" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>m_mSqSum</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1acdf42c10df1b710ab18a19616d96ed7d" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>mMother</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1adbbd91faa0d77d798d0a099cd925e41e" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>mSq</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1ae8d47d551a3fe19e7b214a40deef2c70" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>mSq1</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1aeee049c322dbec4a75e539abc835ee6d" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>mSq12max</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a1f215288bb0c70b565b455b887aa7f3e" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>mSq12min</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1ac3176db232bf594b5bb9f5726f7aeed1" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>mSq13max</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a0cee68c584456ac55087b2798ea24cd5" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>mSq13max</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1af355aa09bb3e7c6c3210bdf50ce8f81f" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>mSq13min</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a38f3ec9b520736013aa75bea4e22727e" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>mSq13min</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1aab07793d3c30708e9f328f8d63b39fa4" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>mSq2</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a1abc5665486d777916c34b9937147c8c" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>mSq23max</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a2824f0ca754fdcbd05ffff1f9423392d" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>mSq23max</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1abeece83a7eb80d43cbc74d1232b6af8e" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>mSq23min</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a7130adf407bd04c9737e90ba484e5487" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>mSq23min</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1ae315848ea28eab0074c51518729df55c" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>mSq3</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a4a9ab31f12e1c3a1090cd4299dfc0d2a" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>mSqMother</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1ac82134be0d9af8f4b96300e0929dd1c9" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>mSqSum</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a0d8712c999286c8b2547ee096e4ef215" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>operator&lt;&lt;</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a8e7b17661cad96304174f501285579de" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>PhaseSpace</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a6a2d0223a0d03d945b970d924a9b99ae" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>PhaseSpace</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1a010fad4f4b612dedc2d48e3d580cc527" prot="public" virt="non-virtual"><scope>DalitzModel::PhaseSpace</scope><name>PhaseSpace</name></member>
+      <member refid="d1/d8d/class_dalitz_model_1_1_phase_space_1af659159d788d8158dab3805a5f6b566d" prot="public" virt="virtual"><scope>DalitzModel::PhaseSpace</scope><name>~PhaseSpace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

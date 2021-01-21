@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="d8/d72/relbreitwigner_8h" kind="file" language="C++">
+    <compoundname>relbreitwigner.h</compoundname>
+    <includes refid="d5/ddb/resonance_8h" local="yes">resonance.h</includes>
+    <includes refid="d6/d63/msgservice_8h" local="yes">msgservice.h</includes>
+    <includedby refid="dc/de4/configureamplitude_8h" local="yes">/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h</includedby>
+    <incdepgraph>
+      <node id="13">
+        <label>iomanip</label>
+      </node>
+      <node id="12">
+        <label>msgservice.h</label>
+        <link refid="d6/d63/msgservice_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>cmath</label>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>parameter.h</label>
+        <link refid="d2/d2a/parameter_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>random.h</label>
+        <link refid="d1/d79/random_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>random</label>
+      </node>
+      <node id="1">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/lineshapes/relbreitwigner.h</label>
+        <link refid="d8/d72/relbreitwigner_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>phasespace.h</label>
+        <link refid="d3/d07/phasespace_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>coefficient.h</label>
+        <link refid="d1/db9/coefficient_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+      <node id="2">
+        <label>resonance.h</label>
+        <link refid="d5/ddb/resonance_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/lineshapes/relbreitwigner.h</label>
+        <link refid="d8/d72/relbreitwigner_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h</label>
+        <link refid="dc/de4/configureamplitude_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner" prot="public">DalitzModel::LineShape::RelBreitWigner</innerclass>
+    <innernamespace refid="dd/d06/namespace_dalitz_model">DalitzModel</innernamespace>
+    <innernamespace refid="d4/d44/namespace_dalitz_model_1_1_line_shape">DalitzModel::LineShape</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>DALITZMODEL_RELBREITWIGNER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DALITZMODEL_RELBREITWIGNER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>DalitzModel.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d5/ddb/resonance_8h" kindref="compound">resonance.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d6/d63/msgservice_8h" kindref="compound">msgservice.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="dd/d06/namespace_dalitz_model" kindref="compound">DalitzModel</ref><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">LineShape<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="d4/d44/namespace_dalitz_model_1_1_line_shape_1a8f80ff2551e06bdb6463d7bdc725a7c4" kindref="member">complex_t</ref><sp/>=<sp/>std::complex&lt;double&gt;;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner" kindref="compound">RelBreitWigner</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance" kindref="compound">Resonance</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16" refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1a32aeaf172273aee6cf9ff259eefd86b8" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1a32aeaf172273aee6cf9ff259eefd86b8" kindref="member">RelBreitWigner</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17" refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1ac01c60d0cd04d4afed840a87d01e67b0" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1ac01c60d0cd04d4afed840a87d01e67b0" kindref="member">RelBreitWigner</ref>(std::string&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1adb0a94ad2e7605181d2998d69ea37c26" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref>&amp;<sp/>coeff,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>resoA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>resoB,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a57e095df6aa53a7dc70f956506a69fe0" kindref="member">mass</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a94e828fcd21dfe019e982fc6de1634a1" kindref="member">width</ref>,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a037770435e2d210d675bd32be35a25f4" kindref="member">l</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a11b061f236c00243a998468131956c5d" kindref="member">r</ref>)<sp/>:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance" kindref="compound">Resonance</ref>(<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1adb0a94ad2e7605181d2998d69ea37c26" kindref="member">name</ref><sp/>,<sp/>coeff<sp/>,<sp/>resoA<sp/>,<sp/>resoB<sp/>,<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a57e095df6aa53a7dc70f956506a69fe0" kindref="member">mass</ref><sp/>,<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a94e828fcd21dfe019e982fc6de1634a1" kindref="member">width</ref><sp/>,<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a037770435e2d210d675bd32be35a25f4" kindref="member">l</ref><sp/>,<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a11b061f236c00243a998468131956c5d" kindref="member">r</ref><sp/>)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="23" refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1af85ceec0c2e8a2112e60d313ed1cb443" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1af85ceec0c2e8a2112e60d313ed1cb443" kindref="member">RelBreitWigner</ref>(std::string&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1adb0a94ad2e7605181d2998d69ea37c26" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>coeff1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>coeff2,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>resoA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>resoB,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a57e095df6aa53a7dc70f956506a69fe0" kindref="member">mass</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a94e828fcd21dfe019e982fc6de1634a1" kindref="member">width</ref>,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a037770435e2d210d675bd32be35a25f4" kindref="member">l</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a11b061f236c00243a998468131956c5d" kindref="member">r</ref>)<sp/>:</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance" kindref="compound">Resonance</ref>(<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1adb0a94ad2e7605181d2998d69ea37c26" kindref="member">name</ref><sp/>,<sp/>coeff1<sp/>,<sp/>coeff2<sp/>,<sp/>resoA<sp/>,<sp/>resoB<sp/>,<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a57e095df6aa53a7dc70f956506a69fe0" kindref="member">mass</ref><sp/>,<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a94e828fcd21dfe019e982fc6de1634a1" kindref="member">width</ref><sp/>,<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a037770435e2d210d675bd32be35a25f4" kindref="member">l</ref><sp/>,<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a11b061f236c00243a998468131956c5d" kindref="member">r</ref><sp/>)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="29" refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1ada465c4c010a62fb76e93f341f5553be" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1ada465c4c010a62fb76e93f341f5553be" kindref="member">~RelBreitWigner</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Implementation<sp/>of<sp/>propagator.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d44/namespace_dalitz_model_1_1_line_shape_1a8f80ff2551e06bdb6463d7bdc725a7c4" kindref="member">complex_t</ref><sp/><ref refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1a93a0fb8f8a2a8ff72633834adec35fd8" kindref="member">propagator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref>&amp;<sp/>ps,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>mSqAB)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1a24839af0cf83b43d8260b7bb67256378" kindref="member">runningWidth</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref>&amp;<sp/>ps,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>mSqAB)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><ref refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner" kindref="compound">RelBreitWigner</ref>*<sp/><ref refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1a523ed5a305a0dadc34ee6fedb59e4950" kindref="member">copy</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1a93a0fb8f8a2a8ff72633834adec35fd8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d44/namespace_dalitz_model_1_1_line_shape_1a8f80ff2551e06bdb6463d7bdc725a7c4" kindref="member">complex_t</ref><sp/><ref refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1a93a0fb8f8a2a8ff72633834adec35fd8" kindref="member">RelBreitWigner::propagator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref>&amp;<sp/>ps,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>mSqAB)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="40"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><ref refid="d4/d44/namespace_dalitz_model_1_1_line_shape_1a8f80ff2551e06bdb6463d7bdc725a7c4" kindref="member">complex_t</ref><sp/>I(<sp/>0.,<sp/>1.<sp/>);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><ref refid="dd/d89/group__msg_service_1gac0e7ce4f5ccb0f16d1103330cce71abc" kindref="member">INFO</ref>(<ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a368c6f196d95c5ff42a2087b321ee0b9" kindref="member">mSq</ref>());</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1.<sp/>/<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a368c6f196d95c5ff42a2087b321ee0b9" kindref="member">mSq</ref>()<sp/>-<sp/>mSqAB<sp/>-<sp/>I<sp/>*<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1aef5f7d69d99b10dc7f7ed072cb728578" kindref="member">m</ref>()<sp/>*<sp/><ref refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1a24839af0cf83b43d8260b7bb67256378" kindref="member">runningWidth</ref>(ps,mSqAB);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1a24839af0cf83b43d8260b7bb67256378" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1a24839af0cf83b43d8260b7bb67256378" kindref="member">RelBreitWigner::runningWidth</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref>&amp;<sp/>ps,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>mSqAB)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="47"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a94e828fcd21dfe019e982fc6de1634a1" kindref="member">width</ref>()*(<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1abf41480d8a0d55faf010dc35b2c99ac6" kindref="member">rho</ref>(<sp/>ps,<sp/>mSqAB<sp/>)/<ref refid="d3/d39/class_dalitz_model_1_1_resonance_1abf41480d8a0d55faf010dc35b2c99ac6" kindref="member">rho</ref>(<sp/>ps,<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a368c6f196d95c5ff42a2087b321ee0b9" kindref="member">mSq</ref>()<sp/>)<sp/>)*std::pow(<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a403b1e7c05355244bfeb31ad10cb62f2" kindref="member">blattWeisskopf</ref>(ps,<sp/>mSqAB)<sp/>,<sp/>2<sp/>);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1a523ed5a305a0dadc34ee6fedb59e4950" refkind="member"><highlight class="normal"><ref refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner" kindref="compound">RelBreitWigner</ref>*<sp/><ref refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1a523ed5a305a0dadc34ee6fedb59e4950" kindref="member">RelBreitWigner::copy</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="52"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1a32aeaf172273aee6cf9ff259eefd86b8" kindref="member">RelBreitWigner</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>LineShape</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>DalitzModel</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/lineshapes/relbreitwigner.h"/>
+  </compounddef>
+</doxygen>

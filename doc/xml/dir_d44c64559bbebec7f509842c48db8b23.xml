@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_d44c64559bbebec7f509842c48db8b23" kind="dir">
+    <compoundname>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include</compoundname>
+    <innerdir refid="dir_1c1225548a374eb36a780066adbec6c4">/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/lineshapes</innerdir>
+    <innerfile refid="d5/db6/amplitude_8h">amplitude.h</innerfile>
+    <innerfile refid="d1/db9/coefficient_8h">coefficient.h</innerfile>
+    <innerfile refid="da/da5/configfile_8h">configfile.h</innerfile>
+    <innerfile refid="dc/de4/configureamplitude_8h">configureamplitude.h</innerfile>
+    <innerfile refid="d1/daf/dalitzplot_8h">dalitzplot.h</innerfile>
+    <innerfile refid="d6/d63/msgservice_8h">msgservice.h</innerfile>
+    <innerfile refid="d2/d2a/parameter_8h">parameter.h</innerfile>
+    <innerfile refid="d3/d07/phasespace_8h">phasespace.h</innerfile>
+    <innerfile refid="d1/d79/random_8h">random.h</innerfile>
+    <innerfile refid="d5/ddb/resonance_8h">resonance.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/"/>
+  </compounddef>
+</doxygen>

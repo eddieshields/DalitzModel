@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="d8/d8c/flatte_8h" kind="file" language="C++">
+    <compoundname>flatte.h</compoundname>
+    <includes refid="d5/ddb/resonance_8h" local="yes">resonance.h</includes>
+    <includedby refid="dc/de4/configureamplitude_8h" local="yes">/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h</includedby>
+    <incdepgraph>
+      <node id="13">
+        <label>iomanip</label>
+      </node>
+      <node id="12">
+        <label>msgservice.h</label>
+        <link refid="d6/d63/msgservice_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>cmath</label>
+      </node>
+      <node id="1">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/lineshapes/flatte.h</label>
+        <link refid="d8/d8c/flatte_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>parameter.h</label>
+        <link refid="d2/d2a/parameter_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>random.h</label>
+        <link refid="d1/d79/random_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>random</label>
+      </node>
+      <node id="10">
+        <label>phasespace.h</label>
+        <link refid="d3/d07/phasespace_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>coefficient.h</label>
+        <link refid="d1/db9/coefficient_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+      <node id="2">
+        <label>resonance.h</label>
+        <link refid="d5/ddb/resonance_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/lineshapes/flatte.h</label>
+        <link refid="d8/d8c/flatte_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h</label>
+        <link refid="dc/de4/configureamplitude_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte" prot="public">DalitzModel::LineShape::Flatte</innerclass>
+    <innernamespace refid="dd/d06/namespace_dalitz_model">DalitzModel</innernamespace>
+    <innernamespace refid="d4/d44/namespace_dalitz_model_1_1_line_shape">DalitzModel::LineShape</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>DALITZMODEL_FLATTE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DALITZMODEL_FLATTE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>DalitzModel.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d5/ddb/resonance_8h" kindref="compound">resonance.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="dd/d06/namespace_dalitz_model" kindref="compound">DalitzModel</ref><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="d4/d44/namespace_dalitz_model_1_1_line_shape" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">LineShape<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="d4/d44/namespace_dalitz_model_1_1_line_shape_1a8f80ff2551e06bdb6463d7bdc725a7c4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="d4/d44/namespace_dalitz_model_1_1_line_shape_1a8f80ff2551e06bdb6463d7bdc725a7c4" kindref="member">complex_t</ref><sp/>=<sp/>std::complex&lt;double&gt;;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte" kindref="compound">Flatte</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance" kindref="compound">Resonance</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>m_g1;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>m_g2;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>m_m11;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>m_m12;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>m_m21;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/>m_m22;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m_g1Sq;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m_g2Sq;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m_m11Sq;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m_m12Sq;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m_m21Sq;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m_m22Sq;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0b6fdca65c639b4bd8bffe839ddce2a3" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0b6fdca65c639b4bd8bffe839ddce2a3" kindref="member">Flatte</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a492e3561dca164c092dad3408d9a0014" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a492e3561dca164c092dad3408d9a0014" kindref="member">Flatte</ref>(std::string&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1adb0a94ad2e7605181d2998d69ea37c26" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref>&amp;<sp/>coeff,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>resoA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>resoB,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a57e095df6aa53a7dc70f956506a69fe0" kindref="member">mass</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a94e828fcd21dfe019e982fc6de1634a1" kindref="member">width</ref>,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a037770435e2d210d675bd32be35a25f4" kindref="member">l</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a11b061f236c00243a998468131956c5d" kindref="member">r</ref>,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&amp;<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0eccfd5f8bdb1a2840472dd5a3a8bc70" kindref="member">g1</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&amp;<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0de635396eeaa3c40b00d7576a1ec114" kindref="member">g2</ref>,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&amp;<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1afc4c6c3ebe7675fb7489efa8ec21296b" kindref="member">m11</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&amp;<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0cf0e02999637c1289bed967293e39d3" kindref="member">m12</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&amp;<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1aa650b6a0239eeea5ed827a697da35537" kindref="member">m21</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref>&amp;<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a2e5d742766c056641d10f4c56e5705a6" kindref="member">m22</ref>)<sp/>:</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance" kindref="compound">Resonance</ref>(<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1adb0a94ad2e7605181d2998d69ea37c26" kindref="member">name</ref><sp/>,<sp/>coeff<sp/>,<sp/>resoA<sp/>,<sp/>resoB<sp/>,<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a57e095df6aa53a7dc70f956506a69fe0" kindref="member">mass</ref><sp/>,<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a94e828fcd21dfe019e982fc6de1634a1" kindref="member">width</ref><sp/>,<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a037770435e2d210d675bd32be35a25f4" kindref="member">l</ref><sp/>,<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a11b061f236c00243a998468131956c5d" kindref="member">r</ref><sp/>),</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>m_g1(<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0eccfd5f8bdb1a2840472dd5a3a8bc70" kindref="member">g1</ref><sp/>),</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>m_g2(<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0de635396eeaa3c40b00d7576a1ec114" kindref="member">g2</ref><sp/>),</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>m_m11(<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1afc4c6c3ebe7675fb7489efa8ec21296b" kindref="member">m11</ref><sp/>),</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>m_m12(<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0cf0e02999637c1289bed967293e39d3" kindref="member">m12</ref><sp/>),</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>m_m21(<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1aa650b6a0239eeea5ed827a697da35537" kindref="member">m21</ref><sp/>),</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>m_m22(<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a2e5d742766c056641d10f4c56e5705a6" kindref="member">m22</ref><sp/>)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>m_g1Sq<sp/><sp/>=<sp/>m_g1<sp/>*<sp/>m_g1;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>m_g2Sq<sp/><sp/>=<sp/>m_g2<sp/>*<sp/>m_g2;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>m_m11Sq<sp/>=<sp/>m_m11<sp/>*<sp/>m_m11;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>m_m12Sq<sp/>=<sp/>m_m12<sp/>*<sp/>m_m12;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>m_m21Sq<sp/>=<sp/>m_m21<sp/>*<sp/>m_m21;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>m_m22Sq<sp/>=<sp/>m_m22<sp/>*<sp/>m_m22;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a17736c2d28a01e280f6119e78d5b4ea4" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a17736c2d28a01e280f6119e78d5b4ea4" kindref="member">Flatte</ref>(std::string&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1adb0a94ad2e7605181d2998d69ea37c26" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>coeff1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>coeff2,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>resoA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>resoB,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a57e095df6aa53a7dc70f956506a69fe0" kindref="member">mass</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a94e828fcd21dfe019e982fc6de1634a1" kindref="member">width</ref>,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a037770435e2d210d675bd32be35a25f4" kindref="member">l</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a11b061f236c00243a998468131956c5d" kindref="member">r</ref>,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0eccfd5f8bdb1a2840472dd5a3a8bc70" kindref="member">g1</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0de635396eeaa3c40b00d7576a1ec114" kindref="member">g2</ref>,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1afc4c6c3ebe7675fb7489efa8ec21296b" kindref="member">m11</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0cf0e02999637c1289bed967293e39d3" kindref="member">m12</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1aa650b6a0239eeea5ed827a697da35537" kindref="member">m21</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a2e5d742766c056641d10f4c56e5705a6" kindref="member">m22</ref>)<sp/>:</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance" kindref="compound">Resonance</ref>(<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1adb0a94ad2e7605181d2998d69ea37c26" kindref="member">name</ref><sp/>,<sp/>coeff1<sp/>,<sp/>coeff2<sp/>,<sp/>resoA<sp/>,<sp/>resoB<sp/>,<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a57e095df6aa53a7dc70f956506a69fe0" kindref="member">mass</ref><sp/>,<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a94e828fcd21dfe019e982fc6de1634a1" kindref="member">width</ref><sp/>,<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a037770435e2d210d675bd32be35a25f4" kindref="member">l</ref><sp/>,<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a11b061f236c00243a998468131956c5d" kindref="member">r</ref><sp/>),</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>m_g1(<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0eccfd5f8bdb1a2840472dd5a3a8bc70" kindref="member">g1</ref><sp/>),</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>m_g2(<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0de635396eeaa3c40b00d7576a1ec114" kindref="member">g2</ref><sp/>),</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>m_m11(<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1afc4c6c3ebe7675fb7489efa8ec21296b" kindref="member">m11</ref><sp/>),</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>m_m12(<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0cf0e02999637c1289bed967293e39d3" kindref="member">m12</ref><sp/>),</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>m_m21(<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1aa650b6a0239eeea5ed827a697da35537" kindref="member">m21</ref><sp/>),</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>m_m22(<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a2e5d742766c056641d10f4c56e5705a6" kindref="member">m22</ref><sp/>)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>m_g1Sq<sp/><sp/>=<sp/>m_g1<sp/>*<sp/>m_g1;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>m_g2Sq<sp/><sp/>=<sp/>m_g2<sp/>*<sp/>m_g2;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>m_m11Sq<sp/>=<sp/>m_m11<sp/>*<sp/>m_m11;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>m_m12Sq<sp/>=<sp/>m_m12<sp/>*<sp/>m_m12;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>m_m21Sq<sp/>=<sp/>m_m21<sp/>*<sp/>m_m21;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>m_m22Sq<sp/>=<sp/>m_m22<sp/>*<sp/>m_m22;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a61b34fa9e19a94293975b632e955c202" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a61b34fa9e19a94293975b632e955c202" kindref="member">~Flatte</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d44/namespace_dalitz_model_1_1_line_shape_1a8f80ff2551e06bdb6463d7bdc725a7c4" kindref="member">complex_t</ref><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1aa7f9bbfc264e0c97885adad8fc87e063" kindref="member">propagator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref>&amp;<sp/>ps,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>mSqAB)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1aa1b1aee153bfe9bae2274dd5ae9d4012" kindref="member">rho1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref>&amp;<sp/>ps,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>mSqAB)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a47e51169b769ef75a9aa774e8d666c74" kindref="member">rho2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref>&amp;<sp/>ps,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>mSqAB)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte" kindref="compound">Flatte</ref>*<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1ad48cfc2c38da8d7c98fa71b4b69ef180" kindref="member">copy</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0eccfd5f8bdb1a2840472dd5a3a8bc70" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0eccfd5f8bdb1a2840472dd5a3a8bc70" kindref="member">g1</ref>()<sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_g1;<sp/>}</highlight></codeline>
+<codeline lineno="82" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0de635396eeaa3c40b00d7576a1ec114" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0de635396eeaa3c40b00d7576a1ec114" kindref="member">g2</ref>()<sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_g2;<sp/>}</highlight></codeline>
+<codeline lineno="83" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1afc4c6c3ebe7675fb7489efa8ec21296b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1afc4c6c3ebe7675fb7489efa8ec21296b" kindref="member">m11</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_m11;<sp/>}</highlight></codeline>
+<codeline lineno="84" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0cf0e02999637c1289bed967293e39d3" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0cf0e02999637c1289bed967293e39d3" kindref="member">m12</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_m12;<sp/>}</highlight></codeline>
+<codeline lineno="85" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1aa650b6a0239eeea5ed827a697da35537" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1aa650b6a0239eeea5ed827a697da35537" kindref="member">m21</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_m21;<sp/>}</highlight></codeline>
+<codeline lineno="86" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a2e5d742766c056641d10f4c56e5705a6" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a2e5d742766c056641d10f4c56e5705a6" kindref="member">m22</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_m22;<sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a40506967e121185c5e6856977f0c3a9c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a40506967e121185c5e6856977f0c3a9c" kindref="member">g1Sq</ref>()<sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_g1Sq;<sp/>}</highlight></codeline>
+<codeline lineno="89" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a940d0b9c5901bcdcd4bd700aa4bcf550" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a940d0b9c5901bcdcd4bd700aa4bcf550" kindref="member">g2Sq</ref>()<sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_g2Sq;<sp/>}</highlight></codeline>
+<codeline lineno="90" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a3a12a0633150a7c4509209aacbf792f7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a3a12a0633150a7c4509209aacbf792f7" kindref="member">m11Sq</ref>()<sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_m11Sq;<sp/>}</highlight></codeline>
+<codeline lineno="91" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1adef1c38176ee36e80ba6dccc4ba9d268" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1adef1c38176ee36e80ba6dccc4ba9d268" kindref="member">m12Sq</ref>()<sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_m12Sq;<sp/>}</highlight></codeline>
+<codeline lineno="92" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1adfdc32f2dd7d5f6cd8f9b8ae07da54e2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1adfdc32f2dd7d5f6cd8f9b8ae07da54e2" kindref="member">m21Sq</ref>()<sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_m21Sq;<sp/>}</highlight></codeline>
+<codeline lineno="93" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a8a428d4773f1a58a2b5be9a5f99bb173" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a8a428d4773f1a58a2b5be9a5f99bb173" kindref="member">m22Sq</ref>()<sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_m22Sq;<sp/>}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1aa7f9bbfc264e0c97885adad8fc87e063" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d44/namespace_dalitz_model_1_1_line_shape_1a8f80ff2551e06bdb6463d7bdc725a7c4" kindref="member">complex_t</ref><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1aa7f9bbfc264e0c97885adad8fc87e063" kindref="member">Flatte::propagator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref>&amp;<sp/>ps,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>mSqAB)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="97"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d44/namespace_dalitz_model_1_1_line_shape_1a8f80ff2551e06bdb6463d7bdc725a7c4" kindref="member">complex_t</ref><sp/>I(0.,1.);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_g1<sp/>/<sp/>(<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1a368c6f196d95c5ff42a2087b321ee0b9" kindref="member">mSq</ref>()<sp/>-<sp/>mSqAB<sp/>-<sp/>I*(<ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1aa1b1aee153bfe9bae2274dd5ae9d4012" kindref="member">rho1</ref>(ps,mSqAB)*m_g1Sq<sp/>+<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a47e51169b769ef75a9aa774e8d666c74" kindref="member">rho2</ref>(ps,mSqAB)*m_g2Sq<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1aa1b1aee153bfe9bae2274dd5ae9d4012" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1aa1b1aee153bfe9bae2274dd5ae9d4012" kindref="member">Flatte::rho1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref>&amp;<sp/>ps,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>mSqAB)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="103"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::sqrt(<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1abdca73ba53a7b51ac20fc1d2608d65b1" kindref="member">kallen</ref>(<sp/>mSqAB,<sp/>m_m11Sq<sp/>,<sp/>m_m12Sq<sp/>)<sp/>)/mSqAB;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a47e51169b769ef75a9aa774e8d666c74" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a47e51169b769ef75a9aa774e8d666c74" kindref="member">Flatte::rho2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref>&amp;<sp/>ps,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>mSqAB)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="108"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::sqrt(<sp/><ref refid="d3/d39/class_dalitz_model_1_1_resonance_1abdca73ba53a7b51ac20fc1d2608d65b1" kindref="member">kallen</ref>(<sp/>mSqAB,<sp/>m_m21Sq,<sp/>m_m22Sq<sp/>)<sp/>)/mSqAB;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1ad48cfc2c38da8d7c98fa71b4b69ef180" refkind="member"><highlight class="normal"><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte" kindref="compound">Flatte</ref>*<sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1ad48cfc2c38da8d7c98fa71b4b69ef180" kindref="member">Flatte::copy</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="113"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1a0b6fdca65c639b4bd8bffe839ddce2a3" kindref="member">Flatte</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>LineShape</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>DalitzModel</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/lineshapes/flatte.h"/>
+  </compounddef>
+</doxygen>

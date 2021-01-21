@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="d3/db2/class_dalitz_model_1_1_config_file" kind="class" language="C++" prot="public">
+    <compoundname>DalitzModel::ConfigFile</compoundname>
+    <includes refid="da/da5/configfile_8h" local="no">configfile.h</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="d3/db2/class_dalitz_model_1_1_config_file_1ac4b9369cecf4c7f2475ee1984af8a36d" prot="private" static="no" strong="no">
+        <type></type>
+        <name>Section</name>
+        <enumvalue id="d3/db2/class_dalitz_model_1_1_config_file_1ac4b9369cecf4c7f2475ee1984af8a36dab14db51444a0d42ba8ff0ad4a5dde6dd" prot="private">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/db2/class_dalitz_model_1_1_config_file_1ac4b9369cecf4c7f2475ee1984af8a36dad4729f9d1c583ae48e957703235cc454" prot="private">
+          <name>Resonances</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/db2/class_dalitz_model_1_1_config_file_1ac4b9369cecf4c7f2475ee1984af8a36daf82b88bef3f418cbe11121b200789339" prot="private">
+          <name>Parameters</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/db2/class_dalitz_model_1_1_config_file_1ac4b9369cecf4c7f2475ee1984af8a36da803227aaf026b8f08cfc64717c854016" prot="private">
+          <name>CorrelationMatrix</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/db2/class_dalitz_model_1_1_config_file_1ac4b9369cecf4c7f2475ee1984af8a36dacf233382105f05ad2cafaaa59a249ca0" prot="private">
+          <name>CovarianceMatrix</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" line="19" column="3" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" bodystart="19" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d3/db2/class_dalitz_model_1_1_config_file_1af2b65aa47d2dfbb06ff56a6a3b97514a" prot="private" static="no" mutable="no">
+        <type>std::map&lt; std::string, std::string &gt;</type>
+        <definition>std::map&lt;std::string,std::string&gt; DalitzModel::ConfigFile::m_entries</definition>
+        <argsstring></argsstring>
+        <name>m_entries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" line="49" column="12" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/db2/class_dalitz_model_1_1_config_file_1aed5f871f59be561ceae8267a2ce4ef11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DalitzModel::ConfigFile::ConfigFile</definition>
+        <argsstring>()=default</argsstring>
+        <name>ConfigFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" line="27" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/db2/class_dalitz_model_1_1_config_file_1a5ddc8955b10dde6a717d7baa7f9dd1e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DalitzModel::ConfigFile::ConfigFile</definition>
+        <argsstring>(const std::string cfgfile)</argsstring>
+        <name>ConfigFile</name>
+        <param>
+          <type>const std::string</type>
+          <declname>cfgfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" line="28" column="3" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/db2/class_dalitz_model_1_1_config_file_1aa13b218c7678dfd91b00ff91cf3d96ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual DalitzModel::ConfigFile::~ConfigFile</definition>
+        <argsstring>()</argsstring>
+        <name>~ConfigFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" line="29" column="11" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string DalitzModel::ConfigFile::get</definition>
+        <argsstring>(std::string key)</argsstring>
+        <name>get</name>
+        <param>
+          <type>std::string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" line="31" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" bodystart="52" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/db2/class_dalitz_model_1_1_config_file_1ab0554c0c052359fdc5b6b7b85ebf7267" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T DalitzModel::ConfigFile::get</definition>
+        <argsstring>(std::string key)</argsstring>
+        <name>get</name>
+        <param>
+          <type>std::string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" line="33" column="5" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" bodystart="66" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="d3/db2/class_dalitz_model_1_1_config_file_1ae3ff5dbc3ea84f5be6df1266f4b7e2dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, const ConfigFile &amp;config)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d3/db2/class_dalitz_model_1_1_config_file" kindref="compound">ConfigFile</ref> &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" line="36" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" bodystart="180" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="friend" id="d3/db2/class_dalitz_model_1_1_config_file_1af7155691676479a383037dd88c56d7e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::istream &amp;</type>
+        <definition>std::istream&amp; operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;is, ConfigFile &amp;config)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/db2/class_dalitz_model_1_1_config_file" kindref="compound">ConfigFile</ref> &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" line="37" column="23" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" bodystart="191" bodyend="197"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d3/db2/class_dalitz_model_1_1_config_file_1a3d265f12bc973d74b18c39c0d7efe5f6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DalitzModel::ConfigFile::decodeConfigFile</definition>
+        <argsstring>(const std::string cfgfile)</argsstring>
+        <name>decodeConfigFile</name>
+        <param>
+          <type>const std::string</type>
+          <declname>cfgfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" line="40" column="8" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" bodystart="81" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/db2/class_dalitz_model_1_1_config_file_1ae2f0fe0544eff3794632ad366ac8d85e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DalitzModel::ConfigFile::decodeResonances</definition>
+        <argsstring>(const std::string line)</argsstring>
+        <name>decodeResonances</name>
+        <param>
+          <type>const std::string</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" line="42" column="8" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" bodystart="157" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/db2/class_dalitz_model_1_1_config_file_1aa57c57da329732c22f91b2d3fd909ca9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DalitzModel::ConfigFile::decodeParameters</definition>
+        <argsstring>(const std::string line)</argsstring>
+        <name>decodeParameters</name>
+        <param>
+          <type>const std::string</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" line="43" column="8" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" bodystart="163" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/db2/class_dalitz_model_1_1_config_file_1a1fba02580bc168da3b5edb2c1c917eb7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DalitzModel::ConfigFile::decodeCorrelationMatrix</definition>
+        <argsstring>(const std::string line)</argsstring>
+        <name>decodeCorrelationMatrix</name>
+        <param>
+          <type>const std::string</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" line="44" column="8" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" bodystart="169" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/db2/class_dalitz_model_1_1_config_file_1a99a8a5c26a4d3912d0d0aa4891097484" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DalitzModel::ConfigFile::decodeCovarianceMatrix</definition>
+        <argsstring>(const std::string line)</argsstring>
+        <name>decodeCovarianceMatrix</name>
+        <param>
+          <type>const std::string</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" line="45" column="8" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" bodystart="174" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/db2/class_dalitz_model_1_1_config_file_1a1db8c859a0cb51593b1c1cec0ef65acf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DalitzModel::ConfigFile::addEntry</definition>
+        <argsstring>(const std::string line)</argsstring>
+        <name>addEntry</name>
+        <param>
+          <type>const std::string</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" line="47" column="8" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" bodystart="126" bodyend="155"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" line="17" column="1" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configfile.h" bodystart="18" bodyend="50"/>
+    <listofallmembers>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1a1db8c859a0cb51593b1c1cec0ef65acf" prot="private" virt="non-virtual"><scope>DalitzModel::ConfigFile</scope><name>addEntry</name></member>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1aed5f871f59be561ceae8267a2ce4ef11" prot="public" virt="non-virtual"><scope>DalitzModel::ConfigFile</scope><name>ConfigFile</name></member>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1a5ddc8955b10dde6a717d7baa7f9dd1e8" prot="public" virt="non-virtual"><scope>DalitzModel::ConfigFile</scope><name>ConfigFile</name></member>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1ac4b9369cecf4c7f2475ee1984af8a36da803227aaf026b8f08cfc64717c854016" prot="private" virt="non-virtual"><scope>DalitzModel::ConfigFile</scope><name>CorrelationMatrix</name></member>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1ac4b9369cecf4c7f2475ee1984af8a36dacf233382105f05ad2cafaaa59a249ca0" prot="private" virt="non-virtual"><scope>DalitzModel::ConfigFile</scope><name>CovarianceMatrix</name></member>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1a3d265f12bc973d74b18c39c0d7efe5f6" prot="private" virt="non-virtual"><scope>DalitzModel::ConfigFile</scope><name>decodeConfigFile</name></member>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1a1fba02580bc168da3b5edb2c1c917eb7" prot="private" virt="non-virtual"><scope>DalitzModel::ConfigFile</scope><name>decodeCorrelationMatrix</name></member>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1a99a8a5c26a4d3912d0d0aa4891097484" prot="private" virt="non-virtual"><scope>DalitzModel::ConfigFile</scope><name>decodeCovarianceMatrix</name></member>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1aa57c57da329732c22f91b2d3fd909ca9" prot="private" virt="non-virtual"><scope>DalitzModel::ConfigFile</scope><name>decodeParameters</name></member>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1ae2f0fe0544eff3794632ad366ac8d85e" prot="private" virt="non-virtual"><scope>DalitzModel::ConfigFile</scope><name>decodeResonances</name></member>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1a04128da3b3fe867613cb74e3c2c3272c" prot="public" virt="non-virtual"><scope>DalitzModel::ConfigFile</scope><name>get</name></member>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1ab0554c0c052359fdc5b6b7b85ebf7267" prot="public" virt="non-virtual"><scope>DalitzModel::ConfigFile</scope><name>get</name></member>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1af2b65aa47d2dfbb06ff56a6a3b97514a" prot="private" virt="non-virtual"><scope>DalitzModel::ConfigFile</scope><name>m_entries</name></member>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1ac4b9369cecf4c7f2475ee1984af8a36dab14db51444a0d42ba8ff0ad4a5dde6dd" prot="private" virt="non-virtual"><scope>DalitzModel::ConfigFile</scope><name>None</name></member>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1ae3ff5dbc3ea84f5be6df1266f4b7e2dd" prot="public" virt="non-virtual"><scope>DalitzModel::ConfigFile</scope><name>operator&lt;&lt;</name></member>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1af7155691676479a383037dd88c56d7e1" prot="public" virt="non-virtual"><scope>DalitzModel::ConfigFile</scope><name>operator&gt;&gt;</name></member>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1ac4b9369cecf4c7f2475ee1984af8a36daf82b88bef3f418cbe11121b200789339" prot="private" virt="non-virtual"><scope>DalitzModel::ConfigFile</scope><name>Parameters</name></member>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1ac4b9369cecf4c7f2475ee1984af8a36dad4729f9d1c583ae48e957703235cc454" prot="private" virt="non-virtual"><scope>DalitzModel::ConfigFile</scope><name>Resonances</name></member>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1ac4b9369cecf4c7f2475ee1984af8a36d" prot="private" virt="non-virtual"><scope>DalitzModel::ConfigFile</scope><name>Section</name></member>
+      <member refid="d3/db2/class_dalitz_model_1_1_config_file_1aa13b218c7678dfd91b00ff91cf3d96ea" prot="public" virt="virtual"><scope>DalitzModel::ConfigFile</scope><name>~ConfigFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_1c1225548a374eb36a780066adbec6c4" kind="dir">
+    <compoundname>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/lineshapes</compoundname>
+    <innerfile refid="d8/d8c/flatte_8h">flatte.h</innerfile>
+    <innerfile refid="d8/d72/relbreitwigner_8h">relbreitwigner.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/lineshapes/"/>
+  </compounddef>
+</doxygen>

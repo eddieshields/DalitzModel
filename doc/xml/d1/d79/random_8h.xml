@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="d1/d79/random_8h" kind="file" language="C++">
+    <compoundname>random.h</compoundname>
+    <includes local="no">random</includes>
+    <includedby refid="d2/d2a/parameter_8h" local="yes">/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h</label>
+        <link refid="d1/d79/random_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>random</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="7">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/dalitzplot.h</label>
+        <link refid="d1/daf/dalitzplot_8h"/>
+      </node>
+      <node id="6">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/amplitude.h</label>
+        <link refid="d5/db6/amplitude_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/lineshapes/flatte.h</label>
+        <link refid="d8/d8c/flatte_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/parameter.h</label>
+        <link refid="d2/d2a/parameter_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h</label>
+        <link refid="d1/d79/random_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/lineshapes/relbreitwigner.h</label>
+        <link refid="d8/d72/relbreitwigner_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/coefficient.h</label>
+        <link refid="d1/db9/coefficient_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h</label>
+        <link refid="d5/ddb/resonance_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/configureamplitude.h</label>
+        <link refid="dc/de4/configureamplitude_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="db/d54/class_dalitz_model_1_1_random" prot="public">DalitzModel::Random</innerclass>
+    <innernamespace refid="dd/d06/namespace_dalitz_model">DalitzModel</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>DALITZMODEL_RANDOM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DALITZMODEL_RANDOM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;random&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="dd/d06/namespace_dalitz_model" kindref="compound">DalitzModel</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="db/d54/class_dalitz_model_1_1_random" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="db/d54/class_dalitz_model_1_1_random" kindref="compound">Random</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::mt19937_64<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_engine;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::uniform_real_distribution&lt;<sp/>double<sp/>&gt;<sp/>_uniform;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::exponential_distribution<sp/>&lt;<sp/>double<sp/>&gt;<sp/>_exponential;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::normal_distribution<sp/><sp/><sp/><sp/><sp/><sp/>&lt;<sp/>double<sp/>&gt;<sp/>_normal;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::uniform_int_distribution<sp/>&lt;<sp/>int<sp/>&gt;<sp/><sp/><sp/><sp/>_integer;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19" refid="db/d54/class_dalitz_model_1_1_random_1af82f8b32d3dc4a9eec5d40d789e84bc5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::mt19937_64&amp;<sp/><ref refid="db/d54/class_dalitz_model_1_1_random_1af82f8b32d3dc4a9eec5d40d789e84bc5" kindref="member">engine</ref>()</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_engine;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="db/d54/class_dalitz_model_1_1_random_1acd88cf6181fbff4e65afb904b01d392c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="db/d54/class_dalitz_model_1_1_random_1acd88cf6181fbff4e65afb904b01d392c" kindref="member">setSeed</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal">&amp;<sp/>seed<sp/>)<sp/>{<sp/>_engine.seed(<sp/>seed<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="db/d54/class_dalitz_model_1_1_random_1a6613c90cc8ce7c87ba897af34bd5cf12" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="db/d54/class_dalitz_model_1_1_random_1a6613c90cc8ce7c87ba897af34bd5cf12" kindref="member">flat</ref><sp/><sp/><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>min<sp/>=<sp/>0.0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>max<sp/>=<sp/>1.0<sp/>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>min<sp/>+<sp/>(<sp/>max<sp/>-<sp/>min<sp/>)<sp/>*<sp/>_uniform(<sp/><ref refid="db/d54/class_dalitz_model_1_1_random_1af82f8b32d3dc4a9eec5d40d789e84bc5" kindref="member">engine</ref>()<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="db/d54/class_dalitz_model_1_1_random_1ada55c5e4753e7790891fcc415ff906a1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="db/d54/class_dalitz_model_1_1_random_1ada55c5e4753e7790891fcc415ff906a1" kindref="member">uniform</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>min<sp/>=<sp/>0.0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>max<sp/>=<sp/>1.0<sp/>)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>min<sp/>+<sp/>(<sp/>max<sp/>-<sp/>min<sp/>)<sp/>*<sp/>_uniform(<sp/><ref refid="db/d54/class_dalitz_model_1_1_random_1af82f8b32d3dc4a9eec5d40d789e84bc5" kindref="member">engine</ref>()<sp/>);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="db/d54/class_dalitz_model_1_1_random_1af29bcbd9b42a02dc087b08ba5170a000" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="db/d54/class_dalitz_model_1_1_random_1af29bcbd9b42a02dc087b08ba5170a000" kindref="member">exponential</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>lambda<sp/>=<sp/>1.0<sp/>)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_exponential(<sp/>_engine<sp/>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="db/d54/class_dalitz_model_1_1_random_1a676c5add43dbc497cae355108809aa47" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="db/d54/class_dalitz_model_1_1_random_1a676c5add43dbc497cae355108809aa47" kindref="member">normal</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>mu<sp/>=<sp/>0.0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>sigma<sp/>=<sp/>1.0<sp/>)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>mu<sp/>+<sp/>sigma<sp/>*<sp/>_normal(<sp/>_engine<sp/>);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="db/d54/class_dalitz_model_1_1_random_1af29178db22ffbb2aba8449548dc7a5b1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d54/class_dalitz_model_1_1_random_1af29178db22ffbb2aba8449548dc7a5b1" kindref="member">integer</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>a<sp/>=<sp/>0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>b<sp/>=<sp/>1<sp/>)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_integer(<sp/>_engine<sp/>);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Define<sp/>static<sp/>members.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">std::mt19937_64<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Random::_engine<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>std::mt19937_64();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">std::uniform_real_distribution&lt;<sp/>double<sp/>&gt;<sp/>Random::_uniform<sp/><sp/><sp/><sp/><sp/>=<sp/>std::uniform_real_distribution&lt;<sp/>double<sp/>&gt;();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">std::exponential_distribution<sp/>&lt;<sp/>double<sp/>&gt;<sp/>Random::_exponential<sp/>=<sp/>std::exponential_distribution<sp/>&lt;<sp/>double<sp/>&gt;();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">std::normal_distribution<sp/><sp/><sp/><sp/><sp/><sp/>&lt;<sp/>double<sp/>&gt;<sp/>Random::_normal<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>std::normal_distribution<sp/><sp/><sp/><sp/><sp/><sp/>&lt;<sp/>double<sp/>&gt;();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">std::uniform_int_distribution<sp/>&lt;<sp/>int<sp/>&gt;<sp/><sp/><sp/><sp/>Random::_integer<sp/><sp/><sp/><sp/><sp/>=<sp/>std::uniform_int_distribution<sp/>&lt;<sp/>int<sp/>&gt;<sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,956 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="d3/d39/class_dalitz_model_1_1_resonance" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>DalitzModel::Resonance</compoundname>
+    <derivedcompoundref refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte" prot="public" virt="non-virtual">DalitzModel::LineShape::Flatte</derivedcompoundref>
+    <derivedcompoundref refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner" prot="public" virt="non-virtual">DalitzModel::LineShape::RelBreitWigner</derivedcompoundref>
+    <includes refid="d5/ddb/resonance_8h" local="no">resonance.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d3/d39/class_dalitz_model_1_1_resonance_1aeec7063ebbe28fd385962d9f9d862eeb" prot="protected" static="no" mutable="no">
+        <type><ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref></type>
+        <definition>Coefficient DalitzModel::Resonance::m_coeff</definition>
+        <argsstring></argsstring>
+        <name>m_coeff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="22" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d39/class_dalitz_model_1_1_resonance_1a48f26ffd8ddb35f58dcfefeb7aaaf44f" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref></type>
+        <definition>Parameter DalitzModel::Resonance::m_mass</definition>
+        <argsstring></argsstring>
+        <name>m_mass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="23" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d39/class_dalitz_model_1_1_resonance_1af6c3942ac1b0adebd4d23411714e1eed" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref></type>
+        <definition>Parameter DalitzModel::Resonance::m_width</definition>
+        <argsstring></argsstring>
+        <name>m_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="24" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d39/class_dalitz_model_1_1_resonance_1ab6906e38d96e6db830192280d8d65b87" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref></type>
+        <definition>Parameter DalitzModel::Resonance::m_r</definition>
+        <argsstring></argsstring>
+        <name>m_r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="25" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d39/class_dalitz_model_1_1_resonance_1aedc77a0311b7525aa7b8ad4d47d857d2" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DalitzModel::Resonance::m_l</definition>
+        <argsstring></argsstring>
+        <name>m_l</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="26" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d39/class_dalitz_model_1_1_resonance_1aadb906166093d0885114d313b65affc5" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DalitzModel::Resonance::m_resoA</definition>
+        <argsstring></argsstring>
+        <name>m_resoA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="27" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d39/class_dalitz_model_1_1_resonance_1a9ea6fa35e8d1aeb0988fe201c8b17bad" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DalitzModel::Resonance::m_resoB</definition>
+        <argsstring></argsstring>
+        <name>m_resoB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="28" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d39/class_dalitz_model_1_1_resonance_1a59f68ddc7bf8be311962071844105283" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DalitzModel::Resonance::m_noRes</definition>
+        <argsstring></argsstring>
+        <name>m_noRes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="29" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d39/class_dalitz_model_1_1_resonance_1a89b01a8954fd0ad1d11958045307e73b" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string DalitzModel::Resonance::m_name</definition>
+        <argsstring></argsstring>
+        <name>m_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="31" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d39/class_dalitz_model_1_1_resonance_1a896121c55fa0cdc12e737bce88977313" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DalitzModel::Resonance::m_helicity</definition>
+        <argsstring></argsstring>
+        <name>m_helicity</name>
+        <initializer>= {false}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="33" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d39/class_dalitz_model_1_1_resonance_1a57b7e0d7ea2dcb0e9b38ec9ff8e1636f" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DalitzModel::Resonance::m_massSq</definition>
+        <argsstring></argsstring>
+        <name>m_massSq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="35" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/d39/class_dalitz_model_1_1_resonance_1aa25b9ab1984691b1486e03b93837821e" prot="public" static="no" mutable="no">
+        <type><ref refid="d3/d39/class_dalitz_model_1_1_resonance" kindref="compound">Resonance</ref> *</type>
+        <definition>Resonance* DalitzModel::Resonance::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <initializer>= {nullptr}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="76" column="13" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1ab7f8d2f1a5c2b0c13b994b59801a37a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DalitzModel::Resonance::Resonance</definition>
+        <argsstring>()=default</argsstring>
+        <name>Resonance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="37" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a2156d0197fe551ac729826df2153bebe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DalitzModel::Resonance::Resonance</definition>
+        <argsstring>(std::string &amp;name, const Coefficient &amp;coeff, const int &amp;resoA, const int &amp;resoB, const Parameter &amp;mass, const Parameter &amp;width, const int &amp;l, const Parameter &amp;r)</argsstring>
+        <name>Resonance</name>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d6/d9a/class_dalitz_model_1_1_coefficient" kindref="compound">Coefficient</ref> &amp;</type>
+          <declname>coeff</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>resoA</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>resoB</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>mass</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="38" column="3" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="38" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a054a291b720b6f83d6f35c0312eb7403" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DalitzModel::Resonance::Resonance</definition>
+        <argsstring>(std::string &amp;name, const double &amp;coeff1, const double &amp;coeff2, const int &amp;resoA, const int &amp;resoB, const double &amp;mass, const double &amp;width, const int &amp;l, const double &amp;r)</argsstring>
+        <name>Resonance</name>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>coeff1</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>coeff2</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>resoA</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>resoB</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mass</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="54" column="3" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="54" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1ac7a9475cb7b38541f88f6c272f5ea50a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual DalitzModel::Resonance::~Resonance</definition>
+        <argsstring>()</argsstring>
+        <name>~Resonance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="70" column="11" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a7276e6e0faae0f7edb70cb00136f9df0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d3/d39/class_dalitz_model_1_1_resonance" kindref="compound">Resonance</ref> *</type>
+        <definition>Resonance * DalitzModel::Resonance::cnj_copy</definition>
+        <argsstring>() const</argsstring>
+        <name>cnj_copy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="72" column="13" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="115" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1ab0b232f0e3ba4c1560f154e65ec4333c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="d3/d39/class_dalitz_model_1_1_resonance" kindref="compound">Resonance</ref> *</type>
+        <definition>virtual Resonance* DalitzModel::Resonance::copy</definition>
+        <argsstring>() const =0</argsstring>
+        <name>copy</name>
+        <reimplementedby refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1ad48cfc2c38da8d7c98fa71b4b69ef180">copy</reimplementedby>
+        <reimplementedby refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1a523ed5a305a0dadc34ee6fedb59e4950">copy</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="73" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1ade92951f28f1819751c4d6d39ad80880" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>virtual const complex_t DalitzModel::Resonance::propagator</definition>
+        <argsstring>(const PhaseSpace &amp;ps, const double &amp;mSqAB) const =0</argsstring>
+        <name>propagator</name>
+        <reimplementedby refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte_1aa7f9bbfc264e0c97885adad8fc87e063">propagator</reimplementedby>
+        <reimplementedby refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner_1a93a0fb8f8a2a8ff72633834adec35fd8">propagator</reimplementedby>
+        <param>
+          <type>const <ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref> &amp;</type>
+          <declname>ps</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSqAB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="79" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1adb0a94ad2e7605181d2998d69ea37c26" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string DalitzModel::Resonance::name</definition>
+        <argsstring>() const</argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="86" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a57e095df6aa53a7dc70f956506a69fe0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref></type>
+        <definition>Parameter DalitzModel::Resonance::mass</definition>
+        <argsstring>() const</argsstring>
+        <name>mass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="87" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1aef5f7d69d99b10dc7f7ed072cb728578" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref></type>
+        <definition>Parameter DalitzModel::Resonance::m</definition>
+        <argsstring>() const</argsstring>
+        <name>m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="88" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a368c6f196d95c5ff42a2087b321ee0b9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double DalitzModel::Resonance::mSq</definition>
+        <argsstring>() const</argsstring>
+        <name>mSq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="89" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a94e828fcd21dfe019e982fc6de1634a1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref></type>
+        <definition>Parameter DalitzModel::Resonance::width</definition>
+        <argsstring>() const</argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="90" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a11b061f236c00243a998468131956c5d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d43/class_dalitz_model_1_1_parameter" kindref="compound">Parameter</ref></type>
+        <definition>Parameter DalitzModel::Resonance::r</definition>
+        <argsstring>() const</argsstring>
+        <name>r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="91" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a037770435e2d210d675bd32be35a25f4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int DalitzModel::Resonance::l</definition>
+        <argsstring>() const</argsstring>
+        <name>l</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="92" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a4e773e46aa7688d7c32d9487c4a0223e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::Resonance::evaluate</definition>
+        <argsstring>(const PhaseSpace &amp;ps, const double &amp;mSq12, const double &amp;mSq13)</argsstring>
+        <name>evaluate</name>
+        <param>
+          <type>const <ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref> &amp;</type>
+          <declname>ps</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq12</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq13</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="94" column="19" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="170" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1aadb4b3cc0de3fa4cf64994b6c17ff48b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="dd/d06/namespace_dalitz_model_1ae9ceb46b4ba8c8b69d07ed836a75e552" kindref="member">complex_t</ref></type>
+        <definition>const complex_t DalitzModel::Resonance::evaluate</definition>
+        <argsstring>(const PhaseSpace &amp;ps, const double &amp;mSq12, const double &amp;mSq13, const double &amp;mSq23)</argsstring>
+        <name>evaluate</name>
+        <param>
+          <type>const <ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref> &amp;</type>
+          <declname>ps</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq12</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq13</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq23</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="95" column="19" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="160" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a3ca5f94149e354e9c5ee5553498ccaf7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::Resonance::M2AB</definition>
+        <argsstring>(const double &amp;mSq12, const double &amp;mSq13, const double &amp;mSq23) const</argsstring>
+        <name>M2AB</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq12</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq13</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq23</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="97" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="176" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a6b8def2f3852e0bf2e229afb74e9ce9b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::Resonance::M2AC</definition>
+        <argsstring>(const double &amp;mSq12, const double &amp;mSq13, const double &amp;mSq23) const</argsstring>
+        <name>M2AC</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq12</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq13</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq23</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="98" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="184" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a65488444b54242550d546b4c97f89e7e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double DalitzModel::Resonance::M2BC</definition>
+        <argsstring>(const double &amp;mSq12, const double &amp;mSq13, const double &amp;mSq23) const</argsstring>
+        <name>M2BC</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq12</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq13</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSq23</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="99" column="16" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="192" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1abdca73ba53a7b51ac20fc1d2608d65b1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double DalitzModel::Resonance::kallen</definition>
+        <argsstring>(const double &amp;x, const double &amp;y, const double &amp;z) const</argsstring>
+        <name>kallen</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="102" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="200" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a76b073dc8035262f293fc3be87322405" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DalitzModel::Resonance::q</definition>
+        <argsstring>(const PhaseSpace &amp;ps, const double &amp;mSqAB) const</argsstring>
+        <name>q</name>
+        <param>
+          <type>const <ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref> &amp;</type>
+          <declname>ps</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSqAB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="103" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="210" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a871ce0bcda145b125768eeb65b94c7f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DalitzModel::Resonance::p</definition>
+        <argsstring>(const PhaseSpace &amp;ps, const double &amp;mSqAB) const</argsstring>
+        <name>p</name>
+        <param>
+          <type>const <ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref> &amp;</type>
+          <declname>ps</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSqAB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="104" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="205" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1abf41480d8a0d55faf010dc35b2c99ac6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DalitzModel::Resonance::rho</definition>
+        <argsstring>(const PhaseSpace &amp;ps, const double &amp;mSqAB) const</argsstring>
+        <name>rho</name>
+        <param>
+          <type>const <ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref> &amp;</type>
+          <declname>ps</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSqAB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="105" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="215" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a02c78726f7dc2f5e471e4dd824081cc8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double DalitzModel::Resonance::zemach</definition>
+        <argsstring>(const PhaseSpace &amp;ps, const double &amp;mSqAB, const double &amp;mSqAC, const double &amp;mSqBC) const</argsstring>
+        <name>zemach</name>
+        <param>
+          <type>const <ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref> &amp;</type>
+          <declname>ps</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSqAB</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSqAC</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSqBC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="106" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="220" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a986230e0d7f4c17f62bbf169d8ead99a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double DalitzModel::Resonance::helicity</definition>
+        <argsstring>(const PhaseSpace &amp;ps, const double &amp;mSqAB, const double &amp;mSqAC, const double &amp;mSqBC) const</argsstring>
+        <name>helicity</name>
+        <param>
+          <type>const <ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref> &amp;</type>
+          <declname>ps</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSqAB</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSqAC</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSqBC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="107" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="240" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a31615c13606faa46348b49146c4538a2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double DalitzModel::Resonance::blattWeisskopfPrime</definition>
+        <argsstring>(const PhaseSpace &amp;ps, const double &amp;mSqAB) const</argsstring>
+        <name>blattWeisskopfPrime</name>
+        <param>
+          <type>const <ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref> &amp;</type>
+          <declname>ps</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSqAB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="108" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="260" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a0329eecb2a393e9992b46d0d367506fe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double DalitzModel::Resonance::blattWeisskopfPrimeP</definition>
+        <argsstring>(const PhaseSpace &amp;ps, const double &amp;mSqAB) const</argsstring>
+        <name>blattWeisskopfPrimeP</name>
+        <param>
+          <type>const <ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref> &amp;</type>
+          <declname>ps</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSqAB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="109" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="274" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a403b1e7c05355244bfeb31ad10cb62f2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DalitzModel::Resonance::blattWeisskopf</definition>
+        <argsstring>(const PhaseSpace &amp;ps, const double &amp;mSqAB) const</argsstring>
+        <name>blattWeisskopf</name>
+        <param>
+          <type>const <ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref> &amp;</type>
+          <declname>ps</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSqAB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="110" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="288" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d39/class_dalitz_model_1_1_resonance_1a26735d95d1c5ec0ab2e43effb0271f73" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DalitzModel::Resonance::angular</definition>
+        <argsstring>(const PhaseSpace &amp;ps, const double &amp;mSqAB, const double &amp;mSqAC, const double &amp;mSqBC) const</argsstring>
+        <name>angular</name>
+        <param>
+          <type>const <ref refid="d1/d8d/class_dalitz_model_1_1_phase_space" kindref="compound">PhaseSpace</ref> &amp;</type>
+          <declname>ps</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSqAB</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSqAC</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mSqBC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="111" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="297" bodyend="301"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="d3/d39/class_dalitz_model_1_1_resonance_1aa4fa791e50f0112f640efca18c058557" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, const Resonance &amp;reso)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d3/d39/class_dalitz_model_1_1_resonance" kindref="compound">Resonance</ref> &amp;</type>
+          <declname>reso</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="82" column="10" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="131" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="friend" id="d3/d39/class_dalitz_model_1_1_resonance_1a0b35c1faba5deda9f56975def458c291" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::istream &amp;</type>
+        <definition>std::istream&amp; operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;is, Resonance &amp;reso)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d39/class_dalitz_model_1_1_resonance" kindref="compound">Resonance</ref> &amp;</type>
+          <declname>reso</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="83" column="23" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="145" bodyend="158"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>DalitzModel::LineShape::RelBreitWigner</label>
+        <link refid="da/d69/class_dalitz_model_1_1_line_shape_1_1_rel_breit_wigner"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>DalitzModel::Resonance</label>
+        <link refid="d3/d39/class_dalitz_model_1_1_resonance"/>
+      </node>
+      <node id="2">
+        <label>DalitzModel::LineShape::Flatte</label>
+        <link refid="de/d43/class_dalitz_model_1_1_line_shape_1_1_flatte"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>DalitzModel::Parameter</label>
+        <link refid="d7/d43/class_dalitz_model_1_1_parameter"/>
+      </node>
+      <node id="4">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="6">
+        <label>std::complex&lt; double &gt;</label>
+      </node>
+      <node id="1">
+        <label>DalitzModel::Resonance</label>
+        <link refid="d3/d39/class_dalitz_model_1_1_resonance"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_mass</edgelabel>
+          <edgelabel>m_r</edgelabel>
+          <edgelabel>m_width</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>m_name</edgelabel>
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>m_coeff</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>DalitzModel::Coefficient</label>
+        <link refid="d6/d9a/class_dalitz_model_1_1_coefficient"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>m_state</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::string</label>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" line="19" column="1" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/resonance.h" bodystart="20" bodyend="113"/>
+    <listofallmembers>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a26735d95d1c5ec0ab2e43effb0271f73" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>angular</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a403b1e7c05355244bfeb31ad10cb62f2" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>blattWeisskopf</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a31615c13606faa46348b49146c4538a2" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>blattWeisskopfPrime</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a0329eecb2a393e9992b46d0d367506fe" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>blattWeisskopfPrimeP</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a7276e6e0faae0f7edb70cb00136f9df0" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>cnj_copy</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1ab0b232f0e3ba4c1560f154e65ec4333c" prot="public" virt="pure-virtual"><scope>DalitzModel::Resonance</scope><name>copy</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a4e773e46aa7688d7c32d9487c4a0223e" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>evaluate</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1aadb4b3cc0de3fa4cf64994b6c17ff48b" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>evaluate</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a986230e0d7f4c17f62bbf169d8ead99a" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>helicity</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1abdca73ba53a7b51ac20fc1d2608d65b1" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>kallen</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a037770435e2d210d675bd32be35a25f4" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>l</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1aef5f7d69d99b10dc7f7ed072cb728578" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>m</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a3ca5f94149e354e9c5ee5553498ccaf7" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>M2AB</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a6b8def2f3852e0bf2e229afb74e9ce9b" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>M2AC</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a65488444b54242550d546b4c97f89e7e" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>M2BC</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1aeec7063ebbe28fd385962d9f9d862eeb" prot="protected" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>m_coeff</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a896121c55fa0cdc12e737bce88977313" prot="protected" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>m_helicity</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1aedc77a0311b7525aa7b8ad4d47d857d2" prot="protected" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>m_l</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a48f26ffd8ddb35f58dcfefeb7aaaf44f" prot="protected" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>m_mass</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a57b7e0d7ea2dcb0e9b38ec9ff8e1636f" prot="protected" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>m_massSq</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a89b01a8954fd0ad1d11958045307e73b" prot="protected" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>m_name</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a59f68ddc7bf8be311962071844105283" prot="protected" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>m_noRes</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1ab6906e38d96e6db830192280d8d65b87" prot="protected" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>m_r</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1aadb906166093d0885114d313b65affc5" prot="protected" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>m_resoA</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a9ea6fa35e8d1aeb0988fe201c8b17bad" prot="protected" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>m_resoB</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1af6c3942ac1b0adebd4d23411714e1eed" prot="protected" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>m_width</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a57e095df6aa53a7dc70f956506a69fe0" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>mass</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a368c6f196d95c5ff42a2087b321ee0b9" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>mSq</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1adb0a94ad2e7605181d2998d69ea37c26" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>name</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1aa25b9ab1984691b1486e03b93837821e" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>next</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1aa4fa791e50f0112f640efca18c058557" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>operator&lt;&lt;</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a0b35c1faba5deda9f56975def458c291" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>operator&gt;&gt;</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a871ce0bcda145b125768eeb65b94c7f1" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>p</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1ade92951f28f1819751c4d6d39ad80880" prot="public" virt="pure-virtual"><scope>DalitzModel::Resonance</scope><name>propagator</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a76b073dc8035262f293fc3be87322405" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>q</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a11b061f236c00243a998468131956c5d" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>r</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1ab7f8d2f1a5c2b0c13b994b59801a37a3" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>Resonance</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a2156d0197fe551ac729826df2153bebe" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>Resonance</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a054a291b720b6f83d6f35c0312eb7403" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>Resonance</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1abf41480d8a0d55faf010dc35b2c99ac6" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>rho</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a94e828fcd21dfe019e982fc6de1634a1" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>width</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1a02c78726f7dc2f5e471e4dd824081cc8" prot="public" virt="non-virtual"><scope>DalitzModel::Resonance</scope><name>zemach</name></member>
+      <member refid="d3/d39/class_dalitz_model_1_1_resonance_1ac7a9475cb7b38541f88f6c272f5ea50a" prot="public" virt="virtual"><scope>DalitzModel::Resonance</scope><name>~Resonance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="db/d54/class_dalitz_model_1_1_random" kind="class" language="C++" prot="public">
+    <compoundname>DalitzModel::Random</compoundname>
+    <includes refid="d1/d79/random_8h" local="no">random.h</includes>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="db/d54/class_dalitz_model_1_1_random_1a066299d22622c95953ab12748ee38077" prot="private" static="yes" mutable="no">
+        <type>std::mt19937_64</type>
+        <definition>std::mt19937_64 DalitzModel::Random::_engine</definition>
+        <argsstring></argsstring>
+        <name>_engine</name>
+        <initializer>= std::mt19937_64()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" line="11" column="51" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d54/class_dalitz_model_1_1_random_1acd2548f8fbb41618beaa474f25a05f3b" prot="private" static="yes" mutable="no">
+        <type>std::uniform_real_distribution&lt; double &gt;</type>
+        <definition>std::uniform_real_distribution&lt; double &gt; DalitzModel::Random::_uniform</definition>
+        <argsstring></argsstring>
+        <name>_uniform</name>
+        <initializer>= std::uniform_real_distribution&lt; double &gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" line="13" column="41" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d54/class_dalitz_model_1_1_random_1a6740f9b9839dd11e281c57df3cbaa60b" prot="private" static="yes" mutable="no">
+        <type>std::exponential_distribution&lt; double &gt;</type>
+        <definition>std::exponential_distribution&lt; double &gt; DalitzModel::Random::_exponential</definition>
+        <argsstring></argsstring>
+        <name>_exponential</name>
+        <initializer>= std::exponential_distribution &lt; double &gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" line="14" column="41" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d54/class_dalitz_model_1_1_random_1a416dfe324fb0ec7a26f5220c8b49adfe" prot="private" static="yes" mutable="no">
+        <type>std::normal_distribution&lt; double &gt;</type>
+        <definition>std::normal_distribution&lt; double &gt; DalitzModel::Random::_normal</definition>
+        <argsstring></argsstring>
+        <name>_normal</name>
+        <initializer>= std::normal_distribution      &lt; double &gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" line="15" column="41" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d54/class_dalitz_model_1_1_random_1a03efd62f580ae0cf151bedb62e8083e5" prot="private" static="yes" mutable="no">
+        <type>std::uniform_int_distribution&lt; int &gt;</type>
+        <definition>std::uniform_int_distribution&lt; int &gt; DalitzModel::Random::_integer</definition>
+        <argsstring></argsstring>
+        <name>_integer</name>
+        <initializer>= std::uniform_int_distribution &lt; int &gt;   ()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" line="16" column="44" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/d54/class_dalitz_model_1_1_random_1af82f8b32d3dc4a9eec5d40d789e84bc5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::mt19937_64 &amp;</type>
+        <definition>static std::mt19937_64&amp; DalitzModel::Random::engine</definition>
+        <argsstring>()</argsstring>
+        <name>engine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" line="19" column="26" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d54/class_dalitz_model_1_1_random_1acd88cf6181fbff4e65afb904b01d392c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void DalitzModel::Random::setSeed</definition>
+        <argsstring>(const unsigned &amp;seed)</argsstring>
+        <name>setSeed</name>
+        <param>
+          <type>const unsigned &amp;</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" line="24" column="15" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d54/class_dalitz_model_1_1_random_1a6613c90cc8ce7c87ba897af34bd5cf12" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>static const double DalitzModel::Random::flat</definition>
+        <argsstring>(const double &amp;min=0.0, const double &amp;max=1.0)</argsstring>
+        <name>flat</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>min</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>max</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" line="26" column="23" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d54/class_dalitz_model_1_1_random_1ada55c5e4753e7790891fcc415ff906a1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>static const double DalitzModel::Random::uniform</definition>
+        <argsstring>(const double &amp;min=0.0, const double &amp;max=1.0)</argsstring>
+        <name>uniform</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>min</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>max</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" line="31" column="23" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d54/class_dalitz_model_1_1_random_1af29bcbd9b42a02dc087b08ba5170a000" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>static const double DalitzModel::Random::exponential</definition>
+        <argsstring>(const double &amp;lambda=1.0)</argsstring>
+        <name>exponential</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>lambda</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" line="36" column="23" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d54/class_dalitz_model_1_1_random_1a676c5add43dbc497cae355108809aa47" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>static const double DalitzModel::Random::normal</definition>
+        <argsstring>(const double &amp;mu=0.0, const double &amp;sigma=1.0)</argsstring>
+        <name>normal</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>mu</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>sigma</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" line="41" column="23" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d54/class_dalitz_model_1_1_random_1af29178db22ffbb2aba8449548dc7a5b1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const int</type>
+        <definition>static const int DalitzModel::Random::integer</definition>
+        <argsstring>(const int &amp;a=0, const int &amp;b=1)</argsstring>
+        <name>integer</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>a</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>b</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" line="46" column="20" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" bodystart="46" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" line="8" column="1" bodyfile="/Users/eddieshields/Documents/LHCb/projects/DalitzModel/include/random.h" bodystart="9" bodyend="50"/>
+    <listofallmembers>
+      <member refid="db/d54/class_dalitz_model_1_1_random_1a066299d22622c95953ab12748ee38077" prot="private" virt="non-virtual"><scope>DalitzModel::Random</scope><name>_engine</name></member>
+      <member refid="db/d54/class_dalitz_model_1_1_random_1a6740f9b9839dd11e281c57df3cbaa60b" prot="private" virt="non-virtual"><scope>DalitzModel::Random</scope><name>_exponential</name></member>
+      <member refid="db/d54/class_dalitz_model_1_1_random_1a03efd62f580ae0cf151bedb62e8083e5" prot="private" virt="non-virtual"><scope>DalitzModel::Random</scope><name>_integer</name></member>
+      <member refid="db/d54/class_dalitz_model_1_1_random_1a416dfe324fb0ec7a26f5220c8b49adfe" prot="private" virt="non-virtual"><scope>DalitzModel::Random</scope><name>_normal</name></member>
+      <member refid="db/d54/class_dalitz_model_1_1_random_1acd2548f8fbb41618beaa474f25a05f3b" prot="private" virt="non-virtual"><scope>DalitzModel::Random</scope><name>_uniform</name></member>
+      <member refid="db/d54/class_dalitz_model_1_1_random_1af82f8b32d3dc4a9eec5d40d789e84bc5" prot="public" virt="non-virtual"><scope>DalitzModel::Random</scope><name>engine</name></member>
+      <member refid="db/d54/class_dalitz_model_1_1_random_1af29bcbd9b42a02dc087b08ba5170a000" prot="public" virt="non-virtual"><scope>DalitzModel::Random</scope><name>exponential</name></member>
+      <member refid="db/d54/class_dalitz_model_1_1_random_1a6613c90cc8ce7c87ba897af34bd5cf12" prot="public" virt="non-virtual"><scope>DalitzModel::Random</scope><name>flat</name></member>
+      <member refid="db/d54/class_dalitz_model_1_1_random_1af29178db22ffbb2aba8449548dc7a5b1" prot="public" virt="non-virtual"><scope>DalitzModel::Random</scope><name>integer</name></member>
+      <member refid="db/d54/class_dalitz_model_1_1_random_1a676c5add43dbc497cae355108809aa47" prot="public" virt="non-virtual"><scope>DalitzModel::Random</scope><name>normal</name></member>
+      <member refid="db/d54/class_dalitz_model_1_1_random_1acd88cf6181fbff4e65afb904b01d392c" prot="public" virt="non-virtual"><scope>DalitzModel::Random</scope><name>setSeed</name></member>
+      <member refid="db/d54/class_dalitz_model_1_1_random_1ada55c5e4753e7790891fcc415ff906a1" prot="public" virt="non-virtual"><scope>DalitzModel::Random</scope><name>uniform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -220,13 +220,13 @@ inline double Resonance::zemach(const PhaseSpace& ps, const double& mSqAB, const
   if ( m_l == 0 ) return 1;
 
   double diffSqMC = ps.mSqMother() - ps.mSq( m_noRes );
-  double diffSqAB = ps.mSq(  m_resoA ) - ps.mSq(  m_resoB );
+  double diffSqAB = ps.mSq( m_resoA ) - ps.mSq( m_resoB );
   double zemach1 = mSqAC - mSqBC - (diffSqMC*diffSqAB)/mSqAB;
 
   if ( m_l == 1 ) return zemach1;
 
   double sumSqMC = ps.mSqMother() + ps.mSq( m_noRes );
-  double sumSqAB = ps.mSq(  m_resoA ) + ps.mSq(  m_resoB );
+  double sumSqAB = ps.mSq( m_resoA ) + ps.mSq( m_resoB );
   double first  = mSqAB - 2*sumSqMC + std::pow( diffSqMC , 2 )/mSqAB;
   double second = mSqAB - 2*sumSqAB + std::pow( diffSqAB , 2 )/mSqAB;
         
@@ -240,13 +240,13 @@ inline double Resonance::helicity(const PhaseSpace& ps, const double& mSqAB, con
   if ( m_l == 0 ) return 1.;
 
   const double& diffSqMC = ps.mSqMother() - ps.mSq( m_noRes );
-  const double& diffSqAB = ps.mSq(  m_resoA ) - ps.mSq(  m_resoB );
+  const double& diffSqAB = ps.mSq( m_resoA ) - ps.mSq( m_resoB );
   const double& hel1  = mSqAC - mSqBC - diffSqMC * diffSqAB / mSq();
 
   if ( m_l == 1 ) return hel1;
 
   const double& sumSqMC = ps.mSqMother()   + ps.mSq( m_noRes );
-  const double& sumSqAB = ps.mSq(  m_resoA ) + ps.mSq(  m_resoB );
+  const double& sumSqAB = ps.mSq( m_resoA ) + ps.mSq( m_resoB );
   double first  = mSqAB - 2. * sumSqMC + std::pow( diffSqMC, 2 ) / mSq();
   double second = mSqAB - 2. * sumSqAB + std::pow( diffSqAB, 2 ) / mSq();
 

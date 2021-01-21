@@ -108,8 +108,8 @@ const complex_t Flatte::propagator(const PhaseSpace& ps, const double& mSqAB) co
 
   const double mGamma0 = mass() * width();
 
-  const double rho10 = rho( ps, mSq() );
-  const double rho1  = rho( ps, mSqAB );
+  const double rho10 = rho( ps, mSq() , ps.mSq( m_resoA ) , ps.mSq( m_resoB ) );
+  const double rho1  = rho( ps, mSqAB , ps.mSq( m_resoA ) , ps.mSq( m_resoB ) );
   const double g1    = gamma1Sq() * rho1 / rho10;
 
   const double rho20 = std::sqrt( kallen( mSq(), m02aSq(), m02bSq() ) ) / mSqAB;
@@ -124,7 +124,7 @@ const complex_t Flatte::propagator(const PhaseSpace& ps, const double& mSqAB) co
 const complex_t Flatte::babar2005_propagator(const PhaseSpace& ps, const double& mSqAB) const
 {
   const std::complex< double > I( 0., 1. );
-  const double rho1  = rho( ps, mSqAB );
+  const double rho1  = rho( ps, mSqAB , ps.mSq( m_resoA ) , ps.mSq( m_resoB ) );
   const double rho2  = std::sqrt( kallen( mSqAB, m02aSq(), m02bSq() ) ) / mSqAB;
 
   return 1. / mSq() - mSqAB - I * ( rho1 * gamma1Sq() + rho2 * gamma2Sq() );
@@ -133,16 +133,16 @@ const complex_t Flatte::babar2005_propagator(const PhaseSpace& ps, const double&
 const complex_t Flatte::babar2008_propagator(const PhaseSpace& ps, const double& mSqAB) const
 {
   const std::complex< double > I( 0., 1. );
-  const double rho1  = rho( ps, mSqAB );
-  const double rho2  = std::sqrt( kallen( mSqAB, m02aSq(), m02bSq() ) ) / mSqAB;
+  const double rho1  = rho( ps, mSqAB , ps.mSq( m_resoA ) , ps.mSq( m_resoB ) );
+  const double rho2  = rho( ps, mSqAB, m02aSq(), m02bSq() );
 
-  return 1. / mSq() - mSqAB - I * ( rho1 * gamma1Sq() + rho2 * gamma2Sq() ) * std::pow( blattWeisskopf( ps, mSqAB ), 2 );
+  return gamma2() / mSq() - mSqAB - I * ( rho1 * gamma1Sq() + rho2 * gamma2Sq() );
 }
 
 const complex_t Flatte::babar2010_propagator(const PhaseSpace& ps, const double& mSqAB) const
 {
   const std::complex< double > I( 0., 1. );
-  const double rho1  = rho( ps, mSqAB );
+  const double rho1  = rho( ps, mSqAB , ps.mSq( m_resoA ) , ps.mSq( m_resoB ) );
   const double rho2  = std::sqrt( kallen( mSqAB, m02aSq(), m02bSq() ) ) / mSqAB;
 
   return gamma1() / mSq() - mSqAB - I * ( rho1 * gamma1Sq() + rho2 * gamma2Sq() );

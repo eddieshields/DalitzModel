@@ -96,12 +96,11 @@ void Amplitude::addResonance(Resonance* reso)
 
 std::ostream& operator<<(std::ostream& os, const Amplitude& amp)
 {
-  std::string out = "Resonances = ";
-  for (int i = 0; i < amp.size(); i++) {
-    out += amp.m_resonances[i]->name() + ", ";
-  }
-  out.replace(out.size()-2,2,"");
+  std::string out = "Resonances = \n";
   os << out;
+  for (int i = 0; i < amp.size(); i++) {
+    os << *amp.m_resonances[i] << "\n";
+  }
   return os;
 }
 

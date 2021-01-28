@@ -9,6 +9,7 @@
 // DalitzModel.
 #include "resonance.h"
 #include "phasespace.h"
+#include "msgservice.h"
 
 namespace DalitzModel {
 
@@ -32,8 +33,12 @@ public:
   void addResonance(Resonance* reso);
 
   const int size() const { return m_resonances.size(); }
+  const int cnj_size() const { return m_cnjresonances.size(); }
   PhaseSpace& phasespace() { return m_ps; }
   PhaseSpace& ps()         { return m_ps; }
+
+  bool       find(std::string res);
+  Resonance* get (std::string res);
 
   // Operators.
   friend std::ostream& operator<<(std::ostream& os, const Amplitude& amp);
@@ -102,6 +107,29 @@ std::ostream& operator<<(std::ostream& os, const Amplitude& amp)
     os << *amp.m_resonances[i] << "\n";
   }
   return os;
+}
+
+bool Amplitude::find(std::string res)
+{
+  for (auto r : m_resonances) {
+    if ( r->name() == res) return true;
+  }
+  for (auto r : m_cnjresonances) {
+    if ( r->name() == res) return true;
+  }
+  return false;
+}
+
+Resonance* Amplitude::get(std::string res)
+{
+  for (auto r : m_resonances) {
+    if ( r->name() == res) return r;
+  }
+  for (auto r : m_cnjresonances) {
+    if ( r->name() == res) return r;
+  }
+  WARNING("Resonance " << res << " not found!");
+  return nullptr;
 }
 
 const complex_t Amplitude::Adir(const double& mSq12, const double& mSq13) const
@@ -226,7 +254,7 @@ const complex_t Amplitude::Abar(std::string name, const double& mSq12, const dou
 {
   complex_t A(0.,0.);
   for (int i = 0; i < size(); i++) {
-    if ( m_resonances[i]->name()+"_cnj" != name ) continue;
+    if ( m_cnjresonances[i]->name() != name+"_cnj" ) continue;
     A += m_cnjresonances[i]->evaluate( m_ps , mSq12 , mSq13 );
   }
   return A;
@@ -236,7 +264,7 @@ const complex_t Amplitude::Abar(std::string name, const double& mSq12, const dou
 {
   complex_t A(0.,0.);
   for (int i = 0; i < size(); i++) {
-    if ( m_resonances[i]->name()+"_cnj" != name ) continue;
+    if ( m_cnjresonances[i]->name() != name+"_cnj" ) continue;
     A += m_cnjresonances[i]->evaluate( m_ps , mSq12 , mSq13 , mSq23 );
   }
   return A;

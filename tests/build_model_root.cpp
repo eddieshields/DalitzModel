@@ -6,6 +6,8 @@
 #include "configureamplitude.h"
 #include "dalitzplot.h"
 #include "msgservice.h"
+#include "clock.h"
+#include "threads.h"
 
 // ROOT.
 #include "TH2.h"
@@ -13,20 +15,30 @@
 #include "TCanvas.h"
 
 int main()
-{
-  DalitzModel::ConfigureAmplitude configure("cfg/babar2008.cfg");
+{  
+  DalitzModel::ConfigureAmplitude configure("cfg/babar2010.cfg");
   DalitzModel::Amplitude amp = configure();
-  DalitzModel::LineShape::Flatte::SetParameterisation( "BaBar2008" );
-  TH2D* hist = new TH2D("hist","hist",1000,amp.ps().mSq12min(),amp.ps().mSq12max(),1000,amp.ps().mSq13min(),amp.ps().mSq13max());
+  //DalitzModel::LineShape::Flatte::SetParameterisation( "BaBar2010" );
+  TH2D* hist = new TH2D("hist","hist",10000,amp.ps().mSq12min(),amp.ps().mSq12max(),10000,amp.ps().mSq13min(),amp.ps().mSq13max());
 
-  double mSq12, mSq13;
-  for (int i = 1; i < hist->GetNbinsX() + 1; i++) {
-    for (int j = 1; j < hist->GetNbinsY() + 1; j++) {
-      mSq12 = hist->GetXaxis()->GetBinCenter(i);
-      mSq13 = hist->GetYaxis()->GetBinCenter(j);
-      hist->SetBinContent(i,j,amp.AdirSq("a00_980",mSq12,mSq13));
-    }
+  ThreadPool pool;
+  PRINT( *amp.get("phi") );
+  double mSq12, mSq13, mSq23;
+  DalitzModel::Clock::Start();
+  auto task = [&]() {
+    for (int i = ThreadPool::ThreadID(); i < hist->GetNbinsX() + 1; i += ThreadPool::nthreads()) {
+      for (int j = 1; j < hist->GetNbinsY() + 1; j++) {
+        mSq12 = hist->GetXaxis()->GetBinCenter(i);
+        mSq13 = hist->GetYaxis()->GetBinCenter(j);
+        double A = amp.AbarSq("phi",mSq12,mSq13);
+        pool.critical( [&] { hist->SetBinContent(i,j,A); } );
+      }
   }
+  };
+  pool.enqueue( task );
+
+  DalitzModel::Clock::Stop();
+  DalitzModel::Clock::Print("fill histogram with threading");
 
   DalitzModel::DalitzPlot dp( amp.ps() );
 

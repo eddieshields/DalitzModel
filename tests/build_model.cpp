@@ -10,4 +10,5 @@ int main()
   DalitzModel::ConfigureAmplitude configure("cfg/babar2008.cfg");
   DalitzModel::Amplitude amp = configure();
   INFO( amp );
+  return 0;
 }

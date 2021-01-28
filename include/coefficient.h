@@ -7,6 +7,7 @@
 
 // DalitzModel.
 #include "parameter.h"
+#include "colours.h"
 
 namespace DalitzModel {
 
@@ -94,7 +95,9 @@ public:
 // I/O operators.
 std::ostream& operator<<(std::ostream& os, const Coefficient& coeff)
 {
-  os << "(" << coeff.m_c1.m_state << "," << coeff.m_c2.m_state << ")";
+  os << MAGENTA << "(" << std::fixed << std::setprecision(5) << coeff.m_c1.m_state 
+                << "," << std::fixed << std::setprecision(5) << coeff.m_c2.m_state 
+                << ")" << RESET;
   return os;
 }
 

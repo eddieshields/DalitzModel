@@ -11,6 +11,8 @@
 #include "parameter.h"
 #include "coefficient.h"
 #include "phasespace.h"
+#include "colours.h"
+#include "msgservice.h"
 
 namespace DalitzModel {
 
@@ -119,7 +121,7 @@ public:
    * 2 q / m, where q is the momentum of a resonant particle in the
    * rest frame of the resonant pair, and m is the invariant mass of the resonant pair.
    * \param mSq1 Squared mass of first particle is resonant pair.
-   * \param mSq2 Sqaured mass of second particle in resonance pair.
+   * \param mSq2 Squared mass of second particle in resonance pair.
    */
   double rho                 (const PhaseSpace& ps, const double& mSqAB, const double& mSq1, const double& mSq2) const;
   /** Phase space factor
@@ -157,14 +159,15 @@ Resonance* Resonance::cnj_copy() const
 // I/O operators.
 std::ostream& operator<<(std::ostream& os, const Resonance& reso)
 {
-  os << std::left << std::setw( 9 ) << reso.m_name;
-  os << ": coeff = " << reso.m_coeff;
-  os << ", resoA = " << reso.m_resoA;
-  os << ", resoB = " << reso.m_resoB;
-  os << ", mass = "  << reso.m_mass;
-  os << ", width = " << reso.m_width;
-  os << ", l = "     << reso.m_l;
-  os << ", rBW = "   << reso.m_r;
+  os << MAGENTA << std::left << std::setw( 9 ) << reso.m_name << ": ";
+  os << MAGENTA << "coeff = " << reso.m_coeff << MAGENTA <<", ";
+  os << MAGENTA << "resoA = " << reso.m_resoA << MAGENTA <<", ";
+  os << MAGENTA << "resoB = " << reso.m_resoB << MAGENTA <<", ";
+  os << MAGENTA << "mass = "  << reso.m_mass  << MAGENTA <<", ";
+  os << MAGENTA << "width = " << reso.m_width << MAGENTA <<", ";
+  os << MAGENTA << "l = "     << reso.m_l     << MAGENTA <<", ";
+  os << MAGENTA << "rBW = "   << reso.m_r;
+  os << RESET;
 
   return os;
 }

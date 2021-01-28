@@ -60,6 +60,11 @@ inline std::string trimmedString( std::string thing, const unsigned int& length 
 << "  INFO         "                                                                                       \
 << "\033[0m" << X << std::endl
 
+/// @ingroup msgService macro INFO
+/// Used for printing plain messages, and will always be printed. 
+#define PRINT( X )                          \
+  std::cout << std::left << X << std::endl;
+
 /// @ingroup msgService macro ERROR
 /// Used for printing errors messages, and will always be printed. 
 #define ERROR( X )                                                                                                     \

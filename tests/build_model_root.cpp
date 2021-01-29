@@ -7,7 +7,7 @@
 #include "dalitzplot.h"
 #include "msgservice.h"
 #include "clock.h"
-#include "threads.h"
+#include "utils/threads.h"
 
 // ROOT.
 #include "TH2.h"

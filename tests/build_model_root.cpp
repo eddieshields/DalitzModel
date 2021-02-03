@@ -19,7 +19,7 @@ int main()
   DalitzModel::ConfigureAmplitude configure("cfg/babar2010.cfg");
   DalitzModel::Amplitude amp = configure();
   //DalitzModel::LineShape::Flatte::SetParameterisation( "BaBar2010" );
-  TH2D* hist = new TH2D("hist","hist",10000,amp.ps().mSq12min(),amp.ps().mSq12max(),10000,amp.ps().mSq13min(),amp.ps().mSq13max());
+  TH2D* hist = new TH2D("hist","hist",1000,amp.ps().mSq12min(),amp.ps().mSq12max(),1000,amp.ps().mSq13min(),amp.ps().mSq13max());
 
   ThreadPool pool;
   PRINT( *amp.get("phi") );
